@@ -381,11 +381,11 @@ ABET – EAC - Student Outcome 4
   </tr>
   <tr>
     <th>
-      <img src="" width="800px">
+      <img src="img/1756604537526.jpg" width="800px">
     </th>
     <td valign="top">
-      <p><b></b></p>
-      <p></p>
+      <p><b>Gianfranco Durand Vera</b></p>
+      <p>Estudiante de 8vo ciclo. Me considero una persona curiosa y proactiva, apasionado por el desarrollo de software y la creación de aplicaciones que sean útiles y escalables. Me interesa aprender nuevas tecnologías y mejorar constantemente mis habilidades en proyectos tanto académicos como personales.</p>
     </td>
   </tr>
   <tr>
