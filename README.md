@@ -428,8 +428,44 @@ ABET – EAC - Student Outcome 4
 
 # Capítulo II: Requirements Elicitation & Analysis 
 ## 2.1. Competidores
-### 2.1.1. Análisis competitivo
-### 2.1.2. Estrategias y tácticas frente a competidores
+## 2.1.1. Análisis competitivo  
+### Competitive Analysis Landscape  
+
+**¿Por qué llevar a cabo este análisis?**  
+¿Cómo podemos proporcionar un buen servicio entre los restaurantes y los consumidores de manera que la comunicación entre ambos sea efectiva y agradable?  
+
+| Perfil / Aspecto | VacApp | Control Ganadero | Agroptima | App Ganadera |
+|------------------|--------|------------------|-----------|--------------|
+| **Overview** | VacApp es una plataforma móvil accesible que optimiza la gestión ganadera con enfoque en sostenibilidad, bienestar animal y eficiencia, adaptada a pequeños y grandes productores. | Es una aplicación española, británica y brasileña en el sector de la ganadería. | Agroptima es un sitio web multiplataforma cofundado por la Unión Europea para España, Francia e Inglaterra. | Es una empresa fundada en Colombia que cuenta con una app para la gestión de ganado. |
+| **Ventaja competitiva** | Integra tecnología accesible con enfoque en sostenibilidad y bienestar animal, ofreciendo soluciones prácticas para productores de todos los tamaños. | App enfocada en gestión de vacas y para móviles. | Cuenta con multiplataforma y algoritmos matemáticos para mayor gestión del ganado. | Tiene gran variedad de herramientas y distribuidores. |
+| **Mercado Objetivo** | Productores ganaderos (independientes y empresas) que buscan optimizar cuidado del ganado y rentabilidad. | Ganaderos en España, Brasil e Inglaterra. | Ganaderos en España, Francia e Inglaterra. | Ganaderos colombianos. |
+| **Estrategias de Marketing** | Difusión en redes sociales y anuncios pagados. | Estrategia de posicionamiento. | Estrategia de segmentación. | Estrategia. |
+| **Productos & Servicios** | App móvil con gestión de ganado, monitoreo de salud, alimentación y reproducción. | Web app de gestión de ganado. | Web app de gestión de ganado. | Web app de gestión de ganado. |
+| **Precios & Costos** | Suscripción de bajo costo. | Suscripción de bajo costo. | Suscripción de bajo costo. | Suscripción de bajo costo. |
+| **Canales de distribución** | App. | App. | Web y móvil. | App. |
+| **Fortalezas** | Última tecnología, innovación en productividad y servicio. | App enfocada en vacas, buena personalización. | Reconocida en Europa, usa algoritmos matemáticos. | Conoce bien a sus clientes locales, adaptación cultural. |
+| **Debilidades** | En pleno desarrollo, riesgo de éxito o fracaso. | Solo en móvil, no multiplataforma. | Solo en Europa, dependiente de regulaciones de la UE. | Disponible solo en Colombia. |
+| **Oportunidades** | Aumentar productividad y eficiencia de ganaderos y empresas. | Ideal para expandirse a Europa, público objetivo amplio. | Ideal para expandirse a Europa, público objetivo amplio. | Fuerte penetración en Colombia. |
+| **Amenazas** | Competencia de otras apps y cambios regulatorios en la industria ganadera. | Poca adopción tecnológica en la ganadería tradicional. | Poca adopción tecnológica en la ganadería tradicional. | Falta de apoyo económico y riesgo de desaparición. |
+
+---
+
+
+## 2.1.2. Estrategias y tácticas frente a competidores  
+
+Para enfrentarnos a la competencia en el sector ganadero, nuestra **estrategia** se centrará en ofrecer una plataforma **accesible, intuitiva y adaptada a las necesidades locales de los ganaderos peruanos**.  
+
+A diferencia de competidores como Agroptima o Control Ganadero, **VacApp destacará por su simplicidad y enfoque en la sostenibilidad y el bienestar animal**, facilitando la gestión de la salud, alimentación y reproducción del ganado.  
+
+**Tácticas principales**:  
+- Marketing digital segmentado.  
+- Campañas en redes sociales.  
+- Alianzas con organizaciones locales.  
+- Educación a usuarios sobre beneficios de la aplicación.  
+- Precios flexibles y modelos de suscripción accesibles.  
+
+De esta manera, tanto pequeños como grandes productores podrán optimizar sus operaciones sin complicaciones, mientras seguimos mejorando la plataforma para adaptarnos a las necesidades cambiantes del sector ganadero.
+
 ## 2.2. Entrevistas
 ### 2.2.1. Diseño de entrevistas
 ### 2.2.2. Registro de entrevistas
