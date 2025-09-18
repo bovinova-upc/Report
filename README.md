@@ -616,27 +616,412 @@ La navegación de VacApp está diseñada para ser intuitiva y fácil de aprender
 
 ## 4.4. Mobile Applications UX/UI Design
 ### 4.4.1. Mobile Applications Wireframes
+*Inicio sesión*
+
+<div style="display: flex; justify-content: center;">
+  <img src="img/sing-inw.png" width="400px"/>
+</div>
+
+*Registro*
+
+<div style="display: flex; justify-content: center;">
+  <img src="img/sing-upw.png" width="400px"/>
+</div>
+
+*Planes*
+
+<div style="display: flex; justify-content: center;">
+  <img src="img/planesw.png" width="400px"/>
+</div>
+
+*Home*
+
+<div style="display: flex; justify-content: space-evenly; flex-wrap:wrap">
+  <img src="img/homew.png" width="400px"/>
+  <img src="img/homew2.png" width="400px"/>
+  <img src="img/homew3.png" width="400px"/>
+</div>
+
+*Animals*
+
+<div style="display: flex; justify-content: space-evenly;">
+  <img src="img/animalw.png" width="400px"/>
+  <img src="img/animalwinfo.png" width="400px"/>
+</div>
+
+*Inventario*
+
+<div style="display: flex; justify-content: space-evenly;">
+  <img src="img/inventariow.png" width="400px"/>
+  <img src="img/inventariowinfo.png" width="400px"/>
+</div>
+
+*Campaña*
+
+<div style="display: flex; justify-content: center;">
+  <img src="img/organizationw.png" width="400px"/>
+</div>
+
+*Agregar animal*
+
+<div style="display: flex; justify-content: center;">
+  <img src="img/animalwadd.png" width="400px"/>
+</div>
+
+*Agregar inventario*
+
+<div style="display: flex; justify-content: center;">
+  <img src="img/productaddw.png" width="400px"/>
+</div>
+
+*Agregar campaña*
+
+<div style="display: flex; justify-content: center;">
+  <img src="img/campaniaaddw.png" width="400px"/>
+</div>
+
 ### 4.4.2. Mobile Applications Wireflow Diagrams
+*User Goal: Iniciar sesión y Registrarse*
+
+<div style="display: flex; justify-content: center;">
+  <img src="img/1w.png" width="400px"/>
+</div>
+
+*User Goal: Home y navegar por las secciones "Animals","Campaigns" e "Inventory"*
+
+<div style="display: flex; justify-content: center;">
+  <img src="img/2w.png" width="400px"/>
+</div>
+
+*User Goal: Registro de un nuevo dato ya sea "Animals","Campaigns" o "Inventory"*
+
+<div style="display: flex; justify-content: center;">
+  <img src="img/3w.png" width="400px"/>
+</div>
+
 ### 4.4.3. Mobile Applications Mock-ups
+*Inicio Sesion*
+
+<div style="display: flex; justify-content: center;">
+  <img src="img/singin.png" width="400px"/>
+</div>
+
+*Registro*
+
+<div style="display: flex; justify-content: center;">
+  <img src="img/singup.png" width="400px"/>
+</div>
+
+*Planes*
+
+<div style="display: flex; justify-content: center;">
+  <img src="img/planes.png" width="400px"/>
+</div>
+
+*Home*
+
+<div style="display: flex; justify-content: space-evenly; flex-wrap:wrap">
+  <img src="img/home.png" width="400px"/>
+  <img src="img/home2.png" width="400px"/>
+  <img src="img/home3.png" width="400px"/>
+</div>
+
+*Animals*
+
+<div style="display: flex; justify-content: space-evenly;">
+  <img src="img/animal.png" width="400px"/>
+  <img src="img/animalinfo.png" width="400px"/>
+</div>
+
+*Inventario*
+
+<div style="display: flex; justify-content: space-evenly;">
+  <img src="img/inventario.png" width="400px"/>
+  <img src="img/inventarioinfo.png" width="400px"/>
+</div>
+
+*Campaña*
+
+<div style="display: flex; justify-content: center;">
+  <img src="img/organization.png" width="400px"/>
+</div>
+
+*Agregar animal*
+
+<div style="display: flex; justify-content: center;">
+  <img src="img/animaladd.png" width="400px"/>
+</div>
+
+*Agregar inventario*
+
+<div style="display: flex; justify-content: center;">
+  <img src="img/productadd.png" width="400px"/>
+</div>
+
+*Agregar campaña*
+
+<div style="display: flex; justify-content: center;">
+  <img src="img/campaniaadd.png" width="400px"/>
+</div>
+
 ### 4.4.4. Mobile Applications User Flow Diagrams
+*User Goal: Iniciar sesión y Registrarse*
+
+<div style="display: flex; justify-content: center;">
+  <img src="img/1.png" width="400px"/>
+</div>
+
+*User Goal: Home y navegar por las secciones "Animals","Campaigns" e "Inventory"*
+
+<div style="display: flex; justify-content: center;">
+  <img src="img/2.png" width="400px"/>
+</div>
+
+*User Goal: Registro de un nuevo dato ya sea "Animals","Campaigns" o "Inventory"*
+
+<div style="display: flex; justify-content: center;">
+  <img src="img/3.png" width="400px"/>
+</div>
+
 ## 4.5. Mobile Applications Prototyping
 ### 4.5.1. Android Mobile Applications Prototyping
+
+<div style="display: flex; justify-content: center;">
+  <img src="img/prototipo.png" width="400px"/>
+</div>
+
+[Figma:](https://shorturl.at/zcgdp) https://shorturl.at/zcgdp
+
 ### 4.5.2. iOS Mobile Applications Prototyping
+
+<div style="display: flex; justify-content: center;">
+  <img src="img/prototipo.png" width="400px"/>
+</div>
+
+[Figma:](https://shorturl.at/zcgdp) https://shorturl.at/zcgdp
+
 ## 4.6. Web Applications UX/UI Design
 ### 4.6.1. Web Applications Wireframes
+*Inicio de sesión y registro de usuarios*
+
+<div style="display: flex; justify-content: center;">
+  <img src="img/DBAW_1.png" width="400px"/>
+</div>
+
+*User Home y vistas previas para el usuario en Organizaciones y Gestión del Ganado*
+
+<div style="display: flex; justify-content: center;">
+  <img src="img/DBAW_2.png" width="400px"/>
+</div>
+
+*Menú de opciones y vista previa a los menus de registro y registro de Campaña*
+
+<div style="display: flex; justify-content: center;">
+  <img src="img/DBAW_3.png" width="400px"/>
+</div>
+
+*Vista previa de Registro de Bovino y Registro Alimentario por cada Bovino*
+
+<div style="display: flex; justify-content: center;">
+  <img src="img/DBAW_4.png" width="400px"/>
+</div>
+
 ### 4.6.2. Web Applications Wireflow Diagrams
+*Inicio de sesión y registro de usuarios*
+
+<div style="display: flex; justify-content: center;">
+  <img src="img/WAWD_1.png" width="400px"/>
+</div>
+
+*User Home y vistas previas para el usuario en Organizaciones y Gestión del Ganado*
+
+<div style="display: flex; justify-content: center;">
+  <img src="img/WAWD_2.png" width="400px"/>
+</div>
+
+*Menú de opciones y vista previa a los menus de registro y registro de Campaña*
+
+<div style="display: flex; justify-content: center;">
+  <img src="img/WAWD_3.png" width="400px"/>
+</div>
+
+*Vista previa de Registro de Bovino y Registro Alimentario por cada Bovino*
+
+<div style="display: flex; justify-content: center;">
+  <img src="img/WAWD_4.png" width="400px"/>
+</div>
+
 ### 4.6.3. Web Applications Mock-ups
+*Inicio de sesión y registro de usuarios*
+
+<div style="display: flex; justify-content: center;">
+  <img src="img/DBAM_1.png" width="400px"/>
+</div>
+
+*User Home y vistas previas para el usuario en Organizaciones y Gestión del Ganado*
+
+<div style="display: flex; justify-content: center;">
+  <img src="img/DBAM_2.png" width="400px"/>
+</div>
+
+*Menú de opciones y vista previa a los menus de registro y registro de Campaña*
+
+<div style="display: flex; justify-content: center;">
+  <img src="img/DBAM_3.png" width="400px"/>
+</div>
+
+*Vista previa de Registro de Bovino y Registro Alimentario por cada Bovino*
+
+<div style="display: flex; justify-content: center;">
+  <img src="img/DBAM_4.png" width="400px"/>
+</div>
+
 ### 4.6.4. Web Applications User Flow Diagrams
+*Inicio de sesión y registro de usuarios*
+
+<div style="display: flex; justify-content: center;">
+  <img src="img/DBWAUFD_1.png" width="400px"/>
+</div>
+
+*User Home y vistas previas para el usuario en Organizaciones y Gestión del Ganado*
+
+<div style="display: flex; justify-content: center;">
+  <img src="img/DBWAUFD_2.png" width="400px"/>
+</div>
+
+*Menú de opciones y vista previa a los menus de registro y registro de Campaña*
+
+<div style="display: flex; justify-content: center;">
+  <img src="img/DBWAUFD_3.png" width="400px"/>
+</div>
+
+*Vista previa de Registro de Bovino y Registro Alimentario por cada Bovino*
+
+<div style="display: flex; justify-content: center;">
+  <img src="img/DBWAUFD_4.png" width="400px"/>
+</div>
+
 ## 4.7. Web Applications Prototyping
+
+<div style="display: flex; justify-content: center;">
+  <img src="img/DBWAUFD_3.png" width="400px"/>
+</div>
+
 ## 4.8. Domain-Driven Software Architecture
 ### 4.8.1. Software Architecture Context Diagram
+
+<div style="display: flex; justify-content: center;">
+  <img src="img/DiagramSystemContext.png" width="400px"/>
+</div>
+
 ### 4.8.2. Software Architecture Container Diagrams
+
+<div style="display: flex; justify-content: center;">
+  <img src="img/DiagramContainers.png" width="400px"/>
+</div>
+
 ### 4.8.3. Software Architecture Components Diagrams
+
+<div style="display: flex; justify-content: center;">
+  <img src="img/DiagramComponents.png" width="400px"/>
+</div>
+
 ## 4.9. Software Object-Oriented Design
 ### 4.9.1. Class Diagrams
+
+<div style="display: flex; justify-content: center;">
+  <img src="img/class_diagram_aw.PNG" width="400px"/>
+</div>
+
 ### 4.9.2. Class Dictionary
+
+| Entidad | Nombre de Atributos | Definición | Tipo de dato | Unidad de Medida | Valores Restringidos |
+|---------|---------------------|------------|--------------|------------------|----------------------|
+| User |
+| 1 | id | Identificador del usuario | integer | 2 bytes | Mayor a Cero |
+| 2 | emailAddress | Correo del usuario | string | Cadena de caracteres | Permite solo caracteres o letras |
+| 3 | password | Contraseña del usuario | string | Cadena de caracteres | Permite solo caracteres o letras |
+| 4 | loginDate | Fecha de inicio de sesión | boolean | 2 bytes | uno o cero |
+| 5 | registerDate | Fecha de registro | date | Días | Permite solo fechas |
+| 6 | subscriptionType | Tipo de suscripción | string | Cadena de caracteres | Permite solo caracteres o letras |
+| Business Account |
+| 1 | businessName | Nombre del negocio | string | Cadena de caracteres | Permite solo caracteres o letras |
+| 2 | businessAdress | Dirección fisica del negocio | string | Cadena de caracteres | Permite solo caracteres o letras |
+| 3 | numberRuc | Número de Ruc del negocio | int | 2 bytes | Mayor a Cero |
+| Customer |
+| 1 | firstName | Nombre del cliente | string | Cadena de caracteres | Permite solo caracteres o letras |
+| 2 | lastName | Apellido del cliente | string | Cadena de caracteres | Permite solo caracteres o letras |
+| 3 | numberDNI | Número de DNI | int | 2 bytes | Mayor a Cero |
+| Subscription |
+| 1 | id | Identificador de la suscripción | int | 2 bytes | Mayor a Cero |
+| 2 | subscriptionType | Tipo de suscripción | string | Cadena de caracteres | Permite solo caracteres o letras |
+| 3 | subscriptionOwner | Dueño de la suscripción | string | Cadena de caracteres | Permite solo caracteres o letras |
+| Livestock Producer |
+| 1 | firstName | Nombre del productor ganadero | string | Cadena de caracteres | Permite solo caracteres o letras |
+| 2 | lastName | Apellido del productor ganadero | string | Cadena de caracteres | Permite solo caracteres o letras |
+| 3 | numberDNI | Número de DNI | int | 2 bytes | Mayor a Cero |
+| Animal Manager |
+| 1 | id | Identificador del administrador de animales | int | 2 bytes | Mayor a Cero |
+| Animal |
+| 1 | animalId | Identificador del animal | int | 2 bytes | Mayor a Cero |
+| 2 | animalName | Nombre del animal | string | Cadena de caracteres | Permite solo caracteres o letras |
+| 3 | bornDate | Fecha de nacimiento del animal | date | Días | Permite solo fechas |
+| 4 | motherId | Identificador del administrador de animales | string | Cadena de caracteres | Permite solo caracteres o letras |
+| 5 | originCountry | Identificador del administrador de animales | string | Cadena de caracteres | Permite solo caracteres o letras |
+| 6 | animalGender | Identificador del administrador de animales | string | Cadena de caracteres | Permite solo caracteres o letras |
+| 7 | animalLocation | Identificador del administrador de animales | string | Cadena de caracteres | Permite solo caracteres o letras |
+| Animal Groups |
+| 1 | groupId | Identificador de los grupos de animales | int | 2 bytes | Mayor a Cero |
+| 2 | groupLocation | Ubicacion del grupo | string | Cadena de caracteres | Permite solo caracteres o letras |
+| Bovine Identification Document |
+| 1 | documentId | Identificador del documento | int | 2 bytes | Mayor a Cero |
+| 2 | expiryDate | Fecha de expiración del documento | date | Días | Permite solo fechas |
+| Animal Performance |
+| 1 | id | Identificador para el redimiento del animal | int | 2 bytes | Mayor a Cero |
+| 2 | animalState | Descripción estado del animal | string | Cadena de caracteres | Permite solo caracteres o letras |
+| 3 | createDate | Registro fecha de creación | date | Días | Permite solo fechas |
+| 4 | performance | Rendimiento del animal como porcentaje | int | 2 bytes | Mayor a Cero |
+| Animal Status Report |
+| 1 | reportId | Identificador para cada reporte | int | 2 bytes | Mayor a Cero |
+| 2 | createdDate | Registro fecha de creación del reporte | date | Días | Permite solo fechas |
+| Animal Medical History |
+| 1 | historyId | Identificador para historia medica | int | 2 bytes | Mayor a Cero |
+| 2 | createdDate | Registro fecha de creación de la historia medica | date | Días | Permite solo fechas |
+| 3 | acessDate | Registro fecha de acceso a la historia medica | date | Días | Permite solo fechas |
+| Notification |
+| 1 | notificationId | Identificador para cada notificación | int | 2 bytes | Mayor a Cero |
+| 2 | notificationType | Tipo de cada notificación | string | Cadena de caracteres | Permite solo caracteres o letras |
+| 3 | notificationContent | Contenido de la notificación | string | Cadena de caracteres | Permite solo caracteres o letras |
+| Meal Plans |
+| 1 | mealPlanId | Identificador para cada plan alimenticio | int | 2 bytes | Mayor a Cero |
+| 2 | typeFood | Tipo de comida de cada plan alimenticio | string | Cadena de caracteres | Permite solo caracteres o letras |
+| 3 | modifiedDate | Fecha de modificación | date | Días | Permite solo fechas |
+| Vaccine |
+| 1 | vaccineId | Identificador para cada registro de vacunación | int | 2 bytes | Mayor a Cero |
+| 2 | vaccineName | Nombre del cada vacuna | string | Cadena de caracteres | Permite solo caracteres o letras |
+| 3 | vaccineCode | Codigo de cada vacuna | int | 2 bytes | Mayor a Cero |
+| 4 | applicationReason | Razón de aplicación | string | Cadena de caracteres | Permite solo caracteres o letras |
+| Reproduction |
+| 1 | reproductionId | Identificador para cada registro de reproducción | int | 2 bytes | Mayor a Cero |
+| 2 | registerDate | Fecha de registro | date | Días | Permite solo fechas |
+| 3 | offspringNumber | Número de crías | int | 2 bytes | Mayor a Cero |
+| Veterinary |
+| 1 | veterinaryId | Identificador para cada veterinario | int | 2 bytes | Mayor a Cero |
+| 2 | firstName | Nombre del veterinario | string | Cadena de caracteres | Permite solo caracteres o letras |
+| 3 | lastName | Apellido del veterinario | string | Cadena de caracteres | Permite solo caracteres o letras |
+| 4 | vetPermit | Autorización del veterinario | int | 2 bytes | Mayor a Cero |
+| Veterinary Report |
+| 1 | reportId | Identificador para cada reporte | int | 2 bytes | Mayor a Cero |
+| 2 | createdDate | Fecha de creación de cada reporte | date | Días | Permite solo fechas |
+| 3 | animalId | Identificador de cada animal | int | 2 bytes | Mayor a Cero |
+| 4 | contactNumber | Número de contacto del veterinario | int | 2 bytes | Mayor a Cero |
+
 ## 4.10. Database Design
 ### 4.10.1. Relational/Non-Relational Database Diagram
+
+<div style="display: flex; justify-content: center;">
+  <img src="img/bd_Aplicaciones_Web.PNG" width="400px"/>
+</div>
 
 # Capítulo V: Product Implementation
 ## 5.1. Software Configuration Management
