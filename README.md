@@ -522,7 +522,11 @@ VacApp se orienta a mejorar la eficiencia y sostenibilidad en empresas ganaderas
 ### 2.3.1. User Personas
 Para construir nuestros User Persona, nos basamos en la información obtenida y analizada a partir de las entrevistas realizadas. Se identificó que ambos segmentos debían estar representados por perfiles masculinos. A partir de las respuestas recopiladas, se elaboró un User Persona que refleja los objetivos, motivaciones y frustraciones más comunes entre los participantes. Finalmente, se realizó un análisis que permitió definir los valores y habilidades que resume las características más destacadas de cada uno de los segmentos definidos.
 
+**Ganadero Independiente**
+![CarlosRodriguez](resources/CarlosRodriguez.png)
 
+**Empresa Ganadera**
+![JoséGalindo](resources/JoséGalindo.png)
 
 ### 2.3.2. User Task Matrix
 
@@ -545,7 +549,7 @@ Para construir nuestros User Persona, nos basamos en la información obtenida y 
 ![JourneyMap1](resources/JourneyMap1.png)
 
 **Empresa Ganadera**
-![JourneyMap2](resoruces/JourneyMap2.png)
+![JourneyMap2](resources/JourneyMap2.png)
 
 
 ### 2.3.4. Empathy Mapping
