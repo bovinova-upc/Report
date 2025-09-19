@@ -553,7 +553,16 @@ Para construir nuestros User Persona, nos basamos en la información obtenida y 
 
 
 ### 2.3.4. Empathy Mapping
+**Ganadero Indepeniente**
+![EmpathyMap1](resources/EmpathyMap1.png)
+
+**Empresa Ganadera**
+![EmpathyMap2](resources/EmpathyMap2.png)
+
 ### 2.3.5. As-is Scenario Mapping
+
+![AsIsScenarioMap](resources/AsIsScenarioMapping.jpg)
+
 ## 2.4. Ubiquitous Language
 
 | Palabra                              | Descripción                                                                                         |
