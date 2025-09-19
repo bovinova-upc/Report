@@ -650,8 +650,8 @@ Se realizaron actividades de creación de artefactos antes y después de la impl
 | Date | 2025-05-14 | 
 | Time |  10:00 AM |
 | Location |  UPC - Monterrico |
-| Preparate by| Maycol Jhordan Rojas Velasquez | 
-|  Attendees (to planning meeting) | Gómez Vallejos Sergio André ,Aranda Vallejos, Oscar Gabriel ,Ticona Panduro, Estrella del Pilar ,Durand Vera, Gianfranco Angel, Miranda Sinarahua, Piero Stephano  | 
+| Preparate by| - | 
+|  Attendees (to planning meeting) | -  | 
 | Sprint n-1 Review Summary | En resumen se desarrollaron avances en la landing page, backend y frontend mobile | 
 | Sprint Planning Background | Durante esta etapa, se llevó a cabo una exhaustiva verificación de la funcionalidad de la landing page diseñada para el proyecto. El objetivo principal fue asegurar que la landing page cumpla con los estándares de calidad y proporcionar una experiencia óptima para los visitantes. Asimismo, se realizó la primera implementación de la aplicación mobil y el despliegue del backend |
 | Sprint Goal & User Stories | 
