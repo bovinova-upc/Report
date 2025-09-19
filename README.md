@@ -419,7 +419,7 @@ Trabajamos para brindar una plataforma integral que otorgue a los ganaderos herr
   </tr>
   <tr>
     <th>
-      <img src="Santiago.jpg" width="800px">
+      <img src="img/Santiago.jpg" width="800px">
     </th>
     <td valign="top">
       <p><b>Santiago Alonso Gordillo Ramos</b></p>
