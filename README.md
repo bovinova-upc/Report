@@ -307,7 +307,7 @@ ABET – EAC - Student Outcome 4
         <p><b>TF:</b> [Acciones]</p>
         <br>
         <p><b>Jose Vargas Javier</b></p>
-        <p><b>TB1:</b> [Acciones]</p>
+        <p><b>TB1:</b> “En mi rol como responsable del Capítulo 5, asumí la responsabilidad de prácticas de desarrollo (control de versiones, convenciones de código, despliegue seguro y documentación clara), velando por la trazabilidad y la colaboración efectiva en el equipo.”</p>
         <p><b>TP1:</b> [Acciones]</p>
         <p><b>TB2:</b> [Acciones]</p>
         <p><b>TF:</b> [Acciones]</p>
@@ -347,7 +347,7 @@ ABET – EAC - Student Outcome 4
         <p><b>TF:</b> [Acciones]</p>
         <br>
         <p><b>Jose Vargas Javier</b></p>
-        <p><b>TB1:</b> [Acciones]</p>
+        <p><b>TB1:</b> Emití juicios informados al evaluar que las soluciones implementadas (landing page, aplicaciones móviles y backend en la nube) favorecen la transformación digital en el sector ganadero, mejoran la eficiencia económica de los usuarios, promueven prácticas responsables en la gestión de recursos y generan un impacto social positivo al facilitar el acceso a herramientas tecnológicas</p>
         <p><b>TP1:</b> [Acciones]</p>
         <p><b>TB2:</b> [Acciones]</p>
         <p><b>TF:</b> [Acciones]</p>
@@ -395,8 +395,8 @@ Trabajamos para brindar una plataforma integral que otorgue a los ganaderos herr
       <img src="" width="800px">
     </th>
     <td valign="top">
-      <p><b></b></p>
-      <p></p>
+      <p><b>Jose Enrique Vargas Javier</b></p>
+      <p>Me considero una persona proactiva y responsable, decidi optar por esta carrera ya que siempre me fascino la idea de crear un videojuego, busco aprender y mejorar mis habilidades como programador para cumplir mi proposito como desarrollador de videojuegos</p>
     </td>
   </tr>
   <tr>
