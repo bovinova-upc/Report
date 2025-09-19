@@ -419,11 +419,11 @@ Trabajamos para brindar una plataforma integral que otorgue a los ganaderos herr
   </tr>
   <tr>
     <th>
-      <img src="" width="800px">
+      <img src="Santiago.jpg" width="800px">
     </th>
     <td valign="top">
-      <p><b></b></p>
-      <p></p>
+      <p><b>Santiago Alonso Gordillo Ramos</b></p>
+      <p>Mi nombre es Santiago Gordillo Ramos, mi código es U202215160 y me encuentro estudiando ingeniería de software, cuento con conocimiento de frontend, me interesa javascript, cuento con base sólida con html y css, trabajo bien en equipo, trato de organizarme de manera eficaz para poder terminar el trabajo correctamente. A futuro busco especializarme en ciberseguridad ya que es una rubro que me interesa mucho.</p>
     </td>
   </tr>
   <tr>
