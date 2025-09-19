@@ -477,6 +477,22 @@ Para construir nuestros User Persona, nos basamos en la información obtenida y 
 
 
 ### 2.3.2. User Task Matrix
+## 2.3.2. User Task Matrix
+
+| Tarea                                   | Ganadero Independiente                              | Empresa Ganadera                                      |
+|-----------------------------------------|----------------------------------------------------|------------------------------------------------------|
+| Registrar nuevos animales               | Alta (Manualmente con papel y lápiz)               | Alta (Manualmente con registros en cuadernos)        |
+| Controlar la alimentación del ganado    | Alta (Registro manual en cuadernos)                | Alta (Registro manual en registros de alimentación)  |
+| Programar citas con el veterinario      | Media (Llamadas telefónicas)                       | Alta (Agenda manual de citas)                        |
+| Gestionar vacunaciones                  | Alta (Registro manual en registros de vacunación)  | Alta (Registro manual en cuadernos de vacunación)    |
+| Control de gastos de la producción      | Media (Apuntes manuales en cuadernos)              | Alta (Registros contables manuales)                  |
+| Venta de productos (leche, carne, etc.) | Media (Ventas locales, contacto directo)           | Alta (Gestión manual de pedidos y clientes)          |
+| Transporte de ganado                    | Media (Coordinación directa con transportistas)    | Alta (Registro manual de traslados en documentos)    |
+| Mantenimiento de infraestructura        | Alta (Reparaciones manuales y limpieza)            | Alta (Reparaciones manuales y limpieza)              |
+| Manejo de la reproducción y cría        | Alta (Observación y gestión manual del ciclo)      | Alta (Observación y gestión manual del ciclo)        |
+| Reportes de producción                  | Baja (Datos dispersos en cuadernos)                | Alta (Registros manuales periódicos)                 |
+
+
 ### 2.3.3. User Journey Mapping
 ### 2.3.4. Empathy Mapping
 ### 2.3.5. As-is Scenario Mapping
