@@ -595,11 +595,11 @@ En esta sección, detallamos el proceso de implementación de nuestra landing pa
 
 1. Se crea un repositorio en GitHub para alojar el código de nuestra landing page.
 
-![image](https://i.imgur.com/rEVqKl6.png)
+![image](https://i.imgur.com/.png)
 
 2. Agregamos a los participantes:
 
-![image](https://i.imgur.com/zelKt9F.png)
+![image](https://i.imgur.com/.png)
 
 3. Habilitamos Netlifly para poder importar nuestro proyecto:
 
@@ -681,7 +681,7 @@ Se realizaron actividades de creación de artefactos antes y después de la impl
     <td>T01</td>
     <td>Implementar acceso a la sección de Home</td>
     <td>2</td>
-    <td>Ticona Panduro, Estrella del Pilar </td>
+    <td> </td>
     <td>Done</td>
  </tr>
  <tr>
@@ -690,7 +690,7 @@ Se realizaron actividades de creación de artefactos antes y después de la impl
     <td>T02</td>
     <td>Implementar acceso a la sección de Características</td>
     <td>1</td>
-    <td>Durand Vera, Gianfranco Angel </td>
+    <td></td>
     <td>Done</td>
  </tr>
  <tr>
@@ -699,7 +699,7 @@ Se realizaron actividades de creación de artefactos antes y después de la impl
     <td>T03</td>
     <td>Implementar registro de nuevos usuarios</td>
     <td>3</td>
-    <td>Ticona Panduro, Estrella del Pilar </td>
+    <td> </td>
     <td>Done</td>
  </tr>
  <tr>
@@ -708,7 +708,7 @@ Se realizaron actividades de creación de artefactos antes y después de la impl
     <td>T04</td>
     <td>Implementar sección de funcionalidades</td>
     <td>2</td>
-    <td>Durand Vera, Gianfranco Angel </td>
+    <td> </td>
     <td>Done</td>
  </tr>
  <tr>
@@ -717,7 +717,7 @@ Se realizaron actividades de creación de artefactos antes y después de la impl
     <td>T05</td>
     <td>Implementar sector de planes disponibles</td>
     <td>3</td>
-    <td>Durand Vera, Gianfranco Angel </td>
+    <td> </td>
     <td>Done</td>
  </tr>
  <tr>
@@ -726,7 +726,7 @@ Se realizaron actividades de creación de artefactos antes y después de la impl
     <td>T06</td>
     <td>Implementar el cambio de idioma</td>
     <td>2</td>
-    <td>Ticona Panduro, Estrella del Pilar </td>
+    <td> </td>
     <td>Done</td>
  </tr>
  <tr>
@@ -735,7 +735,7 @@ Se realizaron actividades de creación de artefactos antes y después de la impl
     <td>T07</td>
     <td>Implementar POST para vacunas</td>
     <td>2</td>
-    <td>Aranda Vallejos, Oscar Gabriel </td>
+    <td> </td>
     <td>Done</td>
  </tr>
  <tr>
@@ -744,7 +744,7 @@ Se realizaron actividades de creación de artefactos antes y después de la impl
     <td>T08</td>
     <td>Implementar GET para vacunas</td>
     <td>2</td>
-    <td>Aranda Vallejos, Oscar Gabriel </td>
+    <td> </td>
     <td>Done</td>
  </tr>
  <tr>
@@ -753,7 +753,7 @@ Se realizaron actividades de creación de artefactos antes y después de la impl
     <td>T09</td>
     <td>Implementar PUT y DELETE para vacunas</td>
     <td>3</td>
-    <td>Aranda Vallejos, Oscar Gabriel </td>
+    <td> </td>
     <td>Done</td>
  </tr>
  <tr>
@@ -762,7 +762,7 @@ Se realizaron actividades de creación de artefactos antes y después de la impl
     <td>T10</td>
     <td>Implementar POST para animales</td>
     <td>2</td>
-    <td>Aranda Vallejos, Oscar Gabriel </td>
+    <td></td>
     <td>Done</td>
  </tr>
  <tr>
@@ -771,7 +771,7 @@ Se realizaron actividades de creación de artefactos antes y después de la impl
     <td>T11</td>
     <td>Implementar GET para animales</td>
     <td>2</td>
-    <td>Aranda Vallejos, Oscar Gabriel </td>
+    <td> </td>
     <td>Done</td>
  </tr>
  <tr>
@@ -780,7 +780,7 @@ Se realizaron actividades de creación de artefactos antes y después de la impl
     <td>T12</td>
     <td>Implementar PUT y DELETE para animales</td>
     <td>2</td>
-    <td>Aranda Vallejos, Oscar Gabriel </td>
+    <td> </td>
     <td>Done</td>
  </tr>
  <tr>
@@ -789,7 +789,7 @@ Se realizaron actividades de creación de artefactos antes y después de la impl
     <td>T13</td>
     <td>Implementar POST para campaña</td>
     <td>2</td>
-    <td>Miranda Sinarahua, Piero Stephano </td>
+    <td> </td>
     <td>Done</td>
  </tr>
   <tr>
@@ -798,7 +798,7 @@ Se realizaron actividades de creación de artefactos antes y después de la impl
     <td>T14</td>
     <td>Implementar PUT y DELETE para campaña</td>
     <td>2</td>
-    <td>Miranda Sinarahua, Piero Stephano </td>
+    <td> </td>
     <td>Done</td>
  </tr>
  <tr>
@@ -807,7 +807,7 @@ Se realizaron actividades de creación de artefactos antes y después de la impl
     <td>T15</td>
     <td>Implementar POST para empleados</td>
     <td>2</td>
-    <td>Aranda Vallejos, Oscar Gabriel  </td>
+    <td>  </td>
     <td>Done</td>
  </tr>
 
