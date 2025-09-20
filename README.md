@@ -428,19 +428,177 @@ ABET – EAC - Student Outcome 4
 
 # Capítulo II: Requirements Elicitation & Analysis 
 ## 2.1. Competidores
-### 2.1.1. Análisis competitivo
-### 2.1.2. Estrategias y tácticas frente a competidores
-## 2.2. Entrevistas
-### 2.2.1. Diseño de entrevistas
+## 2.1.1. Análisis competitivo  
+### Competitive Analysis Landscape  
+
+**¿Por qué llevar a cabo este análisis?**  
+¿Cómo podemos proporcionar un buen servicio entre los restaurantes y los consumidores de manera que la comunicación entre ambos sea efectiva y agradable?  
+
+| Perfil / Aspecto | VacApp | Control Ganadero | Agroptima | App Ganadera |
+|------------------|--------|------------------|-----------|--------------|
+| **Overview** | VacApp es una plataforma móvil accesible que optimiza la gestión ganadera con enfoque en sostenibilidad, bienestar animal y eficiencia, adaptada a pequeños y grandes productores. | Es una aplicación española, británica y brasileña en el sector de la ganadería. | Agroptima es un sitio web multiplataforma cofundado por la Unión Europea para España, Francia e Inglaterra. | Es una empresa fundada en Colombia que cuenta con una app para la gestión de ganado. |
+| **Ventaja competitiva** | Integra tecnología accesible con enfoque en sostenibilidad y bienestar animal, ofreciendo soluciones prácticas para productores de todos los tamaños. | App enfocada en gestión de vacas y para móviles. | Cuenta con multiplataforma y algoritmos matemáticos para mayor gestión del ganado. | Tiene gran variedad de herramientas y distribuidores. |
+| **Mercado Objetivo** | Productores ganaderos (independientes y empresas) que buscan optimizar cuidado del ganado y rentabilidad. | Ganaderos en España, Brasil e Inglaterra. | Ganaderos en España, Francia e Inglaterra. | Ganaderos colombianos. |
+| **Estrategias de Marketing** | Difusión en redes sociales y anuncios pagados. | Estrategia de posicionamiento. | Estrategia de segmentación. | Estrategia. |
+| **Productos & Servicios** | App móvil con gestión de ganado, monitoreo de salud, alimentación y reproducción. | Web app de gestión de ganado. | Web app de gestión de ganado. | Web app de gestión de ganado. |
+| **Precios & Costos** | Suscripción de bajo costo. | Suscripción de bajo costo. | Suscripción de bajo costo. | Suscripción de bajo costo. |
+| **Canales de distribución** | App. | App. | Web y móvil. | App. |
+| **Fortalezas** | Última tecnología, innovación en productividad y servicio. | App enfocada en vacas, buena personalización. | Reconocida en Europa, usa algoritmos matemáticos. | Conoce bien a sus clientes locales, adaptación cultural. |
+| **Debilidades** | En pleno desarrollo, riesgo de éxito o fracaso. | Solo en móvil, no multiplataforma. | Solo en Europa, dependiente de regulaciones de la UE. | Disponible solo en Colombia. |
+| **Oportunidades** | Aumentar productividad y eficiencia de ganaderos y empresas. | Ideal para expandirse a Europa, público objetivo amplio. | Ideal para expandirse a Europa, público objetivo amplio. | Fuerte penetración en Colombia. |
+| **Amenazas** | Competencia de otras apps y cambios regulatorios en la industria ganadera. | Poca adopción tecnológica en la ganadería tradicional. | Poca adopción tecnológica en la ganadería tradicional. | Falta de apoyo económico y riesgo de desaparición. |
+
+---
+
+
+## 2.1.2. Estrategias y tácticas frente a competidores  
+
+Para enfrentarnos a la competencia en el sector ganadero, nuestra **estrategia** se centrará en ofrecer una plataforma **accesible, intuitiva y adaptada a las necesidades locales de los ganaderos peruanos**.  
+
+A diferencia de competidores como Agroptima o Control Ganadero, **VacApp destacará por su simplicidad y enfoque en la sostenibilidad y el bienestar animal**, facilitando la gestión de la salud, alimentación y reproducción del ganado.  
+
+**Tácticas principales**:  
+- Marketing digital segmentado.  
+- Campañas en redes sociales.  
+- Alianzas con organizaciones locales.  
+- Educación a usuarios sobre beneficios de la aplicación.  
+- Precios flexibles y modelos de suscripción accesibles.  
+
+De esta manera, tanto pequeños como grandes productores podrán optimizar sus operaciones sin complicaciones, mientras seguimos mejorando la plataforma para adaptarnos a las necesidades cambiantes del sector ganadero.
+
+## 2.2. Entrevistas  
+
+### 2.2.1. Diseño de entrevistas  
+
+#### Segmento #1: Productores Ganaderos Independientes  
+
+VacApp ha desarrollado preguntas específicas para conocer las necesidades, experiencias y expectativas de los productores ganaderos independientes. Buscamos ayudarlos a gestionar mejor sus operaciones, optimizar el cuidado de sus animales y evaluar su impacto ambiental y social. A través de una plataforma intuitiva, VacApp ofrece herramientas que mejoran la eficiencia, el control de calidad y la conexión con los consumidores, simplificando los procesos diarios del productor.  
+
+**Datos Generales del Entrevistado:**  
+- Nombre:  
+- Edad:  
+- Tiempo de experiencia en la ganadería:  
+
+**Preguntas de la Entrevista:**  
+1. ¿Cómo decide la dieta de sus animales y qué factores considera al elegir su alimentación?  
+   - (¿Sigue asesoría veterinaria, experiencia personal o recomendaciones externas?)  
+2. ¿Qué medidas toma para garantizar la salud y el bienestar de sus animales?  
+3. ¿Qué aspectos considera más importantes en la gestión de la salud veterinaria de su ganado?  
+4. ¿Lleva algún tipo de registro sobre la salud y el crecimiento de sus animales? ¿Cómo lo hace?  
+   - (¿Utiliza cuadernos, hojas de cálculo, aplicaciones móviles, etc.?)  
+5. ¿Cuáles son los principales desafíos que enfrenta al administrar su ganadería?  
+6. ¿Cómo cree que una aplicación podría ayudarle a resolver esos desafíos?  
+7. Si contara con una aplicación para apoyar su trabajo ganadero, ¿qué funciones le serían más útiles?  
+8. ¿Qué tipo de información le gustaría tener siempre disponible desde su celular o computadora?  
+9. ¿Cómo le gustaría registrar la alimentación y consumo de sus animales dentro de la aplicación?  
+10. ¿Qué beneficios espera lograr al implementar una solución como VacApp en su ganadería?  
+
+---
+
+#### Segmento #2: Empresas Ganaderas  
+
+VacApp se orienta a mejorar la eficiencia y sostenibilidad en empresas ganaderas de gran escala. Mediante entrevistas con administradores, identificamos sus necesidades y estrategias clave para una gestión efectiva. Preguntamos qué herramientas consideran esenciales y cómo esperan apoyo para mejorar el bienestar animal y la productividad. Así, VacApp adapta sus soluciones a los retos específicos de la ganadería corporativa.  
+
+**Datos Generales del Entrevistado:**  
+- Nombre:  
+- Edad:  
+- Tiempo de experiencia en la ganadería:  
+
+**Preguntas de la Entrevista:**  
+1. ¿Cuántos animales maneja actualmente su empresa y cómo varía esa cantidad durante el año?  
+2. Si su empresa tuviera acceso a una plataforma digital para gestión ganadera, ¿qué funciones considera imprescindibles para mejorar la eficiencia?  
+3. ¿Cuáles son los mayores retos que enfrentan en la gestión ganadera a gran escala y cómo los abordan hoy en día?  
+4. ¿Qué tipo de información o datos son clave para la toma de decisiones en su operación ganadera?  
+5. ¿Qué funcionalidades le gustaría tener para facilitar la gestión del personal y la planificación de tareas?  
+6. ¿Qué tipo de informes o análisis considera importantes para evaluar el desempeño de su empresa?  
+7. ¿Cómo le gustaría interactuar con proveedores y socios comerciales a través de una plataforma como VacApp?  
+8. ¿Qué tan importante es que una aplicación como VacApp se adapte a los procesos actuales de su empresa?  
+9. ¿Qué aspectos considera que deberían ser completamente personalizables dentro de la plataforma?  
+10. ¿Qué mejoras espera obtener al integrar una solución como VacApp en su operación ganadera?  
+
 ### 2.2.2. Registro de entrevistas
+
+#### Segmento #2: Empresas Ganaderas
+
+<img src="resources/entrevista-cami.png" widht="400px"/>
+
+Entrevistada: Camila Sanchez <br>
+Sexo: Femenino<br>
+Edad: 23<br>
+
+Resumen de la Entrevista:
+
+Camila Sánchez, de 23 años, cuenta con cinco años de experiencia como trabajadora en el sector ganadero. Actualmente participa en la gestión de una empresa con más de 2000 cabezas de ganado, número que puede variar según nacimientos o ventas estacionales. La gestión actual se basa mayormente en registros manuales y hojas de Excel, lo cual genera errores y retrasos.
+
+Camila considera fundamental contar con una plataforma digital que centralice la información, mejore la coordinación del personal y permita una mejor toma de decisiones. Entre los retos más importantes que enfrentan están la gestión de recursos, el bienestar animal y la rentabilidad del negocio.
+
+En cuanto a funcionalidades deseadas, menciona la planificación de tareas, seguimiento del desempeño del personal, generación de reportes, comunicación interna y gestión de incidentes. También valora informes sobre producción, análisis de costos, salud animal y herramientas para identificar áreas de mejora.
+
+Para la interacción con proveedores, ve útil una plataforma que facilite la comunicación, el seguimiento de pedidos, la gestión de inventarios y la negociación. Finalmente, destaca la importancia de que la plataforma se adapte a sus procesos y sea personalizable en aspectos como roles, alertas, datos del ganado e informes, con el fin de mejorar la eficiencia y reducir errores, siempre priorizando el bienestar animal y la rentabilidad.
+
 ### 2.2.3. Análisis de entrevistas
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
+Para construir nuestros User Persona, nos basamos en la información obtenida y analizada a partir de las entrevistas realizadas. Se identificó que ambos segmentos debían estar representados por perfiles masculinos. A partir de las respuestas recopiladas, se elaboró un User Persona que refleja los objetivos, motivaciones y frustraciones más comunes entre los participantes. Finalmente, se realizó un análisis que permitió definir los valores y habilidades que resume las características más destacadas de cada uno de los segmentos definidos.
+
+**Ganadero Independiente**
+![CarlosRodriguez](resources/CarlosRodriguez.png)
+
+**Empresa Ganadera**
+![JoséGalindo](resources/JoséGalindo.png)
+
 ### 2.3.2. User Task Matrix
+
+| Tarea                                   | Ganadero Independiente                              | Empresa Ganadera                                      |
+|-----------------------------------------|----------------------------------------------------|------------------------------------------------------|
+| Registrar nuevos animales               | Alta (Manualmente con papel y lápiz)               | Alta (Manualmente con registros en cuadernos)        |
+| Controlar la alimentación del ganado    | Alta (Registro manual en cuadernos)                | Alta (Registro manual en registros de alimentación)  |
+| Programar citas con el veterinario      | Media (Llamadas telefónicas)                       | Alta (Agenda manual de citas)                        |
+| Gestionar vacunaciones                  | Alta (Registro manual en registros de vacunación)  | Alta (Registro manual en cuadernos de vacunación)    |
+| Control de gastos de la producción      | Media (Apuntes manuales en cuadernos)              | Alta (Registros contables manuales)                  |
+| Venta de productos (leche, carne, etc.) | Media (Ventas locales, contacto directo)           | Alta (Gestión manual de pedidos y clientes)          |
+| Transporte de ganado                    | Media (Coordinación directa con transportistas)    | Alta (Registro manual de traslados en documentos)    |
+| Mantenimiento de infraestructura        | Alta (Reparaciones manuales y limpieza)            | Alta (Reparaciones manuales y limpieza)              |
+| Manejo de la reproducción y cría        | Alta (Observación y gestión manual del ciclo)      | Alta (Observación y gestión manual del ciclo)        |
+| Reportes de producción                  | Baja (Datos dispersos en cuadernos)                | Alta (Registros manuales periódicos)                 |
+
+
 ### 2.3.3. User Journey Mapping
+**Ganadero Indepeniente**
+![JourneyMap1](resources/JourneyMap1.png)
+
+**Empresa Ganadera**
+![JourneyMap2](resources/JourneyMap2.png)
+
+
 ### 2.3.4. Empathy Mapping
+**Ganadero Indepeniente**
+![EmpathyMap1](resources/EmpathyMap1.png)
+
+**Empresa Ganadera**
+![EmpathyMap2](resources/EmpathyMap2.png)
+
 ### 2.3.5. As-is Scenario Mapping
+
+![AsIsScenarioMap](resources/AsIsScenarioMapping.jpg)
+
 ## 2.4. Ubiquitous Language
+
+| Palabra                              | Descripción                                                                                         |
+|--------------------------------------|-----------------------------------------------------------------------------------------------------|
+| **Animal Health (Salud Animal)**     | Mantener la salud y prevenir enfermedades en el ganado.                                              |
+| **Balanced Feeding (Alimentación Equilibrada)** | Proporcionar una dieta equilibrada que cumpla con los requisitos nutricionales específicos de los animales. |
+| **Artificial Insemination (Inseminación Artificial)** | Introducir esperma en el tracto reproductivo de una hembra sin necesidad de apareamiento natural. |
+| **Rectal Palpation (Palpación Rectal)** | Examen para evaluar la condición reproductiva de una hembra, especialmente en el ganado vacuno. |
+| **Deworming (Desparasitación)**      | Administrar medicamentos antiparasitarios para controlar y prevenir la infestación de parásitos internos y externos en el ganado. |
+| **Branding (Marcado)**                | Identificación de ganado mediante la aplicación de un sello metálico caliente en la piel del animal. |
+| **Weaning (Destete)**                 | Separación gradual de los terneros de sus madres para cesar la lactancia y promover la independencia alimentaria. |
+| **Grazing Rotation (Rotación de Pastoreo)** | Mover el ganado entre diferentes áreas de pastoreo para optimizar el uso del suelo y prevenir el sobrepastoreo. |
+| **Dystocia (Distocia)**               | Dificultades durante el parto que pueden requerir intervención veterinaria. |
+| **Dusting (Aplicación de Polvos)**    | Aplicación de insecticidas en polvo o en aerosol sobre el pelaje del ganado para controlar infestaciones de insectos y parásitos externos. |
+| **Campaign (Campaña)**                | Período durante el cual se llevan a cabo actividades específicas en la gestión de ganadería, con objetivos definidos y metas establecidas. |
+| **Batch (Lote)**                      | Grupo de animales criados o tratados juntos, que se manejan y monitorean como una unidad durante un período específico de tiempo. |
+| **Fumigation (Fumigación)**           | Aplicación de productos químicos o biológicos para eliminar o controlar plagas, insectos, parásitos o enfermedades en el ganado y su entorno. |
 
 # Capítulo III: Requirements Specification
 ## 3.1. To-Be Scenario Mapping
