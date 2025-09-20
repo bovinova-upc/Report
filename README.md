@@ -595,11 +595,11 @@ En esta sección, detallamos el proceso de implementación de nuestra landing pa
 
 1. Se crea un repositorio en GitHub para alojar el código de nuestra landing page.
 
-![image](https://i.imgur.com/.png)
+![image](https://imgur.com/MrJasYP.png)
 
 2. Agregamos a los participantes:
 
-![image](https://i.imgur.com/.png)
+![image](https://imgur.com/0uRl9im.png)
 
 3. Habilitamos Netlifly para poder importar nuestro proyecto:
 
