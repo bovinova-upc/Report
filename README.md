@@ -301,13 +301,13 @@ ABET – EAC - Student Outcome 4
         <p><b>TF:</b> [Acciones]</p>
         <br>
         <p><b>Ayrton Inga Hernandez</b></p>
-        <p><b>TB1:</b> [Acciones]</p>
+        <p><b>TB1:</b> Asumi la responsabilidad de completar el capitulo 1, donde desarrollo el Solution Profile el cual nos servira como base de todo nuestro proyecto.</p>
         <p><b>TP1:</b> [Acciones]</p>
         <p><b>TB2:</b> [Acciones]</p>
         <p><b>TF:</b> [Acciones]</p>
         <br>
         <p><b>Jose Vargas Javier</b></p>
-        <p><b>TB1:</b> [Acciones]</p>
+        <p><b>TB1:</b> “En mi rol como responsable del Capítulo 5, asumí la responsabilidad de prácticas de desarrollo (control de versiones, convenciones de código, despliegue seguro y documentación clara), velando por la trazabilidad y la colaboración efectiva en el equipo.”</p>
         <p><b>TP1:</b> [Acciones]</p>
         <p><b>TB2:</b> [Acciones]</p>
         <p><b>TF:</b> [Acciones]</p>
@@ -341,13 +341,13 @@ ABET – EAC - Student Outcome 4
         <p><b>TF:</b> [Acciones]</p>
         <br>
         <p><b>Ayrton Inga Hernandez</b></p>
-        <p><b>TB1:</b> [Acciones]</p>
+        <p><b>TB1:</b> Aplique tecnicas de Leaun UX para un mejor desarrollo del proyecto, tambien investigue sobre la probematica y el analisis del problema a resolver.</p>
         <p><b>TP1:</b> [Acciones]</p>
         <p><b>TB2:</b> [Acciones]</p>
         <p><b>TF:</b> [Acciones]</p>
         <br>
         <p><b>Jose Vargas Javier</b></p>
-        <p><b>TB1:</b> [Acciones]</p>
+        <p><b>TB1:</b> Emití juicios informados al evaluar que las soluciones implementadas (landing page, aplicaciones móviles y backend en la nube) favorecen la transformación digital en el sector ganadero, mejoran la eficiencia económica de los usuarios, promueven prácticas responsables en la gestión de recursos y generan un impacto social positivo al facilitar el acceso a herramientas tecnológicas</p>
         <p><b>TP1:</b> [Acciones]</p>
         <p><b>TB2:</b> [Acciones]</p>
         <p><b>TF:</b> [Acciones]</p>
@@ -368,6 +368,26 @@ ABET – EAC - Student Outcome 4
 # Capítulo I: Introducción
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
+
+### Nombre del Start: VacApp
+VacApp es una amigable aplicación movil diseñada para preparar a los ganaderos en la gestión sostenible y eficiente de su ganado. Esta plataforma cuenta con una amplia variedad de caracteristicas internas que permiten a los usuarios realizar un seguimiento detallado de la salud, alimentación y reproducción de sus animales, lo que ayudara con una mejor eleccion de decisiones en la granja. Con esta aplicacion, los usuarios pueden mejorar sus operaciones y aumentar sus ingresos, y a la par promueven prácticas agrícolas sostenibles y éticas, ayudando asi al bienestar de los animales y al desarrollo sostenible de la industria ganadera.
+
+### **Colaboraciones Estrategicas:**
+
+En VacApp, nos dedicamos a construir alianzas sólidas con cadenas ganaderas, pequeños productores y empresas del sector. Colaboramos estrechamente con cada socio para que nuestras soluciones tecnológicas se adapten a sus necesidades operativas, simplifiquen la gestión diaria y eleven la satisfacción de sus clientes. Alentamos a los ganaderos a incorporar nuestras herramientas para optimizar el manejo del ganado, la administración de la alimentación y la atención al cliente, generando así una experiencia más ágil y eficiente.
+
+### **Innovación y Tecnología**
+VacApp integra tecnología de vanguardia para optimizar la gestión ganadera. Abarca desde el control de la salud, alimentación y reproducción del ganado, hasta la automatización de procesos esenciales en la granja. Su propósito es mejorar la manera en que los productores administran sus labores cotidianas, ofreciéndoles una herramienta tecnológica que los ayude a tomar decisiones fundamentadas, aumentar la eficiencia operativa y fomentar una producción sostenible y responsable.
+
+### **Comunidad y Funciones Sociales**
+VacApp va más allá de ser una herramienta de gestión; es un espacio para el aprendizaje y la colaboración entre ganaderos. La plataforma integra funciones que facilitan el intercambio de buenas prácticas, estrategias de manejo y la actualización constante sobre las últimas innovaciones del sector. Esta comunidad activa impulsa la mejora continua, promueve el intercambio de conocimientos y refuerza una red ganadera comprometida con el desarrollo sostenible y el bienestar animal.
+
+### **Visión**
+Visualizamos un futuro en el que la tecnología y la ganadería se fusionan para lograr una producción más eficiente, responsable y rentable. Queremos que VacApp se convierta en referente de innovación en la gestión ganadera y en un socio esencial para los productores que buscan avanzar hacia un modelo más moderno, conectado y sostenible. Nuestra meta es encabezar una transformación positiva del sector, sustentada en la tecnología, la ética y el compromiso con el campo.
+
+### **Misión**
+Trabajamos para brindar una plataforma integral que otorgue a los ganaderos herramientas inteligentes de gestión, elevando su productividad y calidad de vida. Tenemos la firme convicción de utilizar la tecnología como motor de transformación en el sector, promoviendo el bienestar animal, la sostenibilidad ambiental y el desarrollo económico de las comunidades rurales. VacApp, impulsado por su propia visión, aspira a ser un referente de excelencia, innovación y compromiso con el futuro de la ganadería.
+
 ### 1.1.2. Perfiles de integrantes del equipo
 <table>
   <tr>
@@ -375,35 +395,35 @@ ABET – EAC - Student Outcome 4
       <img src="" width="800px">
     </th>
     <td valign="top">
-      <p><b></b></p>
-      <p></p>
+      <p><b>Jose Enrique Vargas Javier</b></p>
+      <p>Me considero una persona proactiva y responsable, decidi optar por esta carrera ya que siempre me fascino la idea de crear un videojuego, busco aprender y mejorar mis habilidades como programador para cumplir mi proposito como desarrollador de videojuegos</p>
     </td>
   </tr>
   <tr>
     <th>
-      <img src="" width="800px">
+      <img src="img/1756604537526.jpg" width="800px">
     </th>
     <td valign="top">
-      <p><b></b></p>
-      <p></p>
+      <p><b>Gianfranco Durand Vera</b></p>
+      <p>Estudiante de 8vo ciclo. Me considero una persona curiosa y proactiva, apasionado por el desarrollo de software y la creación de aplicaciones que sean útiles y escalables. Me interesa aprender nuevas tecnologías y mejorar constantemente mis habilidades en proyectos tanto académicos como personales.</p>
     </td>
   </tr>
   <tr>
     <th>
-      <img src="" width="800px">
+      <img src="img\Ayrton-foto.png" width="800px">
     </th>
     <td valign="top">
-      <p><b></b></p>
-      <p></p>
+      <p><b>Ayrton Inga Hernandez</b></p>
+      <p>Soy estudiante de la UPC en la carrera de ingenieria de software y me considero una persona comprometida cuando se trata de mi vida educacional, cuento con conocimientos de desarrollo frontend y backend, base de datos con distintos lenguajes de programacion.</p>
     </td>
   </tr>
   <tr>
     <th>
-      <img src="" width="800px">
+      <img src="img/Santiago.jpg" width="800px">
     </th>
     <td valign="top">
-      <p><b></b></p>
-      <p></p>
+      <p><b>Santiago Alonso Gordillo Ramos</b></p>
+      <p>Mi nombre es Santiago Gordillo Ramos, mi código es U202215160 y me encuentro estudiando ingeniería de software, cuento con conocimiento de frontend, me interesa javascript, cuento con base sólida con html y css, trabajo bien en equipo, trato de organizarme de manera eficaz para poder terminar el trabajo correctamente. A futuro busco especializarme en ciberseguridad ya que es una rubro que me interesa mucho.</p>
     </td>
   </tr>
   <tr>
@@ -418,13 +438,167 @@ ABET – EAC - Student Outcome 4
 </table>
 
 ## 1.2. Solution Profile
+#### **Descripción General de la Solución**
+
+VacApp es una aplicación móvil innovadora creada especialmente para los ganaderos peruanos, tanto independientes como empresas del sector. La plataforma ofrece un conjunto completo de herramientas para gestionar de manera eficiente y sostenible el ganado, abarcando el control de la salud, la alimentación y la reproducción de los animales. Su propósito es aumentar la productividad de los productores y fomentar prácticas éticas y responsables que favorezcan el bienestar animal y el desarrollo sostenible de la ganadería en el Perú.
+
+#### **Características Clave de la Solución**
+
+- **Monitoreo Integral del Ganado:** Permite un seguimiento detallado de la salud y el bienestar de los animales, asegurando que reciban la atención adecuada en el momento oportuno.
+
+- **Gestión de Alimentación:** Ayuda a planificar y controlar las raciones necesarias para el crecimiento y la producción saludable del ganado.
+
+- **Gestión Reproductiva:** Facilita el control de los ciclos reproductivos, desde el celo hasta el parto, mejorando la productividad y la calidad del hato.
+
+- **Acceso a Servicios Veterinarios:** Integra un sistema para coordinar consultas y servicios veterinarios, reforzando la atención médica y reduciendo pérdidas por falta de cuidados.
+
+- **Automatización de Procesos:** Simplifica las operaciones rutinarias de la granja, ahorrando tiempo y recursos a los productores.
+
+- **Espacio Comunitario de Colaboración:** Además de ser una herramienta de gestión, es un lugar donde los ganaderos pueden intercambiar buenas prácticas, consejos y mantenerse al día con las innovaciones del sector.
+
+#### **Beneficios de la Solución**
+
+- **Mejor Gestión y Salud Animal:** Los ganaderos tienen acceso a herramientas que les permiten realizar un seguimiento eficiente de la salud y el bienestar de su ganado, reduciendo las pérdidas económicas causadas por enfermedades y accidentes.
+
+- **Optimización de Recursos:** La solución permite una mejor administración de la alimentación y reproducción del ganado, lo que se traduce en una mayor productividad y rentabilidad.
+
+- **Acceso a Tecnología Sostenible:** VacApp promueve prácticas de ganadería sostenible, mejorando las condiciones de vida del ganado y promoviendo el respeto por el medio ambiente.
+
+- **Reducción de Costos:** La automatización y la mejora en la gestión operativa ayudan a reducir los costos en diversas áreas de la granja, mejorando la eficiencia general.
+
+- **Educación y Soporte Continuo:** La plataforma ofrece recursos educativos que permiten a los ganaderos mantenerse actualizados con las mejores prácticas y desarrollos tecnológicos del sector.
+
+#### **Tecnología y Arquitectura**
+
+VacApp ha sido concebida como una solución móvil accesible tanto en Android como en iOS, desarrollada con tecnología de vanguardia para garantizar un alto rendimiento y una experiencia de uso sencilla. La plataforma se basa en el análisis de datos para ofrecer recomendaciones personalizadas y predicciones que optimicen la gestión de la granja. Asimismo, permite integrarse con sistemas de salud animal y automatizar tareas administrativas, facilitando así el trabajo diario de los ganaderos.
+
 ### 1.2.1. Antecedentes y problemática
+
+Mediante la técnica de **“5W's & 2H’s”**, hemos identificado los antecedentes y la problemática que enfrentan los ganaderos peruanos en su día a día, lo que ha llevado al desarrollo de **VacApp**.
+
+#### **What? (¿Qué?)**
+
+El sector ganadero peruano afronta retos importantes en la gestión del ganado, así como en aspectos clave como la salud, la alimentación, la reproducción y la producción animal. Sin embargo, la ausencia de herramientas tecnológicas adecuadas ha limitado la eficiencia en estos procesos. Muchos ganaderos, en especial los pequeños productores, no cuentan con sistemas que les permitan realizar un seguimiento detallado de sus animales ni tomar decisiones basadas en datos, lo que disminuye su capacidad para optimizar las operaciones y aumentar sus ingresos.
+
+
+#### **When? (¿Cuándo?)**
+
+Se trata de un problema de carácter permanente. La demanda de una plataforma tecnológica que apoye la gestión del ganado y optimice la producción es actual y constante. Los productores necesitan contar con un sistema que les brinde acceso a información en tiempo real, con actualizaciones continuas sobre la salud, la alimentación, la reproducción y la comercialización del ganado.
+
+#### **Where? (¿Dónde?)**
+
+Esta problemática impacta sobre todo a las zonas rurales y áreas productivas del Perú, donde la mayoría de ganaderos enfrenta un acceso limitado a servicios veterinarios y tecnológicos. Aunque la falta de conectividad a internet en ciertas regiones restringe el uso de soluciones digitales, el incremento de la cobertura móvil permite que VacApp funcione en dispositivos accesibles desde prácticamente cualquier ubicación rural.
+
+#### **Who? (¿Quién?)**
+
+Los principales afectados por esta situación son los ganaderos peruanos, tanto productores independientes como grandes empresas del sector. Los pequeños ganaderos, con rebaños reducidos, cuentan con recursos limitados para acceder a tecnologías y servicios de salud adecuados para sus animales. A su vez, las grandes compañías enfrentan retos vinculados con la gestión masiva del ganado y el cumplimiento de estándares de bienestar animal. Asimismo, veterinarios, responsables de alimentación y otros actores del ámbito ganadero constituyen usuarios clave de la plataforma.
+
+#### **Why? (¿Por qué?)**
+
+La ausencia de herramientas adecuadas para gestionar de forma eficiente el ganado provoca diversos problemas, como deficiencias en la alimentación, enfermedades no atendidas oportunamente, baja productividad y pérdidas económicas. Tomar decisiones con información incompleta o inexacta repercute directamente en el bienestar de los animales y en las utilidades de los productores. VacApp pretende dar respuesta a esta situación al ofrecer a los ganaderos una solución que optimice sus operaciones, mejore la trazabilidad del ganado y facilite la toma de decisiones fundamentadas.
+
+#### **How? (¿Cómo?)**
+
+La propuesta de VacApp consiste en una plataforma web y móvil que reúne diversas herramientas para la gestión ganadera. La aplicación permite a los usuarios monitorear en detalle la salud, la alimentación y la reproducción de sus animales, generar reportes y recibir alertas sobre eventos relevantes relacionados con su ganado. Gracias al uso de tecnologías modernas de desarrollo web y móvil, VacApp se ajusta a las necesidades de los productores en zonas rurales, ofreciendo acceso a la información en tiempo real desde cualquier dispositivo con conexión a internet.
+
+#### **How much? (¿Cuánto?)**
+
+El desarrollo y mantenimiento de VacApp estará determinado por la inversión en infraestructura tecnológica, la creación de nuevas funcionalidades y la implementación de servicios de soporte técnico. No obstante, para los ganaderos el impacto económico será favorable, ya que la plataforma les ayudará a incrementar su rentabilidad, optimizar recursos y disminuir las pérdidas ocasionadas por una gestión ineficiente. Además, permitirá reducir los costos en atención veterinaria al ofrecer acceso oportuno a datos que faciliten la prevención de enfermedades y potencien la productividad del ganado.
 ### 1.2.2. Lean UX Process
 #### 1.2.2.1. Lean UX Problem Statements
+En un contexto donde los pequeños y medianos productores pecuarios dependían de métodos manuales y poco eficientes para administrar la información de su ganado, nuestra aplicación móvil VacApp logró diferenciarse al ofrecer una solución moderna, accesible y optimizada para el trabajo en campo. Esta propuesta atrajo en un inicio a ganaderos interesados en digitalizar sus operaciones y aumentar su productividad. Sin embargo, con el ingreso de nuevos competidores con aplicaciones móviles similares y mayores presupuestos, el mercado ha comenzado a saturarse. Esto ha incrementado los costos de adquisición de usuarios, ha estancado nuestra participación de mercado y ha elevado las demandas de soporte, afectando la rentabilidad e impidiendo invertir en nuevas funcionalidades.
 #### 1.2.2.2. Lean UX Assumptions
+**User Assumptions**
+
+1. Los ganaderos, sin importar su nivel tecnológico, valorarán una app móvil fácil de usar, con interfaz intuitiva y accesible desde diferentes dispositivos.
+
+2. Los usuarios están dispuestos a adoptar tecnología si les permite ahorrar tiempo y mejorar la gestión de su ganado.
+
+3. Los usuarios usarán la aplicación incluso en áreas de baja conectividad si funciona correctamente offline.
+
+4. Los usuarios confiarán en la app si ven beneficios concretos en su productividad y en la salud del ganado.
+
+5. Los ganaderos prefieren soluciones prácticas y rápidas, por lo tanto, las funciones más utilizadas deben estar siempre accesibles con pocos pasos.
+
+**Business Assumptions**
+
+1. Si digitalizamos los registros del ganado, los usuarios podrán mejorar la organización y el control de su inventario animal.
+
+2. Si ofrecemos recordatorios automáticos y herramientas para gestionar la salud del ganado, los ganaderos reducirán los costos por enfermedades y mejorarán el bienestar animal.
+
+3. Si proporcionamos herramientas para planificar la alimentación, los productores optimizarán el uso de recursos y reducirán desperdicios.
+
+4. Si permitimos un seguimiento eficiente de la fertilidad y reproducción, los ganaderos incrementarán la productividad de sus animales.
+
+5. Si ofrecemos una experiencia fluida y confiable en dispositivos móviles incluso sin conexión, mejoraremos la adopción en zonas rurales con conectividad limitada.
+
+6. Si garantizamos privacidad y seguridad de los datos, los usuarios confiarán más en la plataforma y estarán dispuestos a almacenar información crítica en ella.
 #### 1.2.2.3. Lean UX Hypothesis Statements
+1. **Creemos que** los ganaderos valorarán una app fácil de usar con interfaz intuitiva,
+**porque** podrán gestionar su ganado sin necesidad de capacitación extensa.
+**Lo sabremos** cuando al menos el 70% complete el registro de animales en su primer uso sin asistencia.
+
+2. **Creemos que** los usuarios adoptarán la aplicación si les permite ahorrar tiempo en tareas diarias,
+**porque** desean enfocarse en actividades productivas más que en tareas administrativas.
+**Lo sabremos** cuando se reduzca en un 40% el tiempo promedio que reportan en registros manuales.
+
+3. **Creemos que** los ganaderos en zonas rurales usarán la app si funciona offline,
+**porque** tienen conectividad limitada en sus áreas de trabajo.
+**Lo sabremos** cuando el 60% de los usuarios active la app en modo sin conexión al menos una vez por semana.
+
+4. **Creemos que** los usuarios confiarán en la plataforma si garantizamos la privacidad de sus datos,
+**porque** manejan información sensible sobre su producción y operaciones.
+**Lo sabremos** cuando menos del 5% exprese preocupaciones sobre seguridad en encuestas de retroalimentación.
+
+5. **Creemos que** si destacamos funciones clave como salud animal, alimentación y reproducción,
+**los usuarios las usarán frecuentemente** para gestionar su ganado.
+**Lo sabremos** cuando estas funciones representen al menos el 70% del uso total dentro de la app.
+
+6. **Creemos que** los usuarios percibirán beneficios concretos en productividad y salud del ganado,
+**porque** tendrán herramientas para tomar decisiones informadas.
+**Lo sabremos** cuando el 60% reporte mejoras en rendimiento animal tras tres meses de uso.
 #### 1.2.2.4. Lean UX Canvas
+
 ## 1.3. Segmentos objetivo
+
+### Descripción de cada segmento objetivo:
+
+VacApp ha sido concebida tomando en cuenta la diversidad del sector ganadero peruano, desde pequeños productores independientes hasta grandes empresas dedicadas a la actividad pecuaria. Cada uno de estos segmentos posee necesidades, metas y desafíos particulares que nuestra plataforma busca atender mediante soluciones tecnológicas prácticas, accesibles y sostenibles.
+
+A continuación, presentamos el perfil de nuestros principales segmentos objetivo, destacando sus características, motivaciones y problemáticas, con el propósito de adaptar y mejorar continuamente nuestros servicios para brindarles el máximo valor posible.
+
+#### Productores Ganadores independientes:
+Este segmento de nuestra plataforma está conformado por ganaderos independientes del Perú, comprometidos con obtener ingresos de forma ética y sostenible, al mismo tiempo que garantizan un cuidado de alta calidad para sus animales. Se trata de productores que poseen diversas especies —como ovejas, vacas, reses, corderos, gallinas, entre otras— y que priorizan mantener en óptimas condiciones la salud y el bienestar de su ganado. Además, se interesan por realizar prácticas de comercialización honestas, orientadas a ofrecer productos más naturales y de calidad superior, así como por acceder a información actualizada sobre nuevos métodos y técnicas de cuidado animal.
+
+#### Empresas Ganaderas:
+El público objetivo de nuestra plataforma está compuesto principalmente por grandes empresas corporativas dedicadas a la gestión y cuidado de animales. Estas organizaciones se distinguen por su sólido compromiso con prácticas éticas y sostenibles en la producción ganadera. Su prioridad es asegurar que cada animal reciba una alimentación precisa, equilibrada y transparente, poniendo en primer plano su salud y bienestar. Asimismo, se enfocan en ofrecer un cuidado individualizado para garantizar la atención necesaria en cada etapa de desarrollo. Del mismo modo, valoran contar con un sistema integral de gestión veterinaria que les permita disponer de acceso constante y adecuado a servicios médicos veterinarios para sus animales.
+
+### Datos cuantitativos del problema:
+
+#### Productores Ganadores independientes:
+Se han documentado numerosos casos en los que los productores ganaderos peruanos no reciben una remuneración justa en los mercados y afrontan serias dificultades para gestionar el cuidado de sus animales, debido a la escasez de recursos económicos y al limitado acceso a servicios veterinarios para consultas y atención adecuada. Estas condiciones han impuesto retos considerables a los ganaderos, que deben esforzarse por mantener la salud y el bienestar de su ganado mientras buscan garantizar su propio sustento en un entorno cada vez más exigente y competitivo. Se estima que al menos el 15 % de las muertes de animales en las granjas se relaciona con la falta de acceso oportuno a servicios veterinarios, lo que se traduce en pérdidas económicas significativas para los productores, calculadas en alrededor del 20 % de sus ingresos anuales por la ausencia de una compensación justa en los mercados.
+
+#### Empresas Ganaderas:
+En el Perú, el bienestar animal en las empresas ganaderas sigue siendo insuficiente: alrededor del 60 % de las operaciones no cumple con estándares aceptables en este aspecto. Esta carencia se traduce en condiciones de vida inadecuadas para el ganado, como falta de espacio y alimentación deficiente, que repercuten negativamente en su salud y bienestar. Asimismo, cerca del 70 % de estas empresas presenta una gestión inadecuada de residuos, lo que conlleva una disposición incorrecta de los desechos animales y potenciales riesgos de contaminación ambiental. Esta situación supone un reto considerable para la industria ganadera, pues no solo compromete el bienestar de los animales, sino que también puede tener efectos adversos sobre la salud pública y el entorno.
+### Variables geográficas, demográficas y psicológicas:
+
+#### Variable geográfica:
+- País: Perú
+- Ciudad: zonas rurales 
+
+#### Variable demográfica:
+- Género: Femenino / Masculino.
+- Ocupación: Productores ganaderos 
+- Estado civil: Todos los estados
+- Edad y etapa de ciclo de vida:
+- Ciudadanos mayores a 18 años.
+
+#### Variable psicográfica:
+- Nivel Socioeconómico (NSE): todos los niveles socioeconomicos
+- Características de personalidad:
+ - Altruismo 
+ - Perseverante
+ - Honestidad
 
 # Capítulo II: Requirements Elicitation & Analysis 
 ## 2.1. Competidores
