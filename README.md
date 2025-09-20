@@ -301,7 +301,7 @@ ABET – EAC - Student Outcome 4
         <p><b>TF:</b> [Acciones]</p>
         <br>
         <p><b>Ayrton Inga Hernandez</b></p>
-        <p><b>TB1:</b> [Acciones]</p>
+        <p><b>TB1:</b> Asumi la responsabilidad de completar el capitulo 1, donde desarrollo el Solution Profile el cual nos servira como base de todo nuestro proyecto.</p>
         <p><b>TP1:</b> [Acciones]</p>
         <p><b>TB2:</b> [Acciones]</p>
         <p><b>TF:</b> [Acciones]</p>
@@ -341,7 +341,7 @@ ABET – EAC - Student Outcome 4
         <p><b>TF:</b> [Acciones]</p>
         <br>
         <p><b>Ayrton Inga Hernandez</b></p>
-        <p><b>TB1:</b> [Acciones]</p>
+        <p><b>TB1:</b> Aplique tecnicas de Leaun UX para un mejor desarrollo del proyecto, tambien investigue sobre la probematica y el analisis del problema a resolver.</p>
         <p><b>TP1:</b> [Acciones]</p>
         <p><b>TB2:</b> [Acciones]</p>
         <p><b>TF:</b> [Acciones]</p>
@@ -410,11 +410,11 @@ Trabajamos para brindar una plataforma integral que otorgue a los ganaderos herr
   </tr>
   <tr>
     <th>
-      <img src="" width="800px">
+      <img src="img\Ayrton-foto.png" width="800px">
     </th>
     <td valign="top">
       <p><b>Ayrton Inga Hernandez</b></p>
-      <p></p>
+      <p>Soy estudiante de la UPC en la carrera de ingenieria de software y me considero una persona comprometida cuando se trata de mi vida educacional, cuento con conocimientos de desarrollo frontend y backend, base de datos con distintos lenguajes de programacion.</p>
     </td>
   </tr>
   <tr>
