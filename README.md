@@ -517,6 +517,25 @@ VacApp se orienta a mejorar la eficiencia y sostenibilidad en empresas ganaderas
 10. ¿Qué mejoras espera obtener al integrar una solución como VacApp en su operación ganadera?  
 
 ### 2.2.2. Registro de entrevistas
+
+#### Segmento #2: Empresas Ganaderas
+
+<img src="resources/entrevista-cami.png" widht="400px"/>
+
+Entrevistada: Camila Sanchez <br>
+Sexo: Femenino<br>
+Edad: 23<br>
+
+Resumen de la Entrevista:
+
+Camila Sánchez, de 23 años, cuenta con cinco años de experiencia como trabajadora en el sector ganadero. Actualmente participa en la gestión de una empresa con más de 2000 cabezas de ganado, número que puede variar según nacimientos o ventas estacionales. La gestión actual se basa mayormente en registros manuales y hojas de Excel, lo cual genera errores y retrasos.
+
+Camila considera fundamental contar con una plataforma digital que centralice la información, mejore la coordinación del personal y permita una mejor toma de decisiones. Entre los retos más importantes que enfrentan están la gestión de recursos, el bienestar animal y la rentabilidad del negocio.
+
+En cuanto a funcionalidades deseadas, menciona la planificación de tareas, seguimiento del desempeño del personal, generación de reportes, comunicación interna y gestión de incidentes. También valora informes sobre producción, análisis de costos, salud animal y herramientas para identificar áreas de mejora.
+
+Para la interacción con proveedores, ve útil una plataforma que facilite la comunicación, el seguimiento de pedidos, la gestión de inventarios y la negociación. Finalmente, destaca la importancia de que la plataforma se adapte a sus procesos y sea personalizable en aspectos como roles, alertas, datos del ganado e informes, con el fin de mejorar la eficiencia y reducir errores, siempre priorizando el bienestar animal y la rentabilidad.
+
 ### 2.2.3. Análisis de entrevistas
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
