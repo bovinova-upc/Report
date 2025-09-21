@@ -610,7 +610,47 @@ En esta sección, detallamos el proceso de implementación de nuestra landing pa
 
 ![image](https://i.imgur.com/P4EipKO.png)
 
+##### Landing Page
 
+Para el despliegue de la landing page se realizaron los siguientes pasos:
+
+#### 1. Preparación del proyecto
+Se organizó el proyecto con todos los archivos necesarios del sitio web:
+- Archivos HTML, CSS, JavaScript e imágenes
+- Estructura de carpetas clara (`/css`, `/js`, `/images`, etc.)
+
+#### 2. Creación de cuenta o acceso a Netlify
+Se accedió a [https://www.netlify.com](https://www.netlify.com) para iniciar sesión o crear una cuenta, vinculándola con un proveedor de repositorios como GitHub, GitLab o Bitbucket.
+
+#### 3. Nuevo sitio desde Git
+Se eligió la opción **"Add new site" > "Import an existing project"** para conectar el repositorio del proyecto de la landing page.
+
+#### 4. Autorización y selección del repositorio
+Se autorizó a Netlify a acceder al repositorio y se seleccionó el repositorio correspondiente al proyecto.
+
+#### 5. Configuración del despliegue
+Durante la configuración:
+- Se indicó la rama que contiene el código (por ejemplo, `main`)
+- Se dejó vacío el campo de build si el proyecto no requiere compilación
+- Se indicó el directorio de publicación (por ejemplo, `/` si los archivos están en la raíz)
+
+#### 6. Despliegue automático
+Se lanzó el primer despliegue, y Netlify generó automáticamente una URL pública para acceder al sitio.
+
+#### 7. Personalización de dominio (opcional)
+Se puede añadir un dominio personalizado desde la sección de configuración de dominio. Netlify gestiona automáticamente el certificado SSL (HTTPS).
+
+#### 8. Actualizaciones automáticas
+Cada vez que se realice un push a la rama seleccionada, Netlify desplegará automáticamente los nuevos cambios.
+
+#### 9. Monitoreo del sitio
+Desde el panel de control de Netlify es posible:
+- Consultar el historial de despliegues
+- Ver errores si los hay
+- Configurar variables de entorno
+- Ver estadísticas básicas del sitio
+
+[![2025-05-16-a-las-08-47-38-c437a89e.jpg](https://i.postimg.cc/YSf8KH7X/2025-05-16-a-las-08-47-38-c437a89e.jpg)](https://postimg.cc/sBx57bvS)
 
 Este proceso garantiza el despliegue satisfactorio de nuestra landing page en la plataforma de Netlifly, siguiendo las especificaciones y requisitos de nuestro proyecto.
 **Enlace de la Landing Page: https://vacapp-landing.netlify.app/**
@@ -1103,45 +1143,27 @@ Se realizaron actividades de creación de artefactos antes y después de la impl
 ![I18n](https://i.imgur.com/MPdtDqj.png)
 
 ### 5.2.3. Implemented Frontend-Web Application Evidence
-Para el despliegue de la landing page se realizaron los siguientes pasos:
+Kotlin:
 
-#### 1. Preparación del proyecto
-Se organizó el proyecto con todos los archivos necesarios del sitio web:
-- Archivos HTML, CSS, JavaScript e imágenes
-- Estructura de carpetas clara (`/css`, `/js`, `/images`, etc.)
+![Captura-de-pantalla-2025-05-15-220233.png](https://i.imgur.com/egHNIDE.jpeg)
 
-#### 2. Creación de cuenta o acceso a Netlify
-Se accedió a [https://www.netlify.com](https://www.netlify.com) para iniciar sesión o crear una cuenta, vinculándola con un proveedor de repositorios como GitHub, GitLab o Bitbucket.
+![Captura-de-pantalla-2025-05-15-220233.png](https://i.imgur.com/7S3EAX6.jpeg)
 
-#### 3. Nuevo sitio desde Git
-Se eligió la opción **"Add new site" > "Import an existing project"** para conectar el repositorio del proyecto de la landing page.
+![Captura-de-pantalla-2025-05-15-220233.png](https://i.imgur.com/HZu2wmd.jpeg)
 
-#### 4. Autorización y selección del repositorio
-Se autorizó a Netlify a acceder al repositorio y se seleccionó el repositorio correspondiente al proyecto.
+![Captura-de-pantalla-2025-05-15-220233.png](https://i.imgur.com/qgpyOKr.jpeg)
 
-#### 5. Configuración del despliegue
-Durante la configuración:
-- Se indicó la rama que contiene el código (por ejemplo, `main`)
-- Se dejó vacío el campo de build si el proyecto no requiere compilación
-- Se indicó el directorio de publicación (por ejemplo, `/` si los archivos están en la raíz)
+![Captura-de-pantalla-2025-05-15-220233.png](https://i.imgur.com/whktomu.jpeg)
 
-#### 6. Despliegue automático
-Se lanzó el primer despliegue, y Netlify generó automáticamente una URL pública para acceder al sitio.
+![Captura-de-pantalla-2025-05-15-220233.png](https://i.imgur.com/WNTkMJe.jpeg)
 
-#### 7. Personalización de dominio (opcional)
-Se puede añadir un dominio personalizado desde la sección de configuración de dominio. Netlify gestiona automáticamente el certificado SSL (HTTPS).
+![Captura-de-pantalla-2025-05-15-220233.png](https://i.imgur.com/8JjhZuy.jpeg)
 
-#### 8. Actualizaciones automáticas
-Cada vez que se realice un push a la rama seleccionada, Netlify desplegará automáticamente los nuevos cambios.
+![Captura-de-pantalla-2025-05-15-220233.png](https://i.imgur.com/pb18ciA.jpeg)
 
-#### 9. Monitoreo del sitio
-Desde el panel de control de Netlify es posible:
-- Consultar el historial de despliegues
-- Ver errores si los hay
-- Configurar variables de entorno
-- Ver estadísticas básicas del sitio
+![Captura-de-pantalla-2025-05-15-220233.png](https://i.imgur.com/WYR27KA.jpeg)
 
-[![2025-05-16-a-las-08-47-38-c437a89e.jpg](https://i.postimg.cc/YSf8KH7X/2025-05-16-a-las-08-47-38-c437a89e.jpg)](https://postimg.cc/sBx57bvS)
+![Captura-de-pantalla-2025-05-15-220233.png](https://i.imgur.com/pW069zw.jpeg)
 
 ### 5.2.4. Acuerdo de Servicio - SaaS
 ### 5.2.5. Implemented Native-Mobile Application Evidence
@@ -1195,6 +1217,27 @@ Activamos Application Insights o usamos los registros del App Service para monit
 
 [![dashboard-azure.jpg](https://i.postimg.cc/9MZZg73s/dashboard-azure.jpg)](https://postimg.cc/njVXCMh1)
 
+La aplicación mobil se realizaron los siguientes pasos:
+
+#### 12. Preparación del proyecto
+Se organizó el proyecto con todos los archivos necesarios para el frontend:
+- Archivos kotlin, flutter e imágenes
+
+
+#### 13. Kotlin Generate Apks
+
+[![Captura-de-pantalla-2025-05-15-220445.png](https://i.imgur.com/SshPK1H.jpeg)
+#### 14. Generated APKs
+[![Captura-de-pantalla-2025-05-15-220445.png](https://i.imgur.com/RF2bDy1.jpeg)
+
+#### 15. Se genera el apk en app/build/outputs/apk/debug
+[![Captura-de-pantalla-2025-05-15-220445.png](https://i.imgur.com/VIbae94.jpeg)
+#### 16. Confirmacion de Despliegue
+
+
+[![Captura-de-pantalla-2025-05-15-220445.png](https://i.imgur.com/t9ARRbH.jpeg)
+
+[![Captura-de-pantalla-2025-05-15-220445.png](https://i.imgur.com/xSl56UL.jpeg)
 ### 5.2.7. RESTful API documentation
 En esta sección se evidencia la documentación de los servicios implementados para el sprint actual que conforman el backend.
 
@@ -1222,37 +1265,79 @@ En esta sección se evidencia la documentación de los servicios implementados p
 
 [![Captura-de-pantalla-2025-05-15-220445.png](https://i.postimg.cc/9fQPLM1B/Captura-de-pantalla-2025-05-15-220445.png)](https://postimg.cc/4YjhdXDK)
 
+#### Endpoint de google auth
+
+[![Captura-de-pantalla-2025-06-20-024900.png](https://i.postimg.cc/L5wMCdCk/Captura-de-pantalla-2025-06-20-024900.png)](https://postimg.cc/Lgt75WMh)
+
+#### Endpoint de microsoft auth
+
+[![Captura-de-pantalla-2025-06-20-024943.png](https://i.postimg.cc/YCqCvkc0/Captura-de-pantalla-2025-06-20-024943.png)](https://postimg.cc/GHVCfWmn)
+
+
+Para estos Sprints, el equipo uso la herramienta de Firebase para poder desplegar el aplicativo a traves de la funcion de App Distribution, con el objetivo de poder compartir el aplicativo de VacApp con nuestros usuarios, y que lo puedan probar desde sus mismos dispositivos moviles. 
+
+**Para conocer un poco mas acerca de la plataforma:**
+
+Firebase App Distribution es una herramienta de Firebase que permite a los desarrolladores distribuir versiones preliminares de sus aplicaciones móviles a un grupo seleccionado de evaluadores o testers antes de su lanzamiento oficial. Esto facilita la recopilación de retroalimentación temprana y la identificación de problemas antes de que la aplicación llegue a un público más amplio. 
+
+**Para conseguir todo esto, lo primero que se hizo fue:**
+
+- Descargar nuestro proyecto y añadir el archivo de google-services 
+
+- Agregamos el SDK de Firebase como una dependencia en el build.gradle.kts 
+
+- En el home de Firebase podremos encontrar la aplicacion de VacApp
+
+- Ingresamos en la opcion de App distribution
+
+- Subimos el apk de la aplicacion de VacApp en el apartado de App Distribution
+
+- Se podran visualizar la version en la que se encuentra subida el apk, al igual que estadisticas relacionadas a el numero de invitados, invitaciones aceptadas, descargas y comentarios.
+
+- Se puede visualizar un apartado en el cual se crean vinculos para generar invitaciones para que los usuarios puedan descargar el app
+
+- Firebase solicita un correo electronico a los usuarios que quieran descargar el app, con el cual podran obtener acceso a VacApp
+
+- Al obtener acceso, los usuarios ya contaran con la opcion de poder descargar el app en sus dispositivos moviles
+
+Para finalizar la publicacion de la aplicacion VacApp desarrollada, se inicio tambien el proceso de publicacion dentro de **PlayStore**, con el objetivo de que mas usuarios interactuen con el app, descargandolo desde la tienda oficial de sus dispositivos moviles. 
+
+**Para ello se siguieron los siguientes pasos:**
+
+- Se creo una cuenta y se accedio a la consola de Google
+  
+- Se eligio un tipo de cuenta
+  
+- Se verificaron los requerimientos necesarios 
+  
+- Se configuro el perfil del publico del desarrollador 
+  
+- Se aceptaron los terminos de Google 
+  
+- Se verifico que la cuenta haya sido correctamente creada 
+  
+- Se configuraron los detalles de la aplicacion VacApp 
+  
+- Pagina principal de Google Console con VacApp 
+  
 ### 5.2.8. Team Collaboration Insights
-En esta seccion se realizaran entrevistas de validacion a usuarios de nuestros segmentos objetivos, con el fin de determinar si el diseño y las funciones implementadas han cumplido con sus expectativas y si considerarian usar la aplicacion de manera indispensable a futuro dentro del negocio. 
+En esta sección se proporcionan los insights para el sprint 1.
 
-Para cada entrevista se mostrará el Landing page y la aplicación móvil a los usuarios. 
+##### Documentation
 
-**Preguntas a realizar**
+En esta sección, el equipo destacó la importancia de mantener una documentación clara y actualizada que facilite la colaboración y el entendimiento común. Se identificó que una buena documentación agiliza la resolución de dudas y mejora la calidad del desarrollo.
 
-Acerca del Landing:
+##### Landing Page
 
-- ¿Qué opinas del diseño del landing page? 
+El equipo observó que la landing page funciona como la primera ventana de contacto con el usuario, por lo que es vital que sea atractiva y fácil de navegar. Se resaltó la necesidad de optimizar los textos y elementos visuales para maximizar la conversión y el enganche inicial.
 
-- ¿Te queda claro la propuesta de solucion que se describe?
+##### Backend
 
-- ¿La información en la página fue suficiente para entender el propósito de la aplicación?
+En equipo analizamos que la arquitectura del backend debía ser robusta y escalable para soportar las futuras demandas. Identificamos retos en la gestión de datos y seguridad, lo que motivó la implementación de buenas prácticas para garantizar la integridad y eficiencia.
 
-- Luego de analizar la landing page ¿Te sientes motivado a usar el aplicativo descrito?
+##### Mobile Frontend
 
-
-Acerca del app:
-
-- ¿Cómo describirias la experiencia usando la aplicacion? ¿Facil, intuitiva, o hubo alguna caracteristica que se te hizo dificil de entender?
-
-- ¿Crees que las funcionalidades ofrecidas en la aplicacion ayudara a mejorar la administracion de tu negocio de ganaderia?
-
-- ¿Estas conforme con la informacion mostrada en cada seccion, como animales, campañas, inventarios, etc?
-
-- ¿Dirías que la navegacion por la aplicacion es facil de comprender, o encuentras algo que te confunda?
-
-- ¿Hay alguna opcion adicional que agregarias o estas conforme con todo lo desarrollado?
-
-- ¿Recomendarías la aplicación a otras personas del rubro?
+Se destacó la relevancia de adaptar la experiencia a distintos dispositivos, asegurando una interfaz intuitiva y rápida; además de evitar la saturación de pantallas. 
 
 ## 5.3. Video About-the-Product
 
