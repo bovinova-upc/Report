@@ -650,7 +650,7 @@ Se realizaron actividades de creación de artefactos antes y después de la impl
 | Date | 2025-05-14 | 
 | Time |  10:00 AM |
 | Location |  UPC - Monterrico |
-| Preparate by| - | 
+| Preparate by| Durand Vera, Gianfranco | 
 |  Attendees (to planning meeting) | -  | 
 | Sprint n-1 Review Summary | En resumen se desarrollaron avances en la landing page, backend y frontend mobile | 
 | Sprint Planning Background | Durante esta etapa, se llevó a cabo una exhaustiva verificación de la funcionalidad de la landing page diseñada para el proyecto. El objetivo principal fue asegurar que la landing page cumpla con los estándares de calidad y proporcionar una experiencia óptima para los visitantes. Asimismo, se realizó la primera implementación de la aplicación mobil y el despliegue del backend |
@@ -681,7 +681,7 @@ Se realizaron actividades de creación de artefactos antes y después de la impl
     <td>T01</td>
     <td>Implementar acceso a la sección de Home</td>
     <td>2</td>
-    <td> </td>
+    <td>Gordillo Ramos, Santiago Alonso</td>
     <td>Done</td>
  </tr>
  <tr>
@@ -690,7 +690,7 @@ Se realizaron actividades de creación de artefactos antes y después de la impl
     <td>T02</td>
     <td>Implementar acceso a la sección de Características</td>
     <td>1</td>
-    <td></td>
+    <td>Durand Vera, Gianfranco</td>
     <td>Done</td>
  </tr>
  <tr>
@@ -699,7 +699,7 @@ Se realizaron actividades de creación de artefactos antes y después de la impl
     <td>T03</td>
     <td>Implementar registro de nuevos usuarios</td>
     <td>3</td>
-    <td> </td>
+    <td>Emanuel Renato Checalla Apaza</td>
     <td>Done</td>
  </tr>
  <tr>
@@ -708,7 +708,7 @@ Se realizaron actividades de creación de artefactos antes y después de la impl
     <td>T04</td>
     <td>Implementar sección de funcionalidades</td>
     <td>2</td>
-    <td> </td>
+    <td>Inga Hernandez, Ayrton Damian</td>
     <td>Done</td>
  </tr>
  <tr>
@@ -717,7 +717,7 @@ Se realizaron actividades de creación de artefactos antes y después de la impl
     <td>T05</td>
     <td>Implementar sector de planes disponibles</td>
     <td>3</td>
-    <td> </td>
+    <td>Vargas Javier, Jose Enrique</td>
     <td>Done</td>
  </tr>
  <tr>
@@ -726,7 +726,7 @@ Se realizaron actividades de creación de artefactos antes y después de la impl
     <td>T06</td>
     <td>Implementar el cambio de idioma</td>
     <td>2</td>
-    <td> </td>
+    <td>Inga Hernandez, Ayrton Damian</td>
     <td>Done</td>
  </tr>
  <tr>
@@ -735,7 +735,7 @@ Se realizaron actividades de creación de artefactos antes y después de la impl
     <td>T07</td>
     <td>Implementar POST para vacunas</td>
     <td>2</td>
-    <td> </td>
+    <td>Emanuel Renato Checalla Apaza</td>
     <td>Done</td>
  </tr>
  <tr>
@@ -744,7 +744,7 @@ Se realizaron actividades de creación de artefactos antes y después de la impl
     <td>T08</td>
     <td>Implementar GET para vacunas</td>
     <td>2</td>
-    <td> </td>
+    <td>Gordillo Ramos, Santiago Alonso</td>
     <td>Done</td>
  </tr>
  <tr>
@@ -753,7 +753,7 @@ Se realizaron actividades de creación de artefactos antes y después de la impl
     <td>T09</td>
     <td>Implementar PUT y DELETE para vacunas</td>
     <td>3</td>
-    <td> </td>
+    <td>Vargas Javier, Jose Enrique</td>
     <td>Done</td>
  </tr>
  <tr>
@@ -762,7 +762,7 @@ Se realizaron actividades de creación de artefactos antes y después de la impl
     <td>T10</td>
     <td>Implementar POST para animales</td>
     <td>2</td>
-    <td></td>
+    <td>Emanuel Renato Checalla Apaza</td>
     <td>Done</td>
  </tr>
  <tr>
@@ -771,7 +771,7 @@ Se realizaron actividades de creación de artefactos antes y después de la impl
     <td>T11</td>
     <td>Implementar GET para animales</td>
     <td>2</td>
-    <td> </td>
+    <td>Durand Vera, Gianfranco</td>
     <td>Done</td>
  </tr>
  <tr>
@@ -780,7 +780,7 @@ Se realizaron actividades de creación de artefactos antes y después de la impl
     <td>T12</td>
     <td>Implementar PUT y DELETE para animales</td>
     <td>2</td>
-    <td> </td>
+    <td>Vargas Javier, Jose Enrique</td>
     <td>Done</td>
  </tr>
  <tr>
@@ -789,7 +789,7 @@ Se realizaron actividades de creación de artefactos antes y después de la impl
     <td>T13</td>
     <td>Implementar POST para campaña</td>
     <td>2</td>
-    <td> </td>
+    <td>Emanuel Renato Checalla Apaza</td>
     <td>Done</td>
  </tr>
   <tr>
@@ -798,7 +798,7 @@ Se realizaron actividades de creación de artefactos antes y después de la impl
     <td>T14</td>
     <td>Implementar PUT y DELETE para campaña</td>
     <td>2</td>
-    <td> </td>
+    <td>Inga Hernandez, Ayrton Damian</td>
     <td>Done</td>
  </tr>
  <tr>
@@ -807,12 +807,286 @@ Se realizaron actividades de creación de artefactos antes y después de la impl
     <td>T15</td>
     <td>Implementar POST para empleados</td>
     <td>2</td>
-    <td>  </td>
+    <td>Durand Vera, Gianfranco</td>
     <td>Done</td>
  </tr>
 
 </table>
 
+### Sprint 2
+
+#### Sprint Planning 2
+
+| Sprint # | Sprint 2  | 
+|--------------------|------------|
+| Sprint Planning Background | 
+| Date | 2025-06-14 | 
+| Time |  10:00 AM |
+| Location |  UPC - Monterrico |
+| Preparate by| Gordillo Ramos, Santiago Alonso | 
+|  Attendees (to planning meeting) | Gómez Vallejos Sergio André ,Aranda Vallejos, Oscar Gabriel ,Ticona Panduro, Estrella del Pilar ,Durand Vera, Gianfranco Angel, Miranda Sinarahua, Piero Stephano  | 
+| Sprint n-1 Review Summary | En resumen se desarrollaron avances del backend y frontend mobile | 
+| Sprint Planning Background | Durante esta etapa, se llevó a cabo una exhaustiva verificación de la funcionalidad del backend y frontend mobile. El objetivo principal fue asegurar que el frontend mobile cumpla con los estándares de calidad y proporcionar una experiencia óptima para los visitantes. Asimismo, se realizó la primera implementación de la aplicación mobil junto al backend sobre iniciar sesión con google y usar el backend para inserta, actualizar, eliminar u obtener datos de ella en el frontend. |
+| Sprint Goal & User Stories | 
+| Sprint 2 Goal | Desarrolar la funcionalidad de la aplicación movil con el CRUD en el frontend junto al backend. Se considerará que el objetivo del sprint se ha cumplido si todas las historias de usuario relacionadas con la mayoria de la aplicación movil están implementadas y si todas las historias de usuario relacionadas con la implementación de APIs para la gestión de una entidad están completadas en un 100%. |  
+| Sprint Velocity | Se establece un Velocity de 22 Story Points para este Sprint. | 
+| Sum of Story Points | 22 Story Points | 
+
+#### Sprint Backlog 2
+
+<table align="center" border="1" width="90%" style="text-align:center">
+ <tr>
+    <td colspan="2"><b>User Story</b></td>
+    <td colspan="6"><b>Work-Item / Task</b></td>
+  </tr>
+  <tr>
+    <td><b>Id</b></td>
+    <td><b>Title</b></td>
+    <td><b>Id</b></td>
+    <td><b>Title</b></td>
+    <td><b>Estimation</b></td>
+    <td><b>Assigned To</b></td>
+    <td><b>Status(To-do/ In-Process/ To-Review/ Done)</b></td>
+  </tr>
+  <tr>
+    <td>TS001</td>
+    <td>Crear Vacuna vía API</td>
+    <td>T01</td>
+    <td>Implementar exponer un endpoint para registrar una vacuna vía API</td>
+    <td>2</td>
+    <td>Durand Vera, Gianfranco</td>
+    <td>Done</td>
+ </tr>
+ <tr>
+    <td>TS002</td>
+    <td>API para Búsqueda de Vacunas</td>
+    <td>T02</td>
+    <td>Implementación de un endpoint para buscar vacunas mediante criterios específicos</td>
+    <td>1</td>
+    <td>Durand Vera, Gianfranco Angel </td>
+    <td>Done</td>
+ </tr>
+ <tr>
+    <td>US002</td>
+    <td>Búsqueda de Vacunas</td>
+    <td>T03</td>
+    <td>Implementar busqueda de vacunas previamente registradas</td>
+    <td>3</td>
+    <td>Inga Hernandez, Ayrton Damian </td>
+    <td>Done</td>
+ </tr>
+ <tr>
+    <td>TS003</td>
+    <td>API para Gestión de Vacunas</td>
+    <td>T04</td>
+    <td>Implementar endpoint para editar y eliminar registros de vacunas</td>
+    <td>2</td>
+    <td>Vargas Javier, Jose Enrique</td>
+    <td>Done</td>
+ </tr>
+ <tr>
+    <td>TS004</td>
+    <td>API para Registro de Animales</td>
+    <td>T05</td>
+    <td>Implementar endpoint para registrar un bovino en un lote específico</td>
+    <td>3</td>
+    <td>Vargas Javier, Jose Enrique </td>
+    <td>Done</td>
+ </tr>
+ <tr>
+    <td>US003</td>
+    <td>Gestión de Registros de Vacunas</td>
+    <td>T06</td>
+    <td>Implementar editar o eliminar el registro de una vacuna</td>
+    <td>2</td>
+    <td>Gordillo Ramos, Santiago Alonso </td>
+    <td>Done</td>
+ </tr>
+ <tr>
+    <td>TS005</td>
+    <td>API para Búsqueda de Animales</td>
+    <td>T07</td>
+    <td>Implementar un endpoint que permita buscar animales registrados usando parámetros de búsqueda</td>
+    <td>2</td>
+    <td>Gordillo Ramos, Santiago Alonso </td>
+    <td>Done</td>
+ </tr>
+ <tr>
+    <td>TS006</td>
+    <td>API para Gestión de Animales</td>
+    <td>T08</td>
+    <td>Implementar funcionalidades para editar y eliminar animales registrados</td>
+    <td>2</td>
+    <td>Gordillo Ramos, Santiago Alonso </td>
+    <td>Done</td>
+ </tr>
+ <tr>
+    <td>US004</td>
+    <td>Registro de Bovino en Lote</td>
+    <td>T09</td>
+    <td>Implementar un registro de un bovino en un lote específico</td>
+    <td>3</td>
+    <td>Checalla Apaza, Emanuel Renato </td>
+    <td>Done</td>
+ </tr>
+ <tr>
+    <td>TS007</td>
+    <td>API para Creación de Campaña</td>
+    <td>T10</td>
+    <td>Implementar un endpoint que permita la creación de campañas</td>
+    <td>2</td>
+    <td>Inga Hernandez, Ayrton Damian </td>
+    <td>Done</td>
+ </tr>
+ 
+
+</table>
+
+### Sprint 3
+
+#### Sprint Planning 3
+
+| Sprint # | Sprint 3  | 
+|--------------------|------------|
+| Sprint Planning Background | 
+| Date | 2025-07-01 | 
+| Time |  13:00 PM |
+| Location |  UPC - Monterrico |
+| Preparate by| Vargas Javier, Jose Enrique | 
+|  Attendees (to planning meeting) | Gómez Vallejos Sergio André ,Aranda Vallejos, Oscar Gabriel ,Ticona Panduro, Estrella del Pilar ,Durand Vera, Gianfranco Angel, Miranda Sinarahua, Piero Stephano  | 
+| Sprint n-1 Review Summary | Se concluyo el desarrollo parcial del mobile application para Kotlin y Flutter. Al igual que nuevas caracteristicas implementadas en el backend. | 
+| Sprint Planning Background | Para este tercer Sprint se busca concluir el desarrollo de las versiones del aplicativo, tanto en Flutter como Android. El objetivo es proporcionar 2 aplicaciones correctamente funcionales que se encuentren a disposicion de los usuarios. |
+| Sprint Goal & User Stories |  
+| Sprint 3 Goal | Culminar los features restantes de la aplicacion desarrollada previamente en Kotlin. Y finalizar el desarrollo de la aplicacion en la version de Flutter.  |  
+| Sprint Velocity | Se establece un Velocity de 26 Story points para este Sprint. | 
+| Sum of Story Points | 26 Story Points | 
+#### 6.2.3.2. Sprint Backlog 3
+
+<table align="center" border="1" width="90%" style="text-align:center">
+ <tr>
+    <td colspan="2"><b>User Story</b></td>
+    <td colspan="6"><b>Work-Item / Task</b></td>
+  </tr>
+  <tr>
+    <td><b>Id</b></td>
+    <td><b>Title</b></td>
+    <td><b>Id</b></td>
+    <td><b>Title</b></td>
+    <td><b>Estimation</b></td>
+    <td><b>Assigned To</b></td>
+    <td><b>Status(To-do/ In-Process/ To-Review/ Done)</b></td>
+  </tr>
+  <tr>
+    <td> US01 </td>
+    <td> Agregar vacuna al registro </td>
+    <td> T01 </td>
+    <td> Implementar la opcion de registro de vacuna </td>
+    <td> 2  </td>
+    <td> Checalla Apaza, Emanuel Renato  </td>
+    <td> Done </td>
+ </tr>
+ <tr>
+    <td> US03 </td>
+    <td> Gestion de registro de vacunas </td>
+    <td> T02 </td>
+    <td> Implementacion de la administracion del registro de vacunas en el app. </td>
+    <td> 2 </td>
+    <td> Checalla Apaza, Emanuel Renato  </td>
+    <td> Done </td>
+ </tr>
+ <tr>
+    <td> US04 </td>
+    <td> Registro de bovino en Lote </td>
+    <td> T03 </td>
+    <td> Implementacion de registro de bovinos dentro de un Lote. </td>
+    <td> 2 </td>
+    <td> Inga Hernandez, Ayrton Damian </td>
+    <td> Done </td>
+ </tr>
+ <tr>
+    <td> US05 </td>
+    <td> Informacion de bovino </td>
+    <td> T04 </td>
+    <td> Implementacion de la opcion de visualizar informacion de bovino. </td>
+    <td> 2 </td>
+    <td> Durand Vera, Gianfranco Angel </td>
+    <td> Done </td>
+ </tr>
+ <tr>
+    <td> US06  </td>
+    <td> Actualiza informacion de bovinos </td>
+    <td> T05 </td>
+    <td> Implementacion de la opcion de actualizar datos de bovino </td>
+    <td> 2 </td>
+    <td> Durand Vera, Gianfranco Angel </td>
+    <td> Done </td>
+ </tr>
+ <tr>
+    <td> US08 </td>
+    <td> Asocia Empleado a campaña </td>
+    <td> T06 </td>
+    <td> Implementacion de la opcion de asociar empleado a una campaña. </td>
+    <td> 2 </td>
+    <td> Inga Hernandez, Ayrton Damian </td>
+    <td> Done </td>
+ </tr>
+ <tr>
+    <td> TS09 </td>
+    <td> API para Gestion de Campañas </td>
+    <td> T07 </td>
+    <td> Implementacion de API para gestion de campañas </td>
+    <td> 2 </td>
+    <td> Vargas Javier, Jose Enrique </td>
+    <td> Done </td>
+ </tr>
+ <tr>
+    <td> US10 </td>
+    <td> Registro de Personal </td>
+    <td> T08 </td>
+    <td> Implementacion de opcion para registrar personal </td>
+    <td> 2 </td>
+    <td> Gordillo Ramos, Santiago Alonso </td>
+    <td> Done </td>
+ </tr>
+ <tr>
+    <td> TS06  </td>
+    <td> API gestion de animales </td>
+    <td> T09 </td>
+    <td> Implementacion de API para gestion de animales </td>
+    <td> 2 </td>
+    <td> Vargas Javier, Jose Enrique </td>
+    <td> Done </td>
+ </tr>
+ <tr>
+    <td> US12  </td>
+    <td> Gestion de Personal </td>
+    <td> T10 </td>
+    <td> Implementacion de opcion para administrar el personal </td>
+    <td> 2 </td>
+    <td> Vargas Javier, Jose Enrique </td>
+    <td> Done </td>
+ </tr>
+  <tr>
+    <td> TS11  </td>
+    <td> API busqueda empleados </td>
+    <td> T11 </td>
+    <td> Implementacion del API para busqueda de personal </td>
+    <td> 2 </td>
+    <td> Vargas Javier, Jose Enrique </td>
+    <td> Done </td>
+ </tr>
+  <tr>
+    <td> US15  </td>
+    <td> Explorar Landing Page </td>
+    <td> T12 </td>
+    <td> Implementacion secciones restantes para explorar Landing Page </td>
+    <td> 2 </td>
+    <td> Inga Hernandez, Ayrton Damian </td>
+    <td> Done </td>
+ </tr>
+ 
+
+</table>
 ### 5.2.2. Implemented Landing Page Evidence
 ### Screenshots
 
@@ -826,7 +1100,6 @@ Se realizaron actividades de creación de artefactos antes y después de la impl
 ![Planes Disponibles](https://i.imgur.com/KEw3jG2.png)
 
 ### Seccion de cambio de idioma
-
 ![I18n](https://i.imgur.com/MPdtDqj.png)
 
 ### 5.2.3. Implemented Frontend-Web Application Evidence
