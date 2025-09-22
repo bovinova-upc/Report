@@ -404,7 +404,7 @@ Trabajamos para brindar una plataforma integral que otorgue a los ganaderos herr
 <table>
   <tr>
     <th>
-      <img src="" width="800px">
+      <img src="img/Enrique.jpg" width="800px">
     </th>
     <td valign="top">
       <p><b>Jose Enrique Vargas Javier</b></p>
