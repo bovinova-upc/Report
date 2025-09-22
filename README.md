@@ -704,6 +704,51 @@ VacApp se orienta a mejorar la eficiencia y sostenibilidad en empresas ganaderas
 
 ### 2.2.2. Registro de entrevistas
 
+#### Segmento #1: Productores Ganaderos Independientes
+
+<img src="resources\Entrevista-Sandro-Img.png" widht="400px"/>
+
+Entrevistado: Sandro Arevalo<br>
+Sexo: Masculino<br>
+Edad: 18<br>
+
+Resumen de la Entrevista:
+
+Sandro Arevalo, con 18 años cuenta con 2 años de experiencia ayudando en el negocio de crianza de animales perteneciente a sus abuelos. Participó mayormente en el cuidado y limpieza de los animales pero tiene conocimientos del area administrativa del negocio independiente.
+
+Considera que es complicado principalmente gestionar a cada animal de forma separada y que es preferible agruparlos segun su llegada para facilitar el trabajo administrativo y que no tome tanto tiempo ya que lo llevan de forma escrita.
+
+Nos comenta que seria interesante tener una aplicacion, pero que sea solo de movil ya que solo cuentan con celulares y que preferiria que en dicha aplicacion se tenga siempre los contactos de veterinarios disponibles al momento en caso de emergencia y que por defecto indique la cantidad de comida necesaria para cierta especie segun el numero y que sea sencillo de editarlo segun conveniencia
+
+<img src="resources/EntrevistaSant.png" widht="400px"/>
+
+Entrevistada: Marcia Mascco <br>
+Sexo: Femenino<br>
+Edad: 26<br>
+
+Resumen de la Entrevista:
+
+Marcia tiene 26 años y es ganadera independiente. Se caracteriza por alimentar a cada animal de manera personalizada, según sus metas de crecimiento y producción. Además, sigue asesorías veterinarias y se preocupa por el cuidado integral de su ganado, manteniendo un calendario de vacunación, chequeos periódicos y asegurando siempre agua limpia.
+
+Su enfoque es principalmente preventivo: prefiere evitar la aparición de enfermedades antes que tener que tratarlas. Por ello, es constante con las vacunas y revisiones de su ganado. Para llevar un control, utiliza cuadernos donde anota fechas y tratamientos, además de archivos en computadora donde registra el costo de la alimentación y otros datos relevantes.
+
+Marcia considera que una herramienta tecnológica podría ayudarla, ya que le facilitaría el registro de información y los recordatorios. Entre las funciones que más valora estarían un calendario con alertas automáticas y el historial clínico de cada animal, lo que le permitiría mejorar su organización y optimizar el manejo de su ganado.
+
+<img src="resources/Entrevista2.png" widht="400px"/>
+
+Entrevistado: Alonso<br>
+Sexo: Masculino<br>
+
+Resumen de la Entrevista:
+
+Los productores ganaderos deciden la dieta de sus animales combinando experiencia y asesoría veterinaria, considerando costos, clima y etapa de crecimiento.
+Priorizan la prevención en salud con vacunas, desparasitación y buen manejo, pero sus registros suelen hacerse en cuadernos o Excel, lo que limita la organización.
+Los principales desafíos son el control de costos, la falta de personal capacitado, la gestión de datos y los efectos del clima. Una aplicación puede ayudarles 
+centralizando información, recordando tareas, facilitando registros y generando reportes claros. 
+Valoran especialmente funciones de control sanitario,alimentación, alertas y reportes económicos, siempre con un uso simple y práctico.
+En conclusión, esperan que VacApp les brinde organización, ahorro de tiempo, mejor control sanitario y mayor productividad,
+actuando como un asistente digital para la gestión diaria de la ganadería.
+
 #### Segmento #2: Empresas Ganaderas
 
 <img src="resources/entrevista-cami.png" widht="400px"/>
@@ -722,7 +767,111 @@ En cuanto a funcionalidades deseadas, menciona la planificación de tareas, segu
 
 Para la interacción con proveedores, ve útil una plataforma que facilite la comunicación, el seguimiento de pedidos, la gestión de inventarios y la negociación. Finalmente, destaca la importancia de que la plataforma se adapte a sus procesos y sea personalizable en aspectos como roles, alertas, datos del ganado e informes, con el fin de mejorar la eficiencia y reducir errores, siempre priorizando el bienestar animal y la rentabilidad.
 
+<img src="resources/Entrevista31.png" widht="400px"/>
+
+Entrevistada: André Vizcarra<br>
+Sexo: Masculino<br>
+Edad: 23<br>
+
+Resumen de la Entrevista:
+
+Las respuestas proporcionadas por el empresario ganadero reflejan una operación de escala media con aproximadamente 50 cabezas de ganado, donde la estabilidad del hato es relativa y sujeta a fluctuaciones por prácticas comerciales como la compra de terneros o ventas puntuales. Sus necesidades giran en torno a la eficiencia operativa y la reducción de errores humanos, actualmente asociados al uso de métodos manuales como planillas físicas y dependencia de la memoria. Las funcionalidades imprescindibles que menciona—registro detallado por animal, alertas sanitarias y gestión de inventario—ponen en evidencia que la digitalización debe apuntar a centralizar datos críticos como peso, historial de vacunación y costos de alimentación, lo cual es coherente con sus desafíos actuales en control sanitario y trazabilidad. Además, la expectativa de interactuar con proveedores y socios a través de la plataforma, junto con la fuerte exigencia de adaptabilidad y personalización de campos, flujos y reportes, sugiere que VacApp debe ser una herramienta flexible que se integre sin disruptir sus procesos actuales, pero que a la vez permita una gestión más basada en datos para mejorar la toma de decisiones y el retorno de inversión. En esencia, el análisis revela que el valor percibido de la plataforma reside en su capacidad para mitigar pérdidas por olvidos, ahorrar tiempo en planificación y mejorar la trazabilidad para agregar valor comercial a su operación.
+
+
 ### 2.2.3. Análisis de entrevistas
+
+Se realizaron entrevistas a dos segmentos clave del sector ganadero: **Productores Ganaderos Independientes** y **Empresas Ganaderas**.  
+El objetivo fue identificar necesidades, desafíos, herramientas utilizadas y expectativas sobre una posible solución digital como **VacApp**.  
+
+---
+
+## Segmento 1: Productores Ganaderos Independientes  
+
+**Entrevistados**  
+- Alonso (masculino)  
+- Marcia Mascco (femenino, 26 años)  
+- Sandro Arévalo (masculino, 18 años)  
+
+### Principales Hallazgos  
+
+**Manejo de la Ganadería**  
+- Alonso y Marcia deciden la dieta de los animales combinando experiencia personal y asesoría veterinaria.  
+- Marcia alimenta a cada animal de forma personalizada según metas de crecimiento/producción.  
+- Sandro propone agrupar animales según llegada para simplificar la gestión.  
+- Coinciden en la importancia de la prevención sanitaria (vacunas, desparasitación, limpieza, agua limpia).  
+
+**Registro de Información**  
+- Uso de cuadernos y Excel como métodos principales.  
+- Problemas: desorganización, pérdida de datos y demora en acceder a la información.  
+- Sandro enfatiza la necesidad de una solución móvil, ya que solo cuentan con celulares.  
+
+**Desafíos Identificados**  
+- Control de costos de alimentación.  
+- Falta de personal capacitado y asesoría veterinaria constante.  
+- Gestión de datos dispersa y poco organizada.  
+- Factores externos (clima) afectan la productividad.  
+
+**Requerimientos para VacApp**  
+- Recordatorios y alertas de vacunación, alimentación y chequeos.  
+- Registro digital de salud, peso, nacimientos y costos.  
+- Historial clínico individual o por lote.  
+- Versión móvil prioritaria, simple y práctica.  
+- Contactos de veterinarios disponibles en la app.  
+- Recomendaciones automáticas de alimento según especie y cantidad de animales.  
+
+**Beneficios Esperados**  
+- Mejor organización y control sanitario.  
+- Ahorro de tiempo en tareas administrativas.  
+- Reducción de pérdidas por enfermedades y mayor productividad.  
+- Una herramienta práctica de consulta diaria que funcione como “asistente digital”.  
+
+---
+
+## Segmento 2: Empresas Ganaderas  
+
+**Entrevistados**  
+- Camila Sánchez (femenino, 23 años, 5 años de experiencia)  
+- André Vizcarra (empresario ganadero, 23 años, 3 años de experiencia)  
+
+### Principales Hallazgos  
+
+**Gestión de Gran Escala y Media**  
+- Camila gestiona más de 2000 cabezas de ganado, con variaciones estacionales.  
+- André Vizcarra maneja una operación de escala media (~50 cabezas), con fluctuaciones por compra de terneros y ventas puntuales.  
+- Ambos señalan que aún dependen de registros manuales y Excel, lo que genera errores y retrasos.  
+
+**Información Clave**  
+- Camila requiere reportes sobre producción, costos, salud animal y desempeño reproductivo.  
+- André prioriza el **registro detallado por animal**, peso, historial de vacunación y costos de alimentación.  
+- Ambos coinciden en que la digitalización debe apuntar a centralizar datos críticos y mejorar la trazabilidad.  
+
+**Gestión del Personal y Proveedores**  
+- Camila enfatiza la planificación de tareas, comunicación interna y gestión de proveedores.  
+- André destaca la importancia de que la plataforma permita interactuar con proveedores y socios, reforzando la trazabilidad comercial.  
+
+**Personalización y Adaptabilidad**  
+- Ambos valoran la capacidad de adaptar la plataforma a sus procesos actuales.  
+- André subraya la necesidad de personalización de campos, flujos y reportes, sin generar disrupción en sus prácticas de trabajo.  
+
+**Beneficios Esperados**  
+- Reducción de errores humanos asociados a registros manuales.  
+- Ahorro de tiempo en planificación y gestión operativa.  
+- Mitigación de pérdidas por olvidos y mejor control sanitario.  
+- Mayor trazabilidad para generar valor comercial y mejorar el retorno de inversión.  
+- En ambos casos, la digitalización se percibe como un paso estratégico hacia decisiones más basadas en datos.
+- 
+---
+
+## Conclusiones Generales  
+
+| Categoría                  | Productores Independientes                        | Empresas Ganaderas                          |
+|-----------------------------|--------------------------------------------------|---------------------------------------------|
+| **Registro de datos**       | Cuadernos y Excel, riesgo de pérdida/desorden    | Cuadernos y Excel, errores por gran volumen |
+| **Desafíos principales**    | Organización, tiempo, falta de personal, clima   | Coordinación de personal, errores, análisis de datos |
+| **Interacción con tecnología** | Prefieren móvil, simple, práctico               | Necesidad crítica de digitalización estructurada |
+| **Funciones clave esperadas** | Alertas, historial clínico, alimentación, contactos veterinarios | Reportes, planificación, comunicación interna, gestión de proveedores |
+| **Relevancia de personalización** | Media (prefieren simple y directo)            | Alta (adaptación a procesos existentes)     |
+
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
 Para construir nuestros User Persona, nos basamos en la información obtenida y analizada a partir de las entrevistas realizadas. Se identificó que ambos segmentos debían estar representados por perfiles masculinos. A partir de las respuestas recopiladas, se elaboró un User Persona que refleja los objetivos, motivaciones y frustraciones más comunes entre los participantes. Finalmente, se realizó un análisis que permitió definir los valores y habilidades que resume las características más destacadas de cada uno de los segmentos definidos.
