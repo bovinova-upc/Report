@@ -1388,106 +1388,106 @@ La navegación de VacApp está diseñada para ser intuitiva y fácil de aprender
 *Inicio de sesión y registro de usuarios*
 
 <div style="display: flex; justify-content: center;">
-  <img src="img/DBAW_1.png" width="400px"/>
+  <img src="img/DBAW_1.PNG" width="400px"/>
 </div>
 
 *User Home y vistas previas para el usuario en Organizaciones y Gestión del Ganado*
 
 <div style="display: flex; justify-content: center;">
-  <img src="img/DBAW_2.png" width="400px"/>
+  <img src="img/DBAW_2.PNG" width="400px"/>
 </div>
 
 *Menú de opciones y vista previa a los menus de registro y registro de Campaña*
 
 <div style="display: flex; justify-content: center;">
-  <img src="img/DBAW_3.png" width="400px"/>
+  <img src="img/DBAW_3.PNG" width="400px"/>
 </div>
 
 *Vista previa de Registro de Bovino y Registro Alimentario por cada Bovino*
 
 <div style="display: flex; justify-content: center;">
-  <img src="img/DBAW_4.png" width="400px"/>
+  <img src="img/DBAW_4.PNG" width="400px"/>
 </div>
 
 ### 4.6.2. Web Applications Wireflow Diagrams
 *Inicio de sesión y registro de usuarios*
 
 <div style="display: flex; justify-content: center;">
-  <img src="img/WAWD_1.png" width="400px"/>
+  <img src="img/WAWD_1.PNG" width="400px"/>
 </div>
 
 *User Home y vistas previas para el usuario en Organizaciones y Gestión del Ganado*
 
 <div style="display: flex; justify-content: center;">
-  <img src="img/WAWD_2.png" width="400px"/>
+  <img src="img/WAWD_2.PNG" width="400px"/>
 </div>
 
 *Menú de opciones y vista previa a los menus de registro y registro de Campaña*
 
 <div style="display: flex; justify-content: center;">
-  <img src="img/WAWD_3.png" width="400px"/>
+  <img src="img/WAWD_3.PNG" width="400px"/>
 </div>
 
 *Vista previa de Registro de Bovino y Registro Alimentario por cada Bovino*
 
 <div style="display: flex; justify-content: center;">
-  <img src="img/WAWD_4.png" width="400px"/>
+  <img src="img/WAWD_4.PNG" width="400px"/>
 </div>
 
 ### 4.6.3. Web Applications Mock-ups
 *Inicio de sesión y registro de usuarios*
 
 <div style="display: flex; justify-content: center;">
-  <img src="img/DBAM_1.png" width="400px"/>
+  <img src="img/DBAM_1.PNG" width="400px"/>
 </div>
 
 *User Home y vistas previas para el usuario en Organizaciones y Gestión del Ganado*
 
 <div style="display: flex; justify-content: center;">
-  <img src="img/DBAM_2.png" width="400px"/>
+  <img src="img/DBAM_2.PNG" width="400px"/>
 </div>
 
 *Menú de opciones y vista previa a los menus de registro y registro de Campaña*
 
 <div style="display: flex; justify-content: center;">
-  <img src="img/DBAM_3.png" width="400px"/>
+  <img src="img/DBAM_3.PNG" width="400px"/>
 </div>
 
 *Vista previa de Registro de Bovino y Registro Alimentario por cada Bovino*
 
 <div style="display: flex; justify-content: center;">
-  <img src="img/DBAM_4.png" width="400px"/>
+  <img src="img/DBAM_4.PNG" width="400px"/>
 </div>
 
 ### 4.6.4. Web Applications User Flow Diagrams
 *Inicio de sesión y registro de usuarios*
 
 <div style="display: flex; justify-content: center;">
-  <img src="img/DBWAUFD_1.png" width="400px"/>
+  <img src="img/DBWAUFD_1.PNG" width="400px"/>
 </div>
 
 *User Home y vistas previas para el usuario en Organizaciones y Gestión del Ganado*
 
 <div style="display: flex; justify-content: center;">
-  <img src="img/DBWAUFD_2.png" width="400px"/>
+  <img src="img/DBWAUFD_2.PNG" width="400px"/>
 </div>
 
 *Menú de opciones y vista previa a los menus de registro y registro de Campaña*
 
 <div style="display: flex; justify-content: center;">
-  <img src="img/DBWAUFD_3.png" width="400px"/>
+  <img src="img/DBWAUFD_3.PNG" width="400px"/>
 </div>
 
 *Vista previa de Registro de Bovino y Registro Alimentario por cada Bovino*
 
 <div style="display: flex; justify-content: center;">
-  <img src="img/DBWAUFD_4.png" width="400px"/>
+  <img src="img/DBWAUFD_4.PNG" width="400px"/>
 </div>
 
 ## 4.7. Web Applications Prototyping
 
 <div style="display: flex; justify-content: center;">
-  <img src="img/DBWAUFD_3.png" width="400px"/>
+  <img src="img/DBWAUFD_3.PNG" width="400px"/>
 </div>
 
 ## 4.8. Domain-Driven Software Architecture
@@ -1603,7 +1603,7 @@ La navegación de VacApp está diseñada para ser intuitiva y fácil de aprender
 ### 4.10.1. Relational/Non-Relational Database Diagram
 
 <div style="display: flex; justify-content: center;">
-  <img src="img/bd_Aplicaciones_Web.PNG" width="400px"/>
+  <img src="img/bd_Aplicaciones_Web.png" width="400px"/>
 </div>
 
 # Capítulo V: Product Implementation
