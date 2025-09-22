@@ -2549,8 +2549,26 @@ Se destacó la relevancia de adaptar la experiencia a distintos dispositivos, as
 # Conclusiones
 ## Conclusiones y recomendaciones
 
+- Integración de módulos orientados al dominio VacApp demuestra la efectividad de aplicar Domain-Driven Design (DDD) para el desarrollo de software complejo. La implementación de módulos como Campaign Management, Ranch Management y Staff Administration en bounded contexts bien definidos ha permitido mantener una arquitectura limpia, escalable y centrada en las necesidades reales del usuario ganadero.
+
+- Enfoque centrado en el usuario y metodologías ágiles Durante el desarrollo se priorizó la interacción constante con los usuarios finales mediante entrevistas, mapeos de escenarios, user stories e impacto. Este enfoque centrado en el usuario, apoyado por metodologías ágiles como Scrum y herramientas como Lean UX, facilitó la identificación de necesidades reales y la entrega continua de valor funcional.
+
+- El trabajo colaborativo en VacApp no solo logró un producto funcional, sino también el fortalecimiento de competencias técnicas clave en el equipo. Se consolidaron habilidades en diseño de arquitecturas por capas, modelado de bases de datos, diseño de interfaces, uso de patrones estratégicos y tácticos de DDD, y gestión de proyectos con visión profesional.
+
 ## Video About-the-Team
 
 # Bibliografía
+- Cohn, M. (2004). User Stories Applied: For Agile Software Development. Addison-Wesley.
+- Evans, E. (2004). Domain-Driven Design: Tackling Complexity in the Heart of Software. Addison-Wesley.
+- Evans, E. (2015). Domain-Driven Design Reference: Definitions and Pattern Summaries. Domain Language, Inc. https://www.domainlanguage.com/ddd/reference/
+- Fowler, M. (2003). Patterns of Enterprise Application Architecture. Addison-Wesley.
+- Gothelf, J. (2013). Lean UX: Applying Lean Principles to Improve User Experience. O’Reilly Media.
+- ISO/IEC/IEEE 12207:2017 – Systems and software engineering – Software life cycle processes.
+- Poppendieck, M., & Poppendieck, T. (2003). Lean Software Development: An Agile Toolkit. Addison-Wesley.
+- Vernon, V. (2013). Implementing Domain-Driven Design. Addison-Wesley.
 
 # Anexos
+
+[Entrevistas:](https://shorturl.at/nNTEl) https://shorturl.at/nNTEl
+
+[Landing Page:](https://vacapp-landing.netlify.app/) https://vacapp-landing.netlify.app/ 
