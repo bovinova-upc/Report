@@ -522,7 +522,7 @@ VacApp se orienta a mejorar la eficiencia y sostenibilidad en empresas ganaderas
 
 <img src="resources\Entrevista-Sandro-Img.png" widht="400px"/>
 
-Entrevistada: Sandro Arevalo<br>
+Entrevistado: Sandro Arevalo<br>
 Sexo: Masculino<br>
 Edad: 18<br>
 
@@ -547,6 +547,21 @@ Marcia tiene 26 años y es ganadera independiente. Se caracteriza por alimentar 
 Su enfoque es principalmente preventivo: prefiere evitar la aparición de enfermedades antes que tener que tratarlas. Por ello, es constante con las vacunas y revisiones de su ganado. Para llevar un control, utiliza cuadernos donde anota fechas y tratamientos, además de archivos en computadora donde registra el costo de la alimentación y otros datos relevantes.
 
 Marcia considera que una herramienta tecnológica podría ayudarla, ya que le facilitaría el registro de información y los recordatorios. Entre las funciones que más valora estarían un calendario con alertas automáticas y el historial clínico de cada animal, lo que le permitiría mejorar su organización y optimizar el manejo de su ganado.
+
+<img src="resources/Entrevista2.png" widht="400px"/>
+
+Entrevistado: Alonso<br>
+Sexo: Masculino<br>
+
+Resumen de la Entrevista:
+
+Los productores ganaderos deciden la dieta de sus animales combinando experiencia y asesoría veterinaria, considerando costos, clima y etapa de crecimiento.
+Priorizan la prevención en salud con vacunas, desparasitación y buen manejo, pero sus registros suelen hacerse en cuadernos o Excel, lo que limita la organización.
+Los principales desafíos son el control de costos, la falta de personal capacitado, la gestión de datos y los efectos del clima. Una aplicación puede ayudarles 
+centralizando información, recordando tareas, facilitando registros y generando reportes claros. 
+Valoran especialmente funciones de control sanitario,alimentación, alertas y reportes económicos, siempre con un uso simple y práctico.
+En conclusión, esperan que VacApp les brinde organización, ahorro de tiempo, mejor control sanitario y mayor productividad,
+actuando como un asistente digital para la gestión diaria de la ganadería.
 
 #### Segmento #2: Empresas Ganaderas
 
