@@ -64,10 +64,22 @@
   </thead>
   <tbody>
     <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>TB1</td>
+      <td>20/09/2025</td>
+      <td>
+      Checalla Apaza, Emanuel Renato<br>
+      Durand Vera, Gianfranco Angel<br>
+      Gordillo Ramos, Santiago Alonso<br>
+      Inga Hernandez, Ayrton Damian<br>
+      Vargas Javier, Jose Enrique<br>
+      </td>
+      <td>
+      Capítulo I: Introducción<br>
+      Capítulo II: Requirements Elicitation & Analysis<br>
+      Capítulo III: Requirements Specification<br>
+      Capítulo IV: Product Design<br>
+      Capítulo V: Product Implementation<br>
+      </td>
     </tr>
   </tbody>
 </table>
@@ -283,13 +295,13 @@ ABET – EAC - Student Outcome 4
       <td><b>Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software</b></td>
       <td>
         <p><b>Emanuel Checalla Apaza</b></p>
-        <p><b>TB1:</b> [Acciones]</p>
+        <p><b>TB1:</b> Durante la especificación de requisitos, me aseguré de que cada User Story y cada impacto identificado considerara la privacidad, seguridad y accesibilidad de los usuarios. Esto refleja mi responsabilidad ética y profesional al garantizar que las soluciones propuestas sean confiables, inclusivas y respeten los derechos de todos los stakeholders involucrados.</p>
         <p><b>TP1:</b> [Acciones]</p>
         <p><b>TB2:</b> [Acciones]</p>
         <p><b>TF:</b> [Acciones]</p>
         <br>
         <p><b>Gianfranco Durand Vera</b></p>
-        <p><b>TB1:</b> [Acciones]</p>
+        <p><b>TB1:</b> En el desarrollo del Capítulo 4, me aseguré de aplicar principios de responsabilidad ética y profesional al diseñar la experiencia de usuario y la arquitectura de la plataforma. </p>
         <p><b>TP1:</b> [Acciones]</p>
         <p><b>TB2:</b> [Acciones]</p>
         <p><b>TF:</b> [Acciones]</p>
@@ -313,7 +325,7 @@ ABET – EAC - Student Outcome 4
         <p><b>TF:</b> [Acciones]</p>
       </td>
       <td>
-        <p><b>TB1:</b> [Conclusiones]</p>
+        <p><b>TB1:</b> En la TB1, el equipo actuó con responsabilidad ética y profesional en todo el trabajo, desde la recolección de requisitos hasta el diseño y la implementación inicial, documentando cada decisión y asegurando que la solución sea clara, justa y confiable para los usuarios.</p>
         <p><b>TP1:</b> [Conclusiones]</p>
         <p><b>TB2:</b> [Conclusiones]</p>
         <p><b>TF:</b> [Conclusiones]</p>
@@ -323,13 +335,13 @@ ABET – EAC - Student Outcome 4
       <td><b>Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales</b></td>
       <td>
         <p><b>Emanuel Checalla Apaza</b></p>
-        <p><b>TB1:</b> [Acciones]</p>
+        <p><b>TB1:</b> Al desarrollar el Product Backlog y el Impact Mapping, evalué cómo cada funcionalidad afectaría a los usuarios, la empresa y el entorno. Consideré impactos económicos, posibles implicaciones sociales y el uso responsable de recursos tecnológicos, tomando decisiones fundamentadas para maximizar beneficios y minimizar riesgos a nivel global y local.</p>
         <p><b>TP1:</b> [Acciones]</p>
         <p><b>TB2:</b> [Acciones]</p>
         <p><b>TF:</b> [Acciones]</p>
         <br>
         <p><b>Gianfranco Durand Vera</b></p>
-        <p><b>TB1:</b> [Acciones]</p>
+        <p><b>TB1:</b> Adapté la guía de estilos de la plataforma según las necesidades de todos los segmentos objetivo, asegurando que los colores, tipografías y layouts cumplan con estándares de accesibilidad para reducir barreras de uso</p>
         <p><b>TP1:</b> [Acciones]</p>
         <p><b>TB2:</b> [Acciones]</p>
         <p><b>TF:</b> [Acciones]</p>
@@ -353,7 +365,7 @@ ABET – EAC - Student Outcome 4
         <p><b>TF:</b> [Acciones]</p>
       </td>
       <td>
-        <p><b>TB1:</b> [Conclusiones]</p>
+        <p><b>TB1:</b> Durante la TB1, el equipo tomó decisiones de diseño y desarrollo considerando la accesibilidad, la inclusión y la eficiencia de recursos, asegurando que la plataforma tenga un impacto positivo y responsable en los usuarios y en su contexto social, económico y ambiental.</p>
         <p><b>TP1:</b> [Conclusiones]</p>
         <p><b>TB2:</b> [Conclusiones]</p>
         <p><b>TF:</b> [Conclusiones]</p>
