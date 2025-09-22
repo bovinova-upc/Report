@@ -534,6 +534,20 @@ Considera que es complicado principalmente gestionar a cada animal de forma sepa
 
 Nos comenta que seria interesante tener una aplicacion, pero que sea solo de movil ya que solo cuentan con celulares y que preferiria que en dicha aplicacion se tenga siempre los contactos de veterinarios disponibles al momento en caso de emergencia y que por defecto indique la cantidad de comida necesaria para cierta especie segun el numero y que sea sencillo de editarlo segun conveniencia
 
+<img src="resources/EntrevistaSant.png" widht="400px"/>
+
+Entrevistada: Marcia Mascco <br>
+Sexo: Femenino<br>
+Edad: 26<br>
+
+Resumen de la Entrevista:
+
+Marcia tiene 26 años y es ganadera independiente. Se caracteriza por alimentar a cada animal de manera personalizada, según sus metas de crecimiento y producción. Además, sigue asesorías veterinarias y se preocupa por el cuidado integral de su ganado, manteniendo un calendario de vacunación, chequeos periódicos y asegurando siempre agua limpia.
+
+Su enfoque es principalmente preventivo: prefiere evitar la aparición de enfermedades antes que tener que tratarlas. Por ello, es constante con las vacunas y revisiones de su ganado. Para llevar un control, utiliza cuadernos donde anota fechas y tratamientos, además de archivos en computadora donde registra el costo de la alimentación y otros datos relevantes.
+
+Marcia considera que una herramienta tecnológica podría ayudarla, ya que le facilitaría el registro de información y los recordatorios. Entre las funciones que más valora estarían un calendario con alertas automáticas y el historial clínico de cada animal, lo que le permitiría mejorar su organización y optimizar el manejo de su ganado.
+
 #### Segmento #2: Empresas Ganaderas
 
 <img src="resources/entrevista-cami.png" widht="400px"/>
