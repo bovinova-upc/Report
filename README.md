@@ -64,10 +64,22 @@
   </thead>
   <tbody>
     <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>TB1</td>
+      <td>20/09/2025</td>
+      <td>
+      Checalla Apaza, Emanuel Renato<br>
+      Durand Vera, Gianfranco Angel<br>
+      Gordillo Ramos, Santiago Alonso<br>
+      Inga Hernandez, Ayrton Damian<br>
+      Vargas Javier, Jose Enrique<br>
+      </td>
+      <td>
+      Capítulo I: Introducción<br>
+      Capítulo II: Requirements Elicitation & Analysis<br>
+      Capítulo III: Requirements Specification<br>
+      Capítulo IV: Product Design<br>
+      Capítulo V: Product Implementation<br>
+      </td>
     </tr>
   </tbody>
 </table>
@@ -283,7 +295,7 @@ ABET – EAC - Student Outcome 4
       <td><b>Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software</b></td>
       <td>
         <p><b>Emanuel Checalla Apaza</b></p>
-        <p><b>TB1:</b> [Acciones]</p>
+        <p><b>TB1:</b> Durante la especificación de requisitos, me aseguré de que cada User Story y cada impacto identificado considerara la privacidad, seguridad y accesibilidad de los usuarios. Esto refleja mi responsabilidad ética y profesional al garantizar que las soluciones propuestas sean confiables, inclusivas y respeten los derechos de todos los stakeholders involucrados.</p>
         <p><b>TP1:</b> [Acciones]</p>
         <p><b>TB2:</b> [Acciones]</p>
         <p><b>TF:</b> [Acciones]</p>
@@ -323,7 +335,7 @@ ABET – EAC - Student Outcome 4
       <td><b>Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales</b></td>
       <td>
         <p><b>Emanuel Checalla Apaza</b></p>
-        <p><b>TB1:</b> [Acciones]</p>
+        <p><b>TB1:</b> Al desarrollar el Product Backlog y el Impact Mapping, evalué cómo cada funcionalidad afectaría a los usuarios, la empresa y el entorno. Consideré impactos económicos, posibles implicaciones sociales y el uso responsable de recursos tecnológicos, tomando decisiones fundamentadas para maximizar beneficios y minimizar riesgos a nivel global y local.</p>
         <p><b>TP1:</b> [Acciones]</p>
         <p><b>TB2:</b> [Acciones]</p>
         <p><b>TF:</b> [Acciones]</p>
