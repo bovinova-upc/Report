@@ -518,6 +518,22 @@ VacApp se orienta a mejorar la eficiencia y sostenibilidad en empresas ganaderas
 
 ### 2.2.2. Registro de entrevistas
 
+#### Segmento #1: Productores Ganaderos Independientes
+
+<img src="resources\Entrevista-Sandro-Img.png" widht="400px"/>
+
+Entrevistada: Sandro Arevalo<br>
+Sexo: Masculino<br>
+Edad: 18<br>
+
+Resumen de la Entrevista:
+
+Sandro Arevalo, con 18 años cuenta con 2 años de experiencia ayudando en el negocio de crianza de animales perteneciente a sus abuelos. Participó mayormente en el cuidado y limpieza de los animales pero tiene conocimientos del area administrativa del negocio independiente.
+
+Considera que es complicado principalmente gestionar a cada animal de forma separada y que es preferible agruparlos segun su llegada para facilitar el trabajo administrativo y que no tome tanto tiempo ya que lo llevan de forma escrita.
+
+Nos comenta que seria interesante tener una aplicacion, pero que sea solo de movil ya que solo cuentan con celulares y que preferiria que en dicha aplicacion se tenga siempre los contactos de veterinarios disponibles al momento en caso de emergencia y que por defecto indique la cantidad de comida necesaria para cierta especie segun el numero y que sea sencillo de editarlo segun conveniencia
+
 #### Segmento #2: Empresas Ganaderas
 
 <img src="resources/entrevista-cami.png" widht="400px"/>
