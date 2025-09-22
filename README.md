@@ -440,7 +440,7 @@ Trabajamos para brindar una plataforma integral que otorgue a los ganaderos herr
   </tr>
   <tr>
     <th>
-      <img src="" width="800px">
+      <img src="img/emanuel.png" width="800px">
     </th>
     <td valign="top">
       <p><b></b></p>
