@@ -307,7 +307,7 @@ ABET – EAC - Student Outcome 4
         <p><b>TF:</b> [Acciones]</p>
         <br>
         <p><b>Santiago Gordillo Ramos</b></p>
-        <p><b>TB1:</b> [Acciones]</p>
+        <p><b>TB1:</b> Durante el desarrollo del Capítulo 2, me aseguré de aplicar los principios de ética y responsbilidad al diseñar el informe y las entrevistas de la aplicación.</p>
         <p><b>TP1:</b> [Acciones]</p>
         <p><b>TB2:</b> [Acciones]</p>
         <p><b>TF:</b> [Acciones]</p>
@@ -347,7 +347,7 @@ ABET – EAC - Student Outcome 4
         <p><b>TF:</b> [Acciones]</p>
         <br>
         <p><b>Santiago Gordillo Ramos</b></p>
-        <p><b>TB1:</b> [Acciones]</p>
+        <p><b>TB1:</b> Apliqué responsabilidad al momento de evaluar cada entrevista, segmento por segmento, además consideré a los usuarios al momento de realizar el needfinding.</p>
         <p><b>TP1:</b> [Acciones]</p>
         <p><b>TB2:</b> [Acciones]</p>
         <p><b>TF:</b> [Acciones]</p>
