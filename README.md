@@ -581,7 +581,111 @@ En cuanto a funcionalidades deseadas, menciona la planificación de tareas, segu
 
 Para la interacción con proveedores, ve útil una plataforma que facilite la comunicación, el seguimiento de pedidos, la gestión de inventarios y la negociación. Finalmente, destaca la importancia de que la plataforma se adapte a sus procesos y sea personalizable en aspectos como roles, alertas, datos del ganado e informes, con el fin de mejorar la eficiencia y reducir errores, siempre priorizando el bienestar animal y la rentabilidad.
 
+<img src="resources/Entrevista31.png" widht="400px"/>
+
+Entrevistada: André Vizcarra<br>
+Sexo: Masculino<br>
+Edad: 23<br>
+
+Resumen de la Entrevista:
+
+Las respuestas proporcionadas por el empresario ganadero reflejan una operación de escala media con aproximadamente 50 cabezas de ganado, donde la estabilidad del hato es relativa y sujeta a fluctuaciones por prácticas comerciales como la compra de terneros o ventas puntuales. Sus necesidades giran en torno a la eficiencia operativa y la reducción de errores humanos, actualmente asociados al uso de métodos manuales como planillas físicas y dependencia de la memoria. Las funcionalidades imprescindibles que menciona—registro detallado por animal, alertas sanitarias y gestión de inventario—ponen en evidencia que la digitalización debe apuntar a centralizar datos críticos como peso, historial de vacunación y costos de alimentación, lo cual es coherente con sus desafíos actuales en control sanitario y trazabilidad. Además, la expectativa de interactuar con proveedores y socios a través de la plataforma, junto con la fuerte exigencia de adaptabilidad y personalización de campos, flujos y reportes, sugiere que VacApp debe ser una herramienta flexible que se integre sin disruptir sus procesos actuales, pero que a la vez permita una gestión más basada en datos para mejorar la toma de decisiones y el retorno de inversión. En esencia, el análisis revela que el valor percibido de la plataforma reside en su capacidad para mitigar pérdidas por olvidos, ahorrar tiempo en planificación y mejorar la trazabilidad para agregar valor comercial a su operación.
+
+
 ### 2.2.3. Análisis de entrevistas
+
+Se realizaron entrevistas a dos segmentos clave del sector ganadero: **Productores Ganaderos Independientes** y **Empresas Ganaderas**.  
+El objetivo fue identificar necesidades, desafíos, herramientas utilizadas y expectativas sobre una posible solución digital como **VacApp**.  
+
+---
+
+## Segmento 1: Productores Ganaderos Independientes  
+
+**Entrevistados**  
+- Alonso (masculino)  
+- Marcia Mascco (femenino, 26 años)  
+- Sandro Arévalo (masculino, 18 años)  
+
+### Principales Hallazgos  
+
+**Manejo de la Ganadería**  
+- Alonso y Marcia deciden la dieta de los animales combinando experiencia personal y asesoría veterinaria.  
+- Marcia alimenta a cada animal de forma personalizada según metas de crecimiento/producción.  
+- Sandro propone agrupar animales según llegada para simplificar la gestión.  
+- Coinciden en la importancia de la prevención sanitaria (vacunas, desparasitación, limpieza, agua limpia).  
+
+**Registro de Información**  
+- Uso de cuadernos y Excel como métodos principales.  
+- Problemas: desorganización, pérdida de datos y demora en acceder a la información.  
+- Sandro enfatiza la necesidad de una solución móvil, ya que solo cuentan con celulares.  
+
+**Desafíos Identificados**  
+- Control de costos de alimentación.  
+- Falta de personal capacitado y asesoría veterinaria constante.  
+- Gestión de datos dispersa y poco organizada.  
+- Factores externos (clima) afectan la productividad.  
+
+**Requerimientos para VacApp**  
+- Recordatorios y alertas de vacunación, alimentación y chequeos.  
+- Registro digital de salud, peso, nacimientos y costos.  
+- Historial clínico individual o por lote.  
+- Versión móvil prioritaria, simple y práctica.  
+- Contactos de veterinarios disponibles en la app.  
+- Recomendaciones automáticas de alimento según especie y cantidad de animales.  
+
+**Beneficios Esperados**  
+- Mejor organización y control sanitario.  
+- Ahorro de tiempo en tareas administrativas.  
+- Reducción de pérdidas por enfermedades y mayor productividad.  
+- Una herramienta práctica de consulta diaria que funcione como “asistente digital”.  
+
+---
+
+## Segmento 2: Empresas Ganaderas  
+
+**Entrevistados**  
+- Camila Sánchez (femenino, 23 años, 5 años de experiencia)  
+- André Vizcarra (empresario ganadero, 23 años, 3 años de experiencia)  
+
+### Principales Hallazgos  
+
+**Gestión de Gran Escala y Media**  
+- Camila gestiona más de 2000 cabezas de ganado, con variaciones estacionales.  
+- André Vizcarra maneja una operación de escala media (~50 cabezas), con fluctuaciones por compra de terneros y ventas puntuales.  
+- Ambos señalan que aún dependen de registros manuales y Excel, lo que genera errores y retrasos.  
+
+**Información Clave**  
+- Camila requiere reportes sobre producción, costos, salud animal y desempeño reproductivo.  
+- André prioriza el **registro detallado por animal**, peso, historial de vacunación y costos de alimentación.  
+- Ambos coinciden en que la digitalización debe apuntar a centralizar datos críticos y mejorar la trazabilidad.  
+
+**Gestión del Personal y Proveedores**  
+- Camila enfatiza la planificación de tareas, comunicación interna y gestión de proveedores.  
+- André destaca la importancia de que la plataforma permita interactuar con proveedores y socios, reforzando la trazabilidad comercial.  
+
+**Personalización y Adaptabilidad**  
+- Ambos valoran la capacidad de adaptar la plataforma a sus procesos actuales.  
+- André subraya la necesidad de personalización de campos, flujos y reportes, sin generar disrupción en sus prácticas de trabajo.  
+
+**Beneficios Esperados**  
+- Reducción de errores humanos asociados a registros manuales.  
+- Ahorro de tiempo en planificación y gestión operativa.  
+- Mitigación de pérdidas por olvidos y mejor control sanitario.  
+- Mayor trazabilidad para generar valor comercial y mejorar el retorno de inversión.  
+- En ambos casos, la digitalización se percibe como un paso estratégico hacia decisiones más basadas en datos.
+- 
+---
+
+## Conclusiones Generales  
+
+| Categoría                  | Productores Independientes                        | Empresas Ganaderas                          |
+|-----------------------------|--------------------------------------------------|---------------------------------------------|
+| **Registro de datos**       | Cuadernos y Excel, riesgo de pérdida/desorden    | Cuadernos y Excel, errores por gran volumen |
+| **Desafíos principales**    | Organización, tiempo, falta de personal, clima   | Coordinación de personal, errores, análisis de datos |
+| **Interacción con tecnología** | Prefieren móvil, simple, práctico               | Necesidad crítica de digitalización estructurada |
+| **Funciones clave esperadas** | Alertas, historial clínico, alimentación, contactos veterinarios | Reportes, planificación, comunicación interna, gestión de proveedores |
+| **Relevancia de personalización** | Media (prefieren simple y directo)            | Alta (adaptación a procesos existentes)     |
+
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
 Para construir nuestros User Persona, nos basamos en la información obtenida y analizada a partir de las entrevistas realizadas. Se identificó que ambos segmentos debían estar representados por perfiles masculinos. A partir de las respuestas recopiladas, se elaboró un User Persona que refleja los objetivos, motivaciones y frustraciones más comunes entre los participantes. Finalmente, se realizó un análisis que permitió definir los valores y habilidades que resume las características más destacadas de cada uno de los segmentos definidos.
