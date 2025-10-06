@@ -2468,7 +2468,102 @@ Se destacó la relevancia de adaptar la experiencia a distintos dispositivos, as
 # Capítulo VI: Product Verification & Validation
 ## 6.1. Testing Suites & Validation
 ### 6.1.1. Core Entities Unit Tests
+La ejecución de Core Entities Unit Tests es crítica para el desarrollo de software. Al validar las entidades centrales, estas pruebas aseguran la calidad y estabilidad del código, lo que simplifica enormemente su mantenimiento y previene fallos.
+
+**User Test**
+
+<div style="display: flex; flex-direction: column; justify-content: center; align-items:center; gap:50px;">
+  <img src="img/usertest.png" width="100%"/>
+  <img src="img/usertestresult.png" width="400px"/> 
+</div>
+
+**Bovine Test**
+
+<div style="display: flex; flex-direction: column;justify-content: center; align-items:center; gap:50px;">
+  <img src="img/bovinetest.png" width="100%"/>
+  <img src="img/bovinetestresult.png" width="400px"/>
+</div>
+
+**Campaign Test**
+
+<div style="display: flex; flex-direction: column;justify-content: center; align-items:center; gap:50px;">
+  <img src="img/campaigntest.png" width="100%"/>
+  <img src="img/campaigntestresult.png" width="400px"/>
+</div>
+
+**Category Test**
+
+<div style="display: flex; flex-direction: column;justify-content: center; align-items:center; gap:50px;">
+  <img src="img/categorytest.png" width="100%"/>
+  <img src="img/categorytestresult.png" width="400px"/>
+</div>
+
+**Product Test**
+
+<div style="display: flex; flex-direction: column;justify-content: center; align-items:center; gap:50px;">
+  <img src="img/productest.png" width="100%"/>
+  <img src="img/productestresult.png" width="400px"/>
+</div>
+
+**Stable Test**
+
+<div style="display: flex; flex-direction: column;justify-content: center; align-items:center; gap:50px;">
+  <img src="img/stabletest.png" width="100%"/>
+  <img src="img/stabletestresult.png" width="400px"/>
+</div>
+
+**Staff Test**
+
+<div style="display: flex; flex-direction: column;justify-content: center; align-items:center; gap:50px;">
+  <img src="img/stafftest.png" width="100%"/>
+  <img src="img/stafftestresult.png" width="400px"/>
+</div>
+
 ### 6.1.2. Core Integration Tests
+Los Core Integration Tests son imprescindibles porque verifican cómo los controladores interactúan correctamente con el resto del sistema, incluyendo servicios y bases de datos. Al simular escenarios de fallo, estas pruebas garantizan que el sistema maneje errores inesperados con los códigos de estado adecuados, lo que resulta en una mejor experiencia de usuario y la construcción de software más robusto y de alta calidad.
+
+**User Controller Test**
+
+<div style="display: flex; flex-direction: column;justify-content: center; align-items:center; gap:50px;">
+  <img src="img/userctest.png" width="100%"/>
+  <img src="img/userctestresult.png" width="400px"/>
+</div>
+
+**Bovine Controller Test**
+
+<div style="display: flex; flex-direction: column;justify-content: center; align-items:center; gap:50px;">
+  <img src="img/bovinectest.png" width="100%"/>
+  <img src="img/bovinectestresult.png" width="400px"/>
+</div>
+
+**Campaign Controller Test**
+
+<div style="display: flex; flex-direction: column;justify-content: center; align-items:center; gap:50px;">
+  <img src="img/campaignctest.png" width="100%"/>
+  <img src="img/campaignctestresult.png" width="400px"/>
+</div>
+
+**Inventory Controller Test**
+
+<div style="display: flex; flex-direction: column;justify-content: center; align-items:center; gap:50px;">
+  <img src="img/inventoryctest.png" width="100%"/>
+  <img src="img/inventoryctestresult.png" width="400px"/>
+</div>
+
+**Stable Controller Test**
+
+<div style="display: flex; flex-direction: column;justify-content: center; align-items:center; gap:50px;">
+  <img src="img/stablectest.png" width="100%"/>
+  <img src="img/stablectestresult.png" width="400px"/>
+</div>
+
+**Staff Controller Test**
+
+<div style="display: flex; flex-direction: column;justify-content: center; align-items:center; gap:50px;">
+  <img src="img/staffctest.png" width="100%"/>
+  <img src="img/staffctestresult.png" width="400px"/>
+</div>
+
 ### 6.1.3. Core Behavior-Driven Development
 ### 6.1.4. Core System Tests
 ## 6.2. Static Testing & Verification
