@@ -2618,8 +2618,72 @@ Epg5.feature
 ### 7.2.1. Tools and Practices
 ### 7.2.2. Stages Deployment Pipeline Components
 ## 7.3. Continuous Deployment
+
 ### 7.3.1. Tools and Practices
+
+El proceso de **Continuous Deployment (CD)** implementado en *VacApp* busca garantizar que los cambios realizados en las distintas capas del sistema (landing page, backend y aplicación móvil) se desplieguen de forma eficiente, controlada y confiable. Aunque no todo el proceso es completamente automatizado, el equipo ha integrado herramientas que permiten mantener consistencia, trazabilidad y estabilidad en los entornos productivos.
+
+#### Tools:
+
+- **GitHub:**  
+  Repositorio principal donde se gestionan los proyectos de *VacApp*: landing page, backend y aplicación móvil. Facilita la colaboración del equipo, control de versiones y conexión con plataformas de despliegue como Netlify y Azure.
+
+- **Azure App Service (Backend):**  
+  Plataforma en la nube utilizada para hospedar la API RESTful desarrollada en Java Spring Boot. El despliegue se realiza manualmente desde el entorno de desarrollo, asegurando que la versión publicada esté verificada y probada. Azure proporciona monitoreo, gestión de recursos y escalabilidad.
+
+- **Netlify (Landing Page):**  
+  Servicio de hosting que permite el despliegue continuo de la landing page. Cada vez que se realiza un push a la rama principal del repositorio, Netlify detecta los cambios, reconstruye y publica automáticamente la nueva versión del sitio, manteniendo la página siempre actualizada.
+
+- **Firebase App Distribution (Aplicación móvil):**  
+  Herramienta de distribución utilizada para compartir versiones preliminares de la aplicación con testers seleccionados. Permite subir APKs y recopilar retroalimentación antes de su lanzamiento en la Play Store.
+
+#### Practices:
+
+- **Despliegue híbrido:**  
+  El backend se despliega de forma manual en Azure, mientras que la landing page utiliza integración continua mediante Netlify.  
+  La aplicación móvil se distribuye a través de Firebase App Distribution, garantizando acceso controlado a los usuarios de prueba.
+
+- **Verificación previa a despliegue:**  
+  Antes de cada despliegue, se ejecutan pruebas locales, revisiones de código y validación de configuraciones del entorno para asegurar la estabilidad del sistema.
+
+- **Control por commits:**  
+  Cada despliegue queda registrado en GitHub mediante commits, lo que permite identificar fácilmente la versión exacta desplegada en producción y su fecha de publicación.
+
+- **Rollback manual supervisado:**  
+  Ante errores en producción, el equipo puede revertir manualmente la versión desplegada en Azure o restaurar una versión previa desde el panel de Netlify. Esto garantiza control y análisis previo antes de ejecutar retrocesos.
+
 ### 7.3.2. Production Deployment Pipeline Components
+
+El **pipeline de despliegue a producción** de *VacApp* combina procesos automáticos y manuales según el tipo de componente. Este enfoque híbrido permite mantener agilidad y control sobre cada entorno, garantizando estabilidad y trazabilidad.
+
+#### Backend 
+
+1. **Inicio del proceso:**  
+   El desarrollador valida los cambios localmente, compila el proyecto con Maven y ejecuta pruebas unitarias.
+
+2. **Preparación del entorno:**  
+   Se configuran variables de entorno, claves secretas y cadenas de conexión necesarias en el panel de Azure App Service.
+
+3. **Despliegue manual:**  
+   El código se publica manualmente desde Visual Studio Code o mediante la carga directa del paquete generado en Azure.
+
+4. **Verificación de ejecución:**  
+   Una vez desplegado, se revisan los registros del servicio y se prueba la URL pública del backend para confirmar su correcto funcionamiento.
+
+5. **Monitoreo continuo:**  
+   Azure permite supervisar el estado del backend mediante métricas, logs y reinicios automáticos ante fallos críticos.
+
+#### Landing Page (Netlify)
+
+1. **Activación automática desde GitHub:**  
+   Cada vez que se realiza un push a la rama principal del repositorio, Netlify detecta los cambios y lanza automáticamente el proceso de construcción y despliegue.
+
+2. **Compilación y despliegue:**  
+   Netlify genera los archivos estáticos y los distribuye globalmente mediante su red CDN, asegurando una entrega rápida a los usuarios finales.
+
+3. **Rollback en un clic:**  
+   En caso de fallos o errores visuales, Netlify permite restaurar versiones anteriores del sitio con un solo clic desde su panel de control.
+
 ## 7.4. Continuous Monitoring
 ### 7.4.1. Tools and Practices
 ### 7.4.2. Monitoring Pipeline Components
