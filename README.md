@@ -2565,6 +2565,30 @@ Los Core Integration Tests son imprescindibles porque verifican cómo los contro
 </div>
 
 ### 6.1.3. Core Behavior-Driven Development
+Epg1.feature
+<div style="display: flex; flex-direction: column; justify-content: center; align-items:center; gap:50px;">
+  <img src="img/EP1.JPG" width="100%"/>
+</div>
+
+Epg2.feature
+<div style="display: flex; flex-direction: column; justify-content: center; align-items:center; gap:50px;">
+  <img src="img/EP2.JPG" width="100%"/>
+</div>
+
+Epg3.feature
+<div style="display: flex; flex-direction: column; justify-content: center; align-items:center; gap:50px;">
+  <img src="img/EP3.JPG" width="100%"/>
+</div>
+
+Epg4.feature
+<div style="display: flex; flex-direction: column; justify-content: center; align-items:center; gap:50px;">
+  <img src="img/EP4.JPG" width="100%"/>
+</div>
+
+Epg5.feature
+<div style="display: flex; flex-direction: column; justify-content: center; align-items:center; gap:50px;">
+  <img src="img/EP5.JPG" width="100%"/>
+</div>
 ### 6.1.4. Core System Tests
 ## 6.2. Static Testing & Verification
 ### 6.2.1. Static Code Analysis
