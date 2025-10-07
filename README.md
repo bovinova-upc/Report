@@ -2496,8 +2496,63 @@ Se destacó la relevancia de adaptar la experiencia a distintos dispositivos, as
 ### 7.1.1. Tools and Practices
 ### 7.1.2. Build & Test Suite Pipeline Components
 ## 7.2. Continuous Delivery
+
 ### 7.2.1. Tools and Practices
+
+El objetivo de la **Entrega Continua (Continuous Delivery)** en VacApp es garantizar que los tres componentes principales del sistema (Landing, Frontend y Backend) estén siempre en un estado estable y desplegable, listos para publicarse de forma rápida y segura una vez validados manualmente.  
+Actualmente, el proceso se gestiona de forma semiautomatizada, combinando herramientas de integración, contenedorización y despliegue en la nube.
+
+#### Tools
+
+- **GitHub:**  
+  Repositorio central que contiene tres módulos principales:
+  - `landing/` – sitio informativo desplegado en **Netlify**.  
+  - `frontend/` – aplicación principal de usuario desplegada en **Vercel**.  
+  - `backend/` – API desarrollada en **Spring Boot**, desplegada en **Render** mediante contenedores Docker.
+
+- **Docker:**  
+  Utilizado en el backend para garantizar entornos consistentes en desarrollo, validación y producción. Esto minimiza errores de configuración entre entornos y facilita el despliegue en Render.
+
+- **Render Deploy Hook (para backend):**  
+  Webhook configurado para permitir el despliegue controlado de la API directamente desde GitHub, ya sea de forma manual o mediante automatización futura.
+
+- **Netlify & Vercel:**  
+  Ambas plataformas ofrecen despliegue automático al detectar cambios en sus respectivas ramas. Esto permite validar rápidamente nuevas versiones del sitio informativo (Landing) y del frontend principal.
+
+#### Practices
+
+- **Branching estructurado:**  
+  Cada nueva funcionalidad se desarrolla en una rama independiente.  
+  - Las ramas activas se fusionan en `develop` para validaciones internas.  
+  - Una vez verificada la estabilidad, se fusionan en `main` para pasar a producción.
+
+- **Despliegue semiautomático:**  
+  El backend se despliega manualmente mediante Render, mientras que el frontend (Vercel) y la landing (Netlify) se actualizan automáticamente al realizar push en la rama principal.
+
+- **Separación de entornos (.env):**  
+  Se utilizan archivos `.env` diferenciados para desarrollo y producción, evitando exponer credenciales sensibles y asegurando configuraciones específicas por entorno.
+
 ### 7.2.2. Stages Deployment Pipeline Components
+
+#### 1. Validación e Integración (manual y GitHub)
+Cada vez que se realiza un **commit** o **pull request** hacia las ramas `develop` o `main`, los equipos validan manualmente el código y la estructura antes de proceder al despliegue.  
+En el futuro, se planea integrar **GitHub Actions** para ejecutar pruebas automáticas y validaciones previas al merge.
+
+#### 2. Construcción y pruebas en Docker (backend)
+Antes del despliegue, el backend se construye y prueba dentro de un contenedor **Docker**, garantizando que la aplicación se ejecute correctamente en un entorno aislado e idéntico al de producción.
+
+#### 3. Despliegue
+- **Landing Page:** se actualiza automáticamente mediante **Netlify** al detectar cambios en `main`.
+- **Frontend:** desplegado automáticamente en **Vercel** tras el push a la rama principal.
+- **Backend:** desplegado de forma controlada en **Render**, usando contenedores Docker y un webhook de despliegue manual.
+
+#### 4. Configuración de entornos
+Cada módulo utiliza sus propias variables de entorno, definidas en archivos `.env`, para diferenciar configuraciones entre desarrollo y producción sin alterar el código fuente.
+
+#### 5. Monitoreo y observabilidad
+- **Render:** ofrece un panel de monitoreo donde se registran logs de la API backend, estado de despliegue y errores de inicialización.  
+- **Netlify y Vercel:** proporcionan dashboards con historial de builds, rendimiento y fallos, permitiendo la detección rápida de problemas en los despliegues del frontend y landing.
+
 ## 7.3. Continuous Deployment
 
 ### 7.3.1. Tools and Practices
