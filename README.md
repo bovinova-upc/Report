@@ -2494,6 +2494,33 @@ Se destacó la relevancia de adaptar la experiencia a distintos dispositivos, as
 # Capítulo VII: DevOps Practices
 ## 7.1. Continuous Integration
 ### 7.1.1. Tools and Practices
+<p>
+      La Integración Continua fue implementada para asegurar que cada cambio en el código pase por compilación y pruebas automáticas, detectando fallas tempranas y manteniendo la calidad.
+      A continuación se listan las herramientas y prácticas adoptadas en VacApp.
+    </p>
+<ul>
+     <li><strong>GitHub</strong> — Repositorio central y control de versiones. Se utiliza el modelo de <em>GitFlow</em> para la gestión de ramas y releases.</li>
+<li><strong>GitHub Actions</strong> — Pipelines de CI/CD que ejecutan automáticamente el proceso de <code>build</code>, <code>test</code> y publicación de artefactos o contenedores Docker en cada <code>pull request</code> o <code>push</code> a la rama principal.</li>
+<li><strong>Conventional Commits</strong> — Estandarización de mensajes de commit (<code>feat</code>, <code>fix</code>, <code>chore</code>, etc.) para mejorar la trazabilidad y automatizar la generación de changelogs.</li>
+<li><strong>Static Code Analysis</strong> — Integración de herramientas de análisis estático (por ejemplo, <em>ESLint</em> para el frontend y <em>SonarCloud</em> para el backend .NET) dentro del pipeline de CI.</li>
+<li><strong>Automated Testing Suites</strong> — Pruebas unitarias y de integración ejecutadas automáticamente en los pipelines:
+  <ul>
+    <li><em>xUnit</em> — pruebas unitarias e integración del backend (.NET).</li>
+    <li><em>Selenium</em> — pruebas funcionales automatizadas del frontend web.</li>
+  </ul>
+</li>
+<li><strong>Code Review & Pull Requests</strong> — Revisión entre pares obligatoria antes de realizar merge hacia <code>develop</code> o <code>main</code>, asegurando calidad y consistencia del código.</li>
+<li><strong>Reporting</strong> — Reportes de cobertura, resultados de pruebas y análisis de calidad integrados como artefactos del pipeline en GitHub Actions.</li>
+
+</ul>
+<h4>Buenas prácticas adoptadas:</h4>
+<ol>
+      <li>Builds automáticos en cada push/pull request.</li>
+      <li>Bloqueo de merges si las pruebas o análisis fallan.</li>
+      <li>Ejecutar pruebas en runners paralelos para optimizar tiempo.</li>
+      <li>Uso de artefactos versionados (ej. APKs, bundles) para etapas posteriores.</li>
+    </ol>    
+
 ### 7.1.2. Build & Test Suite Pipeline Components
 El pipeline implementado en GitHub Actions automatiza tanto la validación del código como la construcción y publicación del contenedor Docker hacia **GitHub Container Registry (GHCR)**, garantizando que cada cambio en la rama principal se refleje en un entorno actualizado y reproducible.
 
@@ -2513,7 +2540,7 @@ El pipeline implementado en GitHub Actions automatiza tanto la validación del c
     - Durante esta etapa se generan los binarios necesarios para la ejecución del backend.
 
 5. **Ejecución de pruebas automatizadas**  
-    - El pipeline ejecuta `dotnet test --no-build --verbosity normal` para correr todas las pruebas unitarias e integración.  
+    - El pipeline ejecuta `dotnet test --configuration Release --verbosity normal` para correr todas las pruebas unitarias e integración.  
     - Si alguna prueba falla, el flujo se detiene inmediatamente para evitar publicar código con errores.
 
 6. **Construcción de la imagen Docker**  
