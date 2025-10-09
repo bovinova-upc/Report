@@ -447,8 +447,8 @@ Trabajamos para brindar una plataforma integral que otorgue a los ganaderos herr
       <img src="img/emanuel.png" width="800px">
     </th>
     <td valign="top">
-      <p><b></b></p>
-      <p></p>
+      <p><b>Emanuel Renato Checalla Apaza</b></p>
+      <p>Mi nombre es Emanuel Checalla, mi codigo u202322695, soy estudiante de la carrera de ingenieria de software, cuento con conocimientos en diseño grafico, desarrollo frontend, me interesa la arquitectura de software. En cuanto a trabajo en equipo, realizo las tareas asignadas, puedo liderar equipos. A futuro busco especalizarme en arquitectura de Software</p>
     </td>
   </tr>
 </table>
