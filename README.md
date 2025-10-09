@@ -2495,6 +2495,93 @@ Se destacó la relevancia de adaptar la experiencia a distintos dispositivos, as
 ## 7.1. Continuous Integration
 ### 7.1.1. Tools and Practices
 ### 7.1.2. Build & Test Suite Pipeline Components
+El pipeline implementado en GitHub Actions automatiza tanto la validación del código como la construcción y publicación del contenedor Docker hacia **GitHub Container Registry (GHCR)**, garantizando que cada cambio en la rama principal se refleje en un entorno actualizado y reproducible.
+
+**Componentes del Pipeline del Backend:**
+
+1. **Checkout del código fuente**  
+    - El proceso inicia con la acción `actions/checkout@v4`, que descarga el contenido más reciente del repositorio, asegurando que el pipeline trabaje con la versión más actual del código.
+
+2. **Configuración del entorno**  
+    - Se instala el SDK de .NET 8 mediante `actions/setup-dotnet@v4`, preparando el entorno para compilar, ejecutar pruebas y generar artefactos del proyecto backend.
+
+3. **Restauración de dependencias**  
+    - Mediante `dotnet restore` se descargan todas las dependencias necesarias especificadas en los archivos `.csproj`, asegurando un entorno consistente antes de la compilación.
+
+4. **Construcción del proyecto**  
+    - Se ejecuta `dotnet build --no-restore --configuration Release` para compilar el código y verificar que no existan errores.  
+    - Durante esta etapa se generan los binarios necesarios para la ejecución del backend.
+
+5. **Ejecución de pruebas automatizadas**  
+    - El pipeline ejecuta `dotnet test --no-build --verbosity normal` para correr todas las pruebas unitarias e integración.  
+    - Si alguna prueba falla, el flujo se detiene inmediatamente para evitar publicar código con errores.
+
+6. **Construcción de la imagen Docker**  
+    - Si las pruebas son exitosas, se construye una imagen Docker del backend con:  
+      ```bash
+      docker build -t ghcr.io/${{ github.repository_owner }}/vacapp-backend:latest .
+      ```  
+    - La imagen incluye el runtime, dependencias y configuración necesaria para ejecutar el backend de forma aislada y reproducible.
+
+7. **Autenticación y publicación en GitHub Container Registry**  
+    - Se autentica en GHCR usando el token de GitHub (`GITHUB_TOKEN`) y el actor que ejecuta el workflow:  
+      ```bash
+      echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
+      ```  
+    - La imagen se publica automáticamente con la etiqueta `latest`:  
+      ```bash
+      docker push ghcr.io/${{ github.repository_owner }}/vacapp-backend:latest
+      ```
+
+8. **Resultado del pipeline**  
+    - Cada push o merge exitoso a la rama `main` garantiza que la última versión del backend validada y testeada esté disponible en GHCR, lista para ser desplegada en cualquier entorno sin intervención manual.
+
+<br>
+
+ ```yaml
+name: CI/CD - VacApp Backend
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+permissions:
+  packages: write
+  contents: read
+
+jobs:
+  build-test-publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout código fuente
+        uses: actions/checkout@v4
+
+      - name: Configurar .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Restaurar dependencias
+        run: dotnet restore
+
+      - name: Compilar proyecto
+        run: dotnet build --no-restore --configuration Release
+
+      - name: Ejecutar pruebas
+        run: dotnet test --configuration Release --verbosity normal
+
+      - name: Log in to GitHub Container Registry
+        run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
+
+      - name: Construir y subir imagen Docker
+        run: |
+          docker build -t ghcr.io/${{ github.repository_owner }}/vacapp-backend:latest .
+          docker push ghcr.io/${{ github.repository_owner }}/vacapp-backend:latest
+ ```
+
 ## 7.2. Continuous Delivery
 ### 7.2.1. Tools and Practices
 ### 7.2.2. Stages Deployment Pipeline Components
