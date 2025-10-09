@@ -2594,17 +2594,22 @@ Actualmente, el proceso se gestiona de forma semiautomatizada, combinando herram
 - **GitHub:**  
   Repositorio central que contiene tres módulos principales:
   - `landing/` – sitio informativo desplegado en **Netlify**.  
-  - `frontend/` – aplicación principal de usuario desplegada en **Vercel**.  
-  - `backend/` – API desarrollada en **Spring Boot**, desplegada en **Render** mediante contenedores Docker.
+  - `frontend/` – aplicación principal de usuario desplegada en **Netlify**.  
+  - `backend/` – API desarrollada en **.NET 8**, contenedorizada con **Docker** y desplegada en **Azure App Service**.
 
 - **Docker:**  
-  Utilizado en el backend para garantizar entornos consistentes en desarrollo, validación y producción. Esto minimiza errores de configuración entre entornos y facilita el despliegue en Render.
+   Utilizado en el backend para garantizar entornos consistentes en desarrollo, validación y producción.  
+  La imagen Docker generada incluye todas las dependencias necesarias y se publica en **GitHub Container Registry (GHCR)**.
 
-- **Render Deploy Hook (para backend):**  
-  Webhook configurado para permitir el despliegue controlado de la API directamente desde GitHub, ya sea de forma manual o mediante automatización futura.
+- **GitHub Actions:**  
+  Automatiza el proceso de integración y entrega del backend.  
+  Cada cambio en la rama principal desencadena un flujo que valida el código, ejecuta pruebas, construye la imagen Docker y la publica en GHCR.
 
-- **Netlify & Vercel:**  
-  Ambas plataformas ofrecen despliegue automático al detectar cambios en sus respectivas ramas. Esto permite validar rápidamente nuevas versiones del sitio informativo (Landing) y del frontend principal.
+- **Azure App Service:**  
+  Servicio en la nube utilizado para desplegar la API backend. Azure ejecuta el contenedor Docker publicado en GHCR, permitiendo actualizaciones controladas y seguras.
+
+- **Netlify:**  
+  La plataforma detecta cambios en la rama principal del repositorio y realiza despliegues automáticos del frontend y la landing page, manteniendo siempre versiones actualizadas.
 
 #### Practices
 
@@ -2613,8 +2618,9 @@ Actualmente, el proceso se gestiona de forma semiautomatizada, combinando herram
   - Las ramas activas se fusionan en `develop` para validaciones internas.  
   - Una vez verificada la estabilidad, se fusionan en `main` para pasar a producción.
 
-- **Despliegue semiautomático:**  
-  El backend se despliega manualmente mediante Render, mientras que el frontend (Vercel) y la landing (Netlify) se actualizan automáticamente al realizar push en la rama principal.
+- **Despliegue automatizado (Backend):**  
+  El pipeline implementado en GitHub Actions automatiza la construcción, validación y publicación de la imagen Docker en GHCR.  
+  Azure App Service obtiene la última imagen desde GHCR para desplegarla.
 
 - **Separación de entornos (.env):**  
   Se utilizan archivos `.env` diferenciados para desarrollo y producción, evitando exponer credenciales sensibles y asegurando configuraciones específicas por entorno.
@@ -2622,23 +2628,27 @@ Actualmente, el proceso se gestiona de forma semiautomatizada, combinando herram
 ### 7.2.2. Stages Deployment Pipeline Components
 
 #### 1. Validación e Integración (manual y GitHub)
-Cada vez que se realiza un **commit** o **pull request** hacia las ramas `develop` o `main`, los equipos validan manualmente el código y la estructura antes de proceder al despliegue.  
-En el futuro, se planea integrar **GitHub Actions** para ejecutar pruebas automáticas y validaciones previas al merge.
+Cada vez que se realiza un **commit** o **pull request** hacia `main`, GitHub Actions valida automáticamente el código, compila el proyecto y ejecuta las pruebas unitarias.  
+Solo si todo es exitoso, el pipeline continúa hacia la construcción y publicación de la imagen Docker.
 
 #### 2. Construcción y pruebas en Docker (backend)
-Antes del despliegue, el backend se construye y prueba dentro de un contenedor **Docker**, garantizando que la aplicación se ejecute correctamente en un entorno aislado e idéntico al de producción.
+El backend se construye dentro de un contenedor **Docker**, garantizando un entorno aislado y reproducible.  
+Esto asegura que la imagen publicada en GHCR sea idéntica a la utilizada en producción.
 
 #### 3. Despliegue
 - **Landing Page:** se actualiza automáticamente mediante **Netlify** al detectar cambios en `main`.
-- **Frontend:** desplegado automáticamente en **Vercel** tras el push a la rama principal.
-- **Backend:** desplegado de forma controlada en **Render**, usando contenedores Docker y un webhook de despliegue manual.
+- **Frontend:** desplegado automáticamente en **Netlify** tras el push a la rama principal.
+- **Backend:** La imagen Docker se publica automáticamente en **GitHub Container Registry (GHCR)**. **Azure App Service** se configura para desplegar esta imagen directamente, permitiendo actualizaciones rápidas y confiables.  
 
 #### 4. Configuración de entornos
 Cada módulo utiliza sus propias variables de entorno, definidas en archivos `.env`, para diferenciar configuraciones entre desarrollo y producción sin alterar el código fuente.
 
 #### 5. Monitoreo y observabilidad
-- **Render:** ofrece un panel de monitoreo donde se registran logs de la API backend, estado de despliegue y errores de inicialización.  
-- **Netlify y Vercel:** proporcionan dashboards con historial de builds, rendimiento y fallos, permitiendo la detección rápida de problemas en los despliegues del frontend y landing.
+- **Azure App Service:**  
+  Panel con métricas de rendimiento, logs en tiempo real y reinicios automáticos ante fallos críticos.  
+- **Netlify:**  
+  Dashboards con historial de builds, rendimiento y errores, facilitando el diagnóstico rápido de incidencias.
+
 
 ## 7.3. Continuous Deployment
 
@@ -2651,10 +2661,14 @@ El proceso de **Continuous Deployment (CD)** implementado en *VacApp* busca gara
 - **GitHub:**  
   Repositorio principal donde se gestionan los proyectos de *VacApp*: landing page, backend y aplicación móvil. Facilita la colaboración del equipo, control de versiones y conexión con plataformas de despliegue como Netlify y Azure.
 
-- **Azure App Service (Backend):**  
-  Plataforma en la nube utilizada para hospedar la API RESTful desarrollada en Java Spring Boot. El despliegue se realiza manualmente desde el entorno de desarrollo, asegurando que la versión publicada esté verificada y probada. Azure proporciona monitoreo, gestión de recursos y escalabilidad.
+- **GitHub Actions:**  
+  Orquesta el pipeline de CI/CD del backend, automatizando la validación, construcción, pruebas y publicación de contenedores.
 
-- **Netlify (Landing Page):**  
+- **Azure App Service (Backend):**  
+  Plataforma utilizada para hospedar la API REST desarrollada en **.NET 8**.  
+  Despliega automáticamente la imagen Docker más reciente desde **GHCR**.
+
+- **Netlify (Landing Page, Frontend):**  
   Servicio de hosting que permite el despliegue continuo de la landing page. Cada vez que se realiza un push a la rama principal del repositorio, Netlify detecta los cambios, reconstruye y publica automáticamente la nueva versión del sitio, manteniendo la página siempre actualizada.
 
 - **Firebase App Distribution (Aplicación móvil):**  
@@ -2663,7 +2677,7 @@ El proceso de **Continuous Deployment (CD)** implementado en *VacApp* busca gara
 #### Practices:
 
 - **Despliegue híbrido:**  
-  El backend se despliega de forma manual en Azure, mientras que la landing page utiliza integración continua mediante Netlify.  
+  El backend se actualiza automáticamente mediante contenedores en Azure, mientras que la landing y el frontend utilizan despliegue continuo en Netlify.  
   La aplicación móvil se distribuye a través de Firebase App Distribution, garantizando acceso controlado a los usuarios de prueba.
 
 - **Verificación previa a despliegue:**  
@@ -2682,19 +2696,17 @@ El **pipeline de despliegue a producción** de *VacApp* combina procesos automá
 #### Backend 
 
 1. **Inicio del proceso:**  
-   El desarrollador valida los cambios localmente, compila el proyecto con Maven y ejecuta pruebas unitarias.
+   GitHub Actions se activa con cada push o merge a `main`.  
+   El código se valida, compila y se ejecutan las pruebas automatizadas.
 
-2. **Preparación del entorno:**  
-   Se configuran variables de entorno, claves secretas y cadenas de conexión necesarias en el panel de Azure App Service.
+2. **Construcción y publicación:**  
+   Se genera una imagen Docker con el backend y se publica en **GitHub Container Registry (GHCR)**.
 
-3. **Despliegue manual:**  
-   El código se publica manualmente desde Visual Studio Code o mediante la carga directa del paquete generado en Azure.
+3. **Despliegue en Azure:**  
+   Azure App Service actualiza el contenedor desde GHCR y reinicia el servicio automáticamente con la nueva versión.
 
-4. **Verificación de ejecución:**  
-   Una vez desplegado, se revisan los registros del servicio y se prueba la URL pública del backend para confirmar su correcto funcionamiento.
-
-5. **Monitoreo continuo:**  
-   Azure permite supervisar el estado del backend mediante métricas, logs y reinicios automáticos ante fallos críticos.
+4. **Verificación y monitoreo:**  
+   Se validan los logs, endpoints y métricas desde el portal de Azure para confirmar el correcto despliegue.
 
 #### Landing Page (Netlify)
 
