@@ -314,7 +314,7 @@ ABET – EAC - Student Outcome 4
         <br>
         <p><b>Ayrton Inga Hernandez</b></p>
         <p><b>TB1:</b> Asumi la responsabilidad de completar el capitulo 1, donde desarrollo el Solution Profile el cual nos servira como base de todo nuestro proyecto.</p>
-        <p><b>TP1:</b> [Acciones]</p>
+        <p><b>TP1:</b> Fomente la creación de pruebas unitarias claras y fáciles de mantener, sin que interrumpiera con el codigo base</p>
         <p><b>TB2:</b> [Acciones]</p>
         <p><b>TF:</b> [Acciones]</p>
         <br>
@@ -354,7 +354,7 @@ ABET – EAC - Student Outcome 4
         <br>
         <p><b>Ayrton Inga Hernandez</b></p>
         <p><b>TB1:</b> Aplique tecnicas de Leaun UX para un mejor desarrollo del proyecto, tambien investigue sobre la probematica y el analisis del problema a resolver.</p>
-        <p><b>TP1:</b> [Acciones]</p>
+        <p><b>TP1:</b> Evaluó cómo las pruebas unitarias afectan el rendimiento de la aplicación, asegurándose de que no generaran lentitud.</p>
         <p><b>TB2:</b> [Acciones]</p>
         <p><b>TF:</b> [Acciones]</p>
         <br>
