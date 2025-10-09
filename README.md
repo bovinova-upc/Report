@@ -2583,11 +2583,130 @@ jobs:
  ```
 
 ## 7.2. Continuous Delivery
+
 ### 7.2.1. Tools and Practices
+
+El objetivo de la **Entrega Continua (Continuous Delivery)** en VacApp es garantizar que los tres componentes principales del sistema (Landing, Frontend y Backend) estén siempre en un estado estable y desplegable, listos para publicarse de forma rápida y segura una vez validados manualmente.  
+Actualmente, el proceso se gestiona de forma semiautomatizada, combinando herramientas de integración, contenedorización y despliegue en la nube.
+
+#### Tools
+
+- **GitHub:**  
+  Repositorio central que contiene tres módulos principales:
+  - `landing/` – sitio informativo desplegado en **Netlify**.  
+  - `frontend/` – aplicación principal de usuario desplegada en **Vercel**.  
+  - `backend/` – API desarrollada en **Spring Boot**, desplegada en **Render** mediante contenedores Docker.
+
+- **Docker:**  
+  Utilizado en el backend para garantizar entornos consistentes en desarrollo, validación y producción. Esto minimiza errores de configuración entre entornos y facilita el despliegue en Render.
+
+- **Render Deploy Hook (para backend):**  
+  Webhook configurado para permitir el despliegue controlado de la API directamente desde GitHub, ya sea de forma manual o mediante automatización futura.
+
+- **Netlify & Vercel:**  
+  Ambas plataformas ofrecen despliegue automático al detectar cambios en sus respectivas ramas. Esto permite validar rápidamente nuevas versiones del sitio informativo (Landing) y del frontend principal.
+
+#### Practices
+
+- **Branching estructurado:**  
+  Cada nueva funcionalidad se desarrolla en una rama independiente.  
+  - Las ramas activas se fusionan en `develop` para validaciones internas.  
+  - Una vez verificada la estabilidad, se fusionan en `main` para pasar a producción.
+
+- **Despliegue semiautomático:**  
+  El backend se despliega manualmente mediante Render, mientras que el frontend (Vercel) y la landing (Netlify) se actualizan automáticamente al realizar push en la rama principal.
+
+- **Separación de entornos (.env):**  
+  Se utilizan archivos `.env` diferenciados para desarrollo y producción, evitando exponer credenciales sensibles y asegurando configuraciones específicas por entorno.
+
 ### 7.2.2. Stages Deployment Pipeline Components
+
+#### 1. Validación e Integración (manual y GitHub)
+Cada vez que se realiza un **commit** o **pull request** hacia las ramas `develop` o `main`, los equipos validan manualmente el código y la estructura antes de proceder al despliegue.  
+En el futuro, se planea integrar **GitHub Actions** para ejecutar pruebas automáticas y validaciones previas al merge.
+
+#### 2. Construcción y pruebas en Docker (backend)
+Antes del despliegue, el backend se construye y prueba dentro de un contenedor **Docker**, garantizando que la aplicación se ejecute correctamente en un entorno aislado e idéntico al de producción.
+
+#### 3. Despliegue
+- **Landing Page:** se actualiza automáticamente mediante **Netlify** al detectar cambios en `main`.
+- **Frontend:** desplegado automáticamente en **Vercel** tras el push a la rama principal.
+- **Backend:** desplegado de forma controlada en **Render**, usando contenedores Docker y un webhook de despliegue manual.
+
+#### 4. Configuración de entornos
+Cada módulo utiliza sus propias variables de entorno, definidas en archivos `.env`, para diferenciar configuraciones entre desarrollo y producción sin alterar el código fuente.
+
+#### 5. Monitoreo y observabilidad
+- **Render:** ofrece un panel de monitoreo donde se registran logs de la API backend, estado de despliegue y errores de inicialización.  
+- **Netlify y Vercel:** proporcionan dashboards con historial de builds, rendimiento y fallos, permitiendo la detección rápida de problemas en los despliegues del frontend y landing.
+
 ## 7.3. Continuous Deployment
+
 ### 7.3.1. Tools and Practices
+
+El proceso de **Continuous Deployment (CD)** implementado en *VacApp* busca garantizar que los cambios realizados en las distintas capas del sistema (landing page, backend y aplicación móvil) se desplieguen de forma eficiente, controlada y confiable. Aunque no todo el proceso es completamente automatizado, el equipo ha integrado herramientas que permiten mantener consistencia, trazabilidad y estabilidad en los entornos productivos.
+
+#### Tools:
+
+- **GitHub:**  
+  Repositorio principal donde se gestionan los proyectos de *VacApp*: landing page, backend y aplicación móvil. Facilita la colaboración del equipo, control de versiones y conexión con plataformas de despliegue como Netlify y Azure.
+
+- **Azure App Service (Backend):**  
+  Plataforma en la nube utilizada para hospedar la API RESTful desarrollada en Java Spring Boot. El despliegue se realiza manualmente desde el entorno de desarrollo, asegurando que la versión publicada esté verificada y probada. Azure proporciona monitoreo, gestión de recursos y escalabilidad.
+
+- **Netlify (Landing Page):**  
+  Servicio de hosting que permite el despliegue continuo de la landing page. Cada vez que se realiza un push a la rama principal del repositorio, Netlify detecta los cambios, reconstruye y publica automáticamente la nueva versión del sitio, manteniendo la página siempre actualizada.
+
+- **Firebase App Distribution (Aplicación móvil):**  
+  Herramienta de distribución utilizada para compartir versiones preliminares de la aplicación con testers seleccionados. Permite subir APKs y recopilar retroalimentación antes de su lanzamiento en la Play Store.
+
+#### Practices:
+
+- **Despliegue híbrido:**  
+  El backend se despliega de forma manual en Azure, mientras que la landing page utiliza integración continua mediante Netlify.  
+  La aplicación móvil se distribuye a través de Firebase App Distribution, garantizando acceso controlado a los usuarios de prueba.
+
+- **Verificación previa a despliegue:**  
+  Antes de cada despliegue, se ejecutan pruebas locales, revisiones de código y validación de configuraciones del entorno para asegurar la estabilidad del sistema.
+
+- **Control por commits:**  
+  Cada despliegue queda registrado en GitHub mediante commits, lo que permite identificar fácilmente la versión exacta desplegada en producción y su fecha de publicación.
+
+- **Rollback manual supervisado:**  
+  Ante errores en producción, el equipo puede revertir manualmente la versión desplegada en Azure o restaurar una versión previa desde el panel de Netlify. Esto garantiza control y análisis previo antes de ejecutar retrocesos.
+
 ### 7.3.2. Production Deployment Pipeline Components
+
+El **pipeline de despliegue a producción** de *VacApp* combina procesos automáticos y manuales según el tipo de componente. Este enfoque híbrido permite mantener agilidad y control sobre cada entorno, garantizando estabilidad y trazabilidad.
+
+#### Backend 
+
+1. **Inicio del proceso:**  
+   El desarrollador valida los cambios localmente, compila el proyecto con Maven y ejecuta pruebas unitarias.
+
+2. **Preparación del entorno:**  
+   Se configuran variables de entorno, claves secretas y cadenas de conexión necesarias en el panel de Azure App Service.
+
+3. **Despliegue manual:**  
+   El código se publica manualmente desde Visual Studio Code o mediante la carga directa del paquete generado en Azure.
+
+4. **Verificación de ejecución:**  
+   Una vez desplegado, se revisan los registros del servicio y se prueba la URL pública del backend para confirmar su correcto funcionamiento.
+
+5. **Monitoreo continuo:**  
+   Azure permite supervisar el estado del backend mediante métricas, logs y reinicios automáticos ante fallos críticos.
+
+#### Landing Page (Netlify)
+
+1. **Activación automática desde GitHub:**  
+   Cada vez que se realiza un push a la rama principal del repositorio, Netlify detecta los cambios y lanza automáticamente el proceso de construcción y despliegue.
+
+2. **Compilación y despliegue:**  
+   Netlify genera los archivos estáticos y los distribuye globalmente mediante su red CDN, asegurando una entrega rápida a los usuarios finales.
+
+3. **Rollback en un clic:**  
+   En caso de fallos o errores visuales, Netlify permite restaurar versiones anteriores del sitio con un solo clic desde su panel de control.
+   
 ## 7.4. Continuous Monitoring
 ### 7.4.1. Tools and Practices
 ### 7.4.2. Monitoring Pipeline Components
