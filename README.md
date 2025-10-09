@@ -2589,7 +2589,74 @@ Epg5.feature
 <div style="display: flex; flex-direction: column; justify-content: center; align-items:center; gap:50px;">
   <img src="img/EP5.JPG" width="100%"/>
 </div>
+
 ### 6.1.4. Core System Tests
+
+**Auth**
+
+<div style="display: flex; flex-direction: column; justify-content: center; align-items:center; gap:50px;">
+  <img src="img/register-front.png" width="100%"/>
+  <img src="img/login-front.png" width="100%"/>
+</div>
+
+<br>
+
+**Animal**
+
+<div style="display: flex; flex-direction: column; justify-content: center; align-items:center; gap:50px;">
+  <img src="img/add-animal-front.png" width="100%"/>
+  <img src="img/edit-animal-front.png" width="100%"/>
+  <img src="img/delete-animal-front.png" width="100%"/>
+</div>
+
+<br>
+
+**Stables**
+
+<div style="display: flex; flex-direction: column; justify-content: center; align-items:center; gap:50px;">
+  <img src="img/add-stable-front.png" width="100%"/>
+  <img src="img/edit-stable-front.png" width="100%"/>
+  <img src="img/delete-stable-front.png" width="100%"/>
+</div>
+
+<br>
+
+**Campaign**
+
+<div style="display: flex; flex-direction: column; justify-content: center; align-items:center; gap:50px;">
+  <img src="img/add-campaign-front.png" width="100%"/>
+  <img src="img/delete-campaign-front.png" width="100%"/>
+</div>
+
+<br>
+
+**Campaign**
+
+<div style="display: flex; flex-direction: column; justify-content: center; align-items:center; gap:50px;">
+  <img src="img/add-campaign-front.png" width="100%"/>
+  <img src="img/delete-campaign-front.png" width="100%"/>
+</div>
+
+<br>
+
+**Staff**
+
+<div style="display: flex; flex-direction: column; justify-content: center; align-items:center; gap:50px;">
+  <img src="img/add-staff-front.png" width="100%"/>
+  <img src="img/edit-staff-front.png" width="100%"/>
+  <img src="img/delete-staff-front.png" width="100%"/>
+</div>
+
+<br>
+
+**Inventory**
+
+<div style="display: flex; flex-direction: column; justify-content: center; align-items:center; gap:50px;">
+  <img src="img/add-category-front.png" width="100%"/>
+  <img src="img/add-product-front.png" width="100%"/>
+  <img src="img/delete-product-front.png" width="100%"/>
+</div>
+
 ## 6.2. Static Testing & Verification
 ### 6.2.1. Static Code Analysis
 #### 6.2.1.1. Coding Standard & Code Conventions
