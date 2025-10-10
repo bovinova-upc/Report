@@ -128,7 +128,6 @@ TB1:
 - [2.4. Ubiquitous Language](#24-ubiquitous-language)
 
 [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-sdasf
 - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
 - [3.2. User Stories](#32-user-stories)
 - [3.3. Product Backlog](#33-product-backlog)
@@ -2680,10 +2679,189 @@ Epg5.feature
 # Capítulo VII: DevOps Practices
 ## 7.1. Continuous Integration
 ### 7.1.1. Tools and Practices
+<p>
+      La Integración Continua fue implementada para asegurar que cada cambio en el código pase por compilación y pruebas automáticas, detectando fallas tempranas y manteniendo la calidad.
+      A continuación se listan las herramientas y prácticas adoptadas en VacApp.
+    </p>
+<ul>
+     <li><strong>GitHub</strong> — Repositorio central y control de versiones. Se utiliza el modelo de <em>GitFlow</em> para la gestión de ramas y releases.</li>
+<li><strong>GitHub Actions</strong> — Pipelines de CI/CD que ejecutan automáticamente el proceso de <code>build</code>, <code>test</code> y publicación de artefactos o contenedores Docker en cada <code>pull request</code> o <code>push</code> a la rama principal.</li>
+<li><strong>Conventional Commits</strong> — Estandarización de mensajes de commit (<code>feat</code>, <code>fix</code>, <code>chore</code>, etc.) para mejorar la trazabilidad y automatizar la generación de changelogs.</li>
+<li><strong>Static Code Analysis</strong> — Integración de herramientas de análisis estático (por ejemplo, <em>ESLint</em> para el frontend y <em>SonarCloud</em> para el backend .NET) dentro del pipeline de CI.</li>
+<li><strong>Automated Testing Suites</strong> — Pruebas unitarias y de integración ejecutadas automáticamente en los pipelines:
+  <ul>
+    <li><em>xUnit</em> — pruebas unitarias e integración del backend (.NET).</li>
+    <li><em>Selenium</em> — pruebas funcionales automatizadas del frontend web.</li>
+  </ul>
+</li>
+<li><strong>Code Review & Pull Requests</strong> — Revisión entre pares obligatoria antes de realizar merge hacia <code>develop</code> o <code>main</code>, asegurando calidad y consistencia del código.</li>
+<li><strong>Reporting</strong> — Reportes de cobertura, resultados de pruebas y análisis de calidad integrados como artefactos del pipeline en GitHub Actions.</li>
+
+</ul>
+<h4>Buenas prácticas adoptadas:</h4>
+<ol>
+      <li>Builds automáticos en cada push/pull request.</li>
+      <li>Bloqueo de merges si las pruebas o análisis fallan.</li>
+      <li>Ejecutar pruebas en runners paralelos para optimizar tiempo.</li>
+      <li>Uso de artefactos versionados (ej. APKs, bundles) para etapas posteriores.</li>
+    </ol>    
+
 ### 7.1.2. Build & Test Suite Pipeline Components
+El pipeline implementado en GitHub Actions automatiza tanto la validación del código como la construcción y publicación del contenedor Docker hacia **GitHub Container Registry (GHCR)**, garantizando que cada cambio en la rama principal se refleje en un entorno actualizado y reproducible.
+
+**Componentes del Pipeline del Backend:**
+
+1. **Checkout del código fuente**  
+    - El proceso inicia con la acción `actions/checkout@v4`, que descarga el contenido más reciente del repositorio, asegurando que el pipeline trabaje con la versión más actual del código.
+
+2. **Configuración del entorno**  
+    - Se instala el SDK de .NET 8 mediante `actions/setup-dotnet@v4`, preparando el entorno para compilar, ejecutar pruebas y generar artefactos del proyecto backend.
+
+3. **Restauración de dependencias**  
+    - Mediante `dotnet restore` se descargan todas las dependencias necesarias especificadas en los archivos `.csproj`, asegurando un entorno consistente antes de la compilación.
+
+4. **Construcción del proyecto**  
+    - Se ejecuta `dotnet build --no-restore --configuration Release` para compilar el código y verificar que no existan errores.  
+    - Durante esta etapa se generan los binarios necesarios para la ejecución del backend.
+
+5. **Ejecución de pruebas automatizadas**  
+    - El pipeline ejecuta `dotnet test --configuration Release --verbosity normal` para correr todas las pruebas unitarias e integración.  
+    - Si alguna prueba falla, el flujo se detiene inmediatamente para evitar publicar código con errores.
+
+6. **Construcción de la imagen Docker**  
+    - Si las pruebas son exitosas, se construye una imagen Docker del backend con:  
+      ```bash
+      docker build -t ghcr.io/${{ github.repository_owner }}/vacapp-backend:latest .
+      ```  
+    - La imagen incluye el runtime, dependencias y configuración necesaria para ejecutar el backend de forma aislada y reproducible.
+
+7. **Autenticación y publicación en GitHub Container Registry**  
+    - Se autentica en GHCR usando el token de GitHub (`GITHUB_TOKEN`) y el actor que ejecuta el workflow:  
+      ```bash
+      echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
+      ```  
+    - La imagen se publica automáticamente con la etiqueta `latest`:  
+      ```bash
+      docker push ghcr.io/${{ github.repository_owner }}/vacapp-backend:latest
+      ```
+
+8. **Resultado del pipeline**  
+    - Cada push o merge exitoso a la rama `main` garantiza que la última versión del backend validada y testeada esté disponible en GHCR, lista para ser desplegada en cualquier entorno sin intervención manual.
+
+<br>
+
+ ```yaml
+name: CI/CD - VacApp Backend
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+permissions:
+  packages: write
+  contents: read
+
+jobs:
+  build-test-publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout código fuente
+        uses: actions/checkout@v4
+
+      - name: Configurar .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Restaurar dependencias
+        run: dotnet restore
+
+      - name: Compilar proyecto
+        run: dotnet build --no-restore --configuration Release
+
+      - name: Ejecutar pruebas
+        run: dotnet test --configuration Release --verbosity normal
+
+      - name: Log in to GitHub Container Registry
+        run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
+
+      - name: Construir y subir imagen Docker
+        run: |
+          docker build -t ghcr.io/${{ github.repository_owner }}/vacapp-backend:latest .
+          docker push ghcr.io/${{ github.repository_owner }}/vacapp-backend:latest
+ ```
+
 ## 7.2. Continuous Delivery
+
 ### 7.2.1. Tools and Practices
+
+El objetivo de la **Entrega Continua (Continuous Delivery)** en VacApp es garantizar que los tres componentes principales del sistema (Landing, Frontend y Backend) estén siempre en un estado estable y desplegable, listos para publicarse de forma rápida y segura una vez validados manualmente.  
+Actualmente, el proceso se gestiona de forma semiautomatizada, combinando herramientas de integración, contenedorización y despliegue en la nube.
+
+#### Tools
+
+- **GitHub:**  
+  Repositorio central que contiene tres módulos principales:
+  - `landing/` – sitio informativo desplegado en **Netlify**.  
+  - `frontend/` – aplicación principal de usuario desplegada en **Netlify**.  
+  - `backend/` – API desarrollada en **.NET 8**, contenedorizada con **Docker** y desplegada en **Azure App Service**.
+
+- **Docker:**  
+   Utilizado en el backend para garantizar entornos consistentes en desarrollo, validación y producción.  
+  La imagen Docker generada incluye todas las dependencias necesarias y se publica en **GitHub Container Registry (GHCR)**.
+
+- **GitHub Actions:**  
+  Automatiza el proceso de integración y entrega del backend.  
+  Cada cambio en la rama principal desencadena un flujo que valida el código, ejecuta pruebas, construye la imagen Docker y la publica en GHCR.
+
+- **Azure App Service:**  
+  Servicio en la nube utilizado para desplegar la API backend. Azure ejecuta el contenedor Docker publicado en GHCR, permitiendo actualizaciones controladas y seguras.
+
+- **Netlify:**  
+  La plataforma detecta cambios en la rama principal del repositorio y realiza despliegues automáticos del frontend y la landing page, manteniendo siempre versiones actualizadas.
+
+#### Practices
+
+- **Branching estructurado:**  
+  Cada nueva funcionalidad se desarrolla en una rama independiente.  
+  - Las ramas activas se fusionan en `develop` para validaciones internas.  
+  - Una vez verificada la estabilidad, se fusionan en `main` para pasar a producción.
+
+- **Despliegue automatizado (Backend):**  
+  El pipeline implementado en GitHub Actions automatiza la construcción, validación y publicación de la imagen Docker en GHCR.  
+  Azure App Service obtiene la última imagen desde GHCR para desplegarla.
+
+- **Separación de entornos (.env):**  
+  Se utilizan archivos `.env` diferenciados para desarrollo y producción, evitando exponer credenciales sensibles y asegurando configuraciones específicas por entorno.
+
 ### 7.2.2. Stages Deployment Pipeline Components
+
+#### 1. Validación e Integración (manual y GitHub)
+Cada vez que se realiza un **commit** o **pull request** hacia `main`, GitHub Actions valida automáticamente el código, compila el proyecto y ejecuta las pruebas unitarias.  
+Solo si todo es exitoso, el pipeline continúa hacia la construcción y publicación de la imagen Docker.
+
+#### 2. Construcción y pruebas en Docker (backend)
+El backend se construye dentro de un contenedor **Docker**, garantizando un entorno aislado y reproducible.  
+Esto asegura que la imagen publicada en GHCR sea idéntica a la utilizada en producción.
+
+#### 3. Despliegue
+- **Landing Page:** se actualiza automáticamente mediante **Netlify** al detectar cambios en `main`.
+- **Frontend:** desplegado automáticamente en **Netlify** tras el push a la rama principal.
+- **Backend:** La imagen Docker se publica automáticamente en **GitHub Container Registry (GHCR)**. **Azure App Service** se configura para desplegar esta imagen directamente, permitiendo actualizaciones rápidas y confiables.  
+
+#### 4. Configuración de entornos
+Cada módulo utiliza sus propias variables de entorno, definidas en archivos `.env`, para diferenciar configuraciones entre desarrollo y producción sin alterar el código fuente.
+
+#### 5. Monitoreo y observabilidad
+- **Azure App Service:**  
+  Panel con métricas de rendimiento, logs en tiempo real y reinicios automáticos ante fallos críticos.  
+- **Netlify:**  
+  Dashboards con historial de builds, rendimiento y errores, facilitando el diagnóstico rápido de incidencias.
+
+
 ## 7.3. Continuous Deployment
 
 ### 7.3.1. Tools and Practices
@@ -2708,6 +2886,42 @@ El proceso de **Continuous Deployment (CD)** implementado en *VacApp* busca gara
 
 - **Despliegue híbrido:**  
   El backend se despliega de forma manual en Azure, mientras que la landing page utiliza integración continua mediante Netlify.  
+  La aplicación móvil se distribuye a través de Firebase App Distribution, garantizando acceso controlado a los usuarios de prueba.
+
+- **Verificación previa a despliegue:**  
+  Antes de cada despliegue, se ejecutan pruebas locales, revisiones de código y validación de configuraciones del entorno para asegurar la estabilidad del sistema.
+
+- **Control por commits:**  
+  Cada despliegue queda registrado en GitHub mediante commits, lo que permite identificar fácilmente la versión exacta desplegada en producción y su fecha de publicación.
+
+- **Rollback manual supervisado:**  
+  Ante errores en producción, el equipo puede revertir manualmente la versión desplegada en Azure o restaurar una versión previa desde el panel de Netlify. Esto garantiza control y análisis previo antes de ejecutar retrocesos.
+
+
+El proceso de **Continuous Deployment (CD)** implementado en *VacApp* busca garantizar que los cambios realizados en las distintas capas del sistema (landing page, backend y aplicación móvil) se desplieguen de forma eficiente, controlada y confiable. Aunque no todo el proceso es completamente automatizado, el equipo ha integrado herramientas que permiten mantener consistencia, trazabilidad y estabilidad en los entornos productivos.
+
+#### Tools:
+
+- **GitHub:**  
+  Repositorio principal donde se gestionan los proyectos de *VacApp*: landing page, backend y aplicación móvil. Facilita la colaboración del equipo, control de versiones y conexión con plataformas de despliegue como Netlify y Azure.
+
+- **GitHub Actions:**  
+  Orquesta el pipeline de CI/CD del backend, automatizando la validación, construcción, pruebas y publicación de contenedores.
+
+- **Azure App Service (Backend):**  
+  Plataforma utilizada para hospedar la API REST desarrollada en **.NET 8**.  
+  Despliega automáticamente la imagen Docker más reciente desde **GHCR**.
+
+- **Netlify (Landing Page, Frontend):**  
+  Servicio de hosting que permite el despliegue continuo de la landing page. Cada vez que se realiza un push a la rama principal del repositorio, Netlify detecta los cambios, reconstruye y publica automáticamente la nueva versión del sitio, manteniendo la página siempre actualizada.
+
+- **Firebase App Distribution (Aplicación móvil):**  
+  Herramienta de distribución utilizada para compartir versiones preliminares de la aplicación con testers seleccionados. Permite subir APKs y recopilar retroalimentación antes de su lanzamiento en la Play Store.
+
+#### Practices:
+
+- **Despliegue híbrido:**  
+  El backend se actualiza automáticamente mediante contenedores en Azure, mientras que la landing y el frontend utilizan despliegue continuo en Netlify.  
   La aplicación móvil se distribuye a través de Firebase App Distribution, garantizando acceso controlado a los usuarios de prueba.
 
 - **Verificación previa a despliegue:**  
@@ -2751,6 +2965,35 @@ El **pipeline de despliegue a producción** de *VacApp* combina procesos automá
 3. **Rollback en un clic:**  
    En caso de fallos o errores visuales, Netlify permite restaurar versiones anteriores del sitio con un solo clic desde su panel de control.
 
+
+El **pipeline de despliegue a producción** de *VacApp* combina procesos automáticos y manuales según el tipo de componente. Este enfoque híbrido permite mantener agilidad y control sobre cada entorno, garantizando estabilidad y trazabilidad.
+
+#### Backend 
+
+1. **Inicio del proceso:**  
+   GitHub Actions se activa con cada push o merge a `main`.  
+   El código se valida, compila y se ejecutan las pruebas automatizadas.
+
+2. **Construcción y publicación:**  
+   Se genera una imagen Docker con el backend y se publica en **GitHub Container Registry (GHCR)**.
+
+3. **Despliegue en Azure:**  
+   Azure App Service actualiza el contenedor desde GHCR y reinicia el servicio automáticamente con la nueva versión.
+
+4. **Verificación y monitoreo:**  
+   Se validan los logs, endpoints y métricas desde el portal de Azure para confirmar el correcto despliegue.
+
+#### Landing Page (Netlify)
+
+1. **Activación automática desde GitHub:**  
+   Cada vez que se realiza un push a la rama principal del repositorio, Netlify detecta los cambios y lanza automáticamente el proceso de construcción y despliegue.
+
+2. **Compilación y despliegue:**  
+   Netlify genera los archivos estáticos y los distribuye globalmente mediante su red CDN, asegurando una entrega rápida a los usuarios finales.
+
+3. **Rollback en un clic:**  
+   En caso de fallos o errores visuales, Netlify permite restaurar versiones anteriores del sitio con un solo clic desde su panel de control.
+   
 ## 7.4. Continuous Monitoring
 ### 7.4.1. Tools and Practices
 ### 7.4.2. Monitoring Pipeline Components
