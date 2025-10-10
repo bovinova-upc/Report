@@ -2468,9 +2468,195 @@ Se destacó la relevancia de adaptar la experiencia a distintos dispositivos, as
 # Capítulo VI: Product Verification & Validation
 ## 6.1. Testing Suites & Validation
 ### 6.1.1. Core Entities Unit Tests
+La ejecución de Core Entities Unit Tests es crítica para el desarrollo de software. Al validar las entidades centrales, estas pruebas aseguran la calidad y estabilidad del código, lo que simplifica enormemente su mantenimiento y previene fallos.
+
+**User Test**
+
+<div style="display: flex; flex-direction: column; justify-content: center; align-items:center; gap:50px;">
+  <img src="img/usertest.png" width="100%"/>
+  <img src="img/usertestresult.png" width="400px"/> 
+</div>
+
+**Bovine Test**
+
+<div style="display: flex; flex-direction: column;justify-content: center; align-items:center; gap:50px;">
+  <img src="img/bovinetest.png" width="100%"/>
+  <img src="img/bovinetestresult.png" width="400px"/>
+</div>
+
+**Campaign Test**
+
+<div style="display: flex; flex-direction: column;justify-content: center; align-items:center; gap:50px;">
+  <img src="img/campaigntest.png" width="100%"/>
+  <img src="img/campaigntestresult.png" width="400px"/>
+</div>
+
+**Category Test**
+
+<div style="display: flex; flex-direction: column;justify-content: center; align-items:center; gap:50px;">
+  <img src="img/categorytest.png" width="100%"/>
+  <img src="img/categorytestresult.png" width="400px"/>
+</div>
+
+**Product Test**
+
+<div style="display: flex; flex-direction: column;justify-content: center; align-items:center; gap:50px;">
+  <img src="img/productest.png" width="100%"/>
+  <img src="img/productestresult.png" width="400px"/>
+</div>
+
+**Stable Test**
+
+<div style="display: flex; flex-direction: column;justify-content: center; align-items:center; gap:50px;">
+  <img src="img/stabletest.png" width="100%"/>
+  <img src="img/stabletestresult.png" width="400px"/>
+</div>
+
+**Staff Test**
+
+<div style="display: flex; flex-direction: column;justify-content: center; align-items:center; gap:50px;">
+  <img src="img/stafftest.png" width="100%"/>
+  <img src="img/stafftestresult.png" width="400px"/>
+</div>
+
 ### 6.1.2. Core Integration Tests
+Los Core Integration Tests son imprescindibles porque verifican cómo los controladores interactúan correctamente con el resto del sistema, incluyendo servicios y bases de datos. Al simular escenarios de fallo, estas pruebas garantizan que el sistema maneje errores inesperados con los códigos de estado adecuados, lo que resulta en una mejor experiencia de usuario y la construcción de software más robusto y de alta calidad.
+
+**User Controller Test**
+
+<div style="display: flex; flex-direction: column;justify-content: center; align-items:center; gap:50px;">
+  <img src="img/userctest.png" width="100%"/>
+  <img src="img/userctestresult.png" width="400px"/>
+</div>
+
+**Bovine Controller Test**
+
+<div style="display: flex; flex-direction: column;justify-content: center; align-items:center; gap:50px;">
+  <img src="img/bovinectest.png" width="100%"/>
+  <img src="img/bovinectestresult.png" width="400px"/>
+</div>
+
+**Campaign Controller Test**
+
+<div style="display: flex; flex-direction: column;justify-content: center; align-items:center; gap:50px;">
+  <img src="img/campaignctest.png" width="100%"/>
+  <img src="img/campaignctestresult.png" width="400px"/>
+</div>
+
+**Inventory Controller Test**
+
+<div style="display: flex; flex-direction: column;justify-content: center; align-items:center; gap:50px;">
+  <img src="img/inventoryctest.png" width="100%"/>
+  <img src="img/inventoryctestresult.png" width="400px"/>
+</div>
+
+**Stable Controller Test**
+
+<div style="display: flex; flex-direction: column;justify-content: center; align-items:center; gap:50px;">
+  <img src="img/stablectest.png" width="100%"/>
+  <img src="img/stablectestresult.png" width="400px"/>
+</div>
+
+**Staff Controller Test**
+
+<div style="display: flex; flex-direction: column;justify-content: center; align-items:center; gap:50px;">
+  <img src="img/staffctest.png" width="100%"/>
+  <img src="img/staffctestresult.png" width="400px"/>
+</div>
+
 ### 6.1.3. Core Behavior-Driven Development
+Epg1.feature
+<div style="display: flex; flex-direction: column; justify-content: center; align-items:center; gap:50px;">
+  <img src="img/EP1.JPG" width="100%"/>
+</div>
+
+Epg2.feature
+<div style="display: flex; flex-direction: column; justify-content: center; align-items:center; gap:50px;">
+  <img src="img/EP2.JPG" width="100%"/>
+</div>
+
+Epg3.feature
+<div style="display: flex; flex-direction: column; justify-content: center; align-items:center; gap:50px;">
+  <img src="img/EP3.JPG" width="100%"/>
+</div>
+
+Epg4.feature
+<div style="display: flex; flex-direction: column; justify-content: center; align-items:center; gap:50px;">
+  <img src="img/EP4.JPG" width="100%"/>
+</div>
+
+Epg5.feature
+<div style="display: flex; flex-direction: column; justify-content: center; align-items:center; gap:50px;">
+  <img src="img/EP5.JPG" width="100%"/>
+</div>
+
 ### 6.1.4. Core System Tests
+
+**Auth**
+
+<div style="display: flex; flex-direction: column; justify-content: center; align-items:center; gap:50px;">
+  <img src="img/register-front.png" width="100%"/>
+  <img src="img/login-front.png" width="100%"/>
+</div>
+
+<br>
+
+**Animal**
+
+<div style="display: flex; flex-direction: column; justify-content: center; align-items:center; gap:50px;">
+  <img src="img/add-animal-front.png" width="100%"/>
+  <img src="img/edit-animal-front.png" width="100%"/>
+  <img src="img/delete-animal-front.png" width="100%"/>
+</div>
+
+<br>
+
+**Stables**
+
+<div style="display: flex; flex-direction: column; justify-content: center; align-items:center; gap:50px;">
+  <img src="img/add-stable-front.png" width="100%"/>
+  <img src="img/edit-stable-front.png" width="100%"/>
+  <img src="img/delete-stable-front.png" width="100%"/>
+</div>
+
+<br>
+
+**Campaign**
+
+<div style="display: flex; flex-direction: column; justify-content: center; align-items:center; gap:50px;">
+  <img src="img/add-campaign-front.png" width="100%"/>
+  <img src="img/delete-campaign-front.png" width="100%"/>
+</div>
+
+<br>
+
+**Campaign**
+
+<div style="display: flex; flex-direction: column; justify-content: center; align-items:center; gap:50px;">
+  <img src="img/add-campaign-front.png" width="100%"/>
+  <img src="img/delete-campaign-front.png" width="100%"/>
+</div>
+
+<br>
+
+**Staff**
+
+<div style="display: flex; flex-direction: column; justify-content: center; align-items:center; gap:50px;">
+  <img src="img/add-staff-front.png" width="100%"/>
+  <img src="img/edit-staff-front.png" width="100%"/>
+  <img src="img/delete-staff-front.png" width="100%"/>
+</div>
+
+<br>
+
+**Inventory**
+
+<div style="display: flex; flex-direction: column; justify-content: center; align-items:center; gap:50px;">
+  <img src="img/add-category-front.png" width="100%"/>
+  <img src="img/add-product-front.png" width="100%"/>
+  <img src="img/delete-product-front.png" width="100%"/>
+</div>
+
 ## 6.2. Static Testing & Verification
 ### 6.2.1. Static Code Analysis
 #### 6.2.1.1. Coding Standard & Code Conventions
@@ -2499,8 +2685,72 @@ Se destacó la relevancia de adaptar la experiencia a distintos dispositivos, as
 ### 7.2.1. Tools and Practices
 ### 7.2.2. Stages Deployment Pipeline Components
 ## 7.3. Continuous Deployment
+
 ### 7.3.1. Tools and Practices
+
+El proceso de **Continuous Deployment (CD)** implementado en *VacApp* busca garantizar que los cambios realizados en las distintas capas del sistema (landing page, backend y aplicación móvil) se desplieguen de forma eficiente, controlada y confiable. Aunque no todo el proceso es completamente automatizado, el equipo ha integrado herramientas que permiten mantener consistencia, trazabilidad y estabilidad en los entornos productivos.
+
+#### Tools:
+
+- **GitHub:**  
+  Repositorio principal donde se gestionan los proyectos de *VacApp*: landing page, backend y aplicación móvil. Facilita la colaboración del equipo, control de versiones y conexión con plataformas de despliegue como Netlify y Azure.
+
+- **Azure App Service (Backend):**  
+  Plataforma en la nube utilizada para hospedar la API RESTful desarrollada en Java Spring Boot. El despliegue se realiza manualmente desde el entorno de desarrollo, asegurando que la versión publicada esté verificada y probada. Azure proporciona monitoreo, gestión de recursos y escalabilidad.
+
+- **Netlify (Landing Page):**  
+  Servicio de hosting que permite el despliegue continuo de la landing page. Cada vez que se realiza un push a la rama principal del repositorio, Netlify detecta los cambios, reconstruye y publica automáticamente la nueva versión del sitio, manteniendo la página siempre actualizada.
+
+- **Firebase App Distribution (Aplicación móvil):**  
+  Herramienta de distribución utilizada para compartir versiones preliminares de la aplicación con testers seleccionados. Permite subir APKs y recopilar retroalimentación antes de su lanzamiento en la Play Store.
+
+#### Practices:
+
+- **Despliegue híbrido:**  
+  El backend se despliega de forma manual en Azure, mientras que la landing page utiliza integración continua mediante Netlify.  
+  La aplicación móvil se distribuye a través de Firebase App Distribution, garantizando acceso controlado a los usuarios de prueba.
+
+- **Verificación previa a despliegue:**  
+  Antes de cada despliegue, se ejecutan pruebas locales, revisiones de código y validación de configuraciones del entorno para asegurar la estabilidad del sistema.
+
+- **Control por commits:**  
+  Cada despliegue queda registrado en GitHub mediante commits, lo que permite identificar fácilmente la versión exacta desplegada en producción y su fecha de publicación.
+
+- **Rollback manual supervisado:**  
+  Ante errores en producción, el equipo puede revertir manualmente la versión desplegada en Azure o restaurar una versión previa desde el panel de Netlify. Esto garantiza control y análisis previo antes de ejecutar retrocesos.
+
 ### 7.3.2. Production Deployment Pipeline Components
+
+El **pipeline de despliegue a producción** de *VacApp* combina procesos automáticos y manuales según el tipo de componente. Este enfoque híbrido permite mantener agilidad y control sobre cada entorno, garantizando estabilidad y trazabilidad.
+
+#### Backend 
+
+1. **Inicio del proceso:**  
+   El desarrollador valida los cambios localmente, compila el proyecto con Maven y ejecuta pruebas unitarias.
+
+2. **Preparación del entorno:**  
+   Se configuran variables de entorno, claves secretas y cadenas de conexión necesarias en el panel de Azure App Service.
+
+3. **Despliegue manual:**  
+   El código se publica manualmente desde Visual Studio Code o mediante la carga directa del paquete generado en Azure.
+
+4. **Verificación de ejecución:**  
+   Una vez desplegado, se revisan los registros del servicio y se prueba la URL pública del backend para confirmar su correcto funcionamiento.
+
+5. **Monitoreo continuo:**  
+   Azure permite supervisar el estado del backend mediante métricas, logs y reinicios automáticos ante fallos críticos.
+
+#### Landing Page (Netlify)
+
+1. **Activación automática desde GitHub:**  
+   Cada vez que se realiza un push a la rama principal del repositorio, Netlify detecta los cambios y lanza automáticamente el proceso de construcción y despliegue.
+
+2. **Compilación y despliegue:**  
+   Netlify genera los archivos estáticos y los distribuye globalmente mediante su red CDN, asegurando una entrega rápida a los usuarios finales.
+
+3. **Rollback en un clic:**  
+   En caso de fallos o errores visuales, Netlify permite restaurar versiones anteriores del sitio con un solo clic desde su panel de control.
+
 ## 7.4. Continuous Monitoring
 ### 7.4.1. Tools and Practices
 ### 7.4.2. Monitoring Pipeline Components
