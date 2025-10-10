@@ -3065,3 +3065,7 @@ El **pipeline de despliegue a producción** de *VacApp* combina procesos automá
 [Entrevistas:](https://shorturl.at/nNTEl) https://shorturl.at/nNTEl
 
 [Landing Page:](https://vacapp-landing.netlify.app/) https://vacapp-landing.netlify.app/ 
+
+[Frontend:](https://vacapp-upc.netlify.app/) https://vacapp-upc.netlify.app/
+
+[Backend:](https://vacapp-backend.azurewebsites.net/swagger/index.html) https://vacapp-backend.azurewebsites.net/swagger/index.html
