@@ -81,6 +81,33 @@
       Capítulo V: Product Implementation<br>
       </td>
     </tr>
+     <tr>
+      <td>TP1</td>
+      <td>09/10/2025</td>
+      <td>
+      Checalla Apaza, Emanuel Renato<br>
+      Durand Vera, Gianfranco Angel<br>
+      Gordillo Ramos, Santiago Alonso<br>
+      Inga Hernandez, Ayrton Damian<br>
+      Vargas Javier, Jose Enrique<br>
+      </td>
+      <td>
+      6.1. Testing Suites & Validation<br>
+      6.1.1. Core Entities Unit Tests.<br>
+      6.1.2. Core Integration Tests.<br>
+      6.1.3. Core Behavior-Driven Development<br>
+      6.1.4. Core System Tests.<br>
+      7.1. Continuous Integration<br>
+      7.1.1. Tools and Practices.<br>
+      7.1.2. Build & Test Suite Pipeline Components.<br>
+      7.2. Continuous Delivery<br>
+      7.2.1. Tools and Practices.<br>
+      7.2.2. Stages Deployment Pipeline Components.<br>
+      7.3. Continuous deployment<br>
+      7.3.1. Tools and Practices.<br>
+      7.3.2. Production Deployment Pipeline Components.<br>
+      </td>
+    </tr>
   </tbody>
 </table>
 
@@ -302,7 +329,7 @@ ABET – EAC - Student Outcome 4
         <br>
         <p><b>Gianfranco Durand Vera</b></p>
         <p><b>TB1:</b> En el desarrollo del Capítulo 4, me aseguré de aplicar principios de responsabilidad ética y profesional al diseñar la experiencia de usuario y la arquitectura de la plataforma. </p>
-        <p><b>TP1:</b> [Acciones]</p>
+        <p><b>TP1:</b> Participé en la refactorización del backend y llevé a cabo pruebas unitarias y de integración para asegurar la calidad y el cumplimiento de los estándares profesionales.</p>
         <p><b>TB2:</b> [Acciones]</p>
         <p><b>TF:</b> [Acciones]</p>
         <br>
@@ -326,7 +353,7 @@ ABET – EAC - Student Outcome 4
       </td>
       <td>
         <p><b>TB1:</b> En la TB1, el equipo actuó con responsabilidad ética y profesional en todo el trabajo, desde la recolección de requisitos hasta el diseño y la implementación inicial, documentando cada decisión y asegurando que la solución sea clara, justa y confiable para los usuarios.</p>
-        <p><b>TP1:</b> [Conclusiones]</p>
+        <p><b>TP1:</b> Distribuimos las responsabilidades en función de las fortalezas individuales del equipo, lo que garantizó una ejecución ordenada, ética y altamente eficaz del proyecto.</p>
         <p><b>TB2:</b> [Conclusiones]</p>
         <p><b>TF:</b> [Conclusiones]</p>
       </td>
@@ -342,7 +369,7 @@ ABET – EAC - Student Outcome 4
         <br>
         <p><b>Gianfranco Durand Vera</b></p>
         <p><b>TB1:</b> Adapté la guía de estilos de la plataforma según las necesidades de todos los segmentos objetivo, asegurando que los colores, tipografías y layouts cumplan con estándares de accesibilidad para reducir barreras de uso</p>
-        <p><b>TP1:</b> [Acciones]</p>
+        <p><b>TP1:</b> Al establecer la integración continua (CI) y ejecutar pruebas, confirmé que una arquitectura robusta es clave para la eficiencia, sostenibilidad y adaptabilidad del sistema a futuro.</p>
         <p><b>TB2:</b> [Acciones]</p>
         <p><b>TF:</b> [Acciones]</p>
         <br>
@@ -366,7 +393,7 @@ ABET – EAC - Student Outcome 4
       </td>
       <td>
         <p><b>TB1:</b> Durante la TB1, el equipo tomó decisiones de diseño y desarrollo considerando la accesibilidad, la inclusión y la eficiencia de recursos, asegurando que la plataforma tenga un impacto positivo y responsable en los usuarios y en su contexto social, económico y ambiental.</p>
-        <p><b>TP1:</b> [Conclusiones]</p>
+        <p><b>TP1:</b> Analizamos las implicaciones sociales de cada avance técnico, asegurando que nuestras soluciones respondan directamente a las necesidades reales del entorno.</p>
         <p><b>TB2:</b> [Conclusiones]</p>
         <p><b>TF:</b> [Conclusiones]</p>
       </td>
