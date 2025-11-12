@@ -2748,9 +2748,57 @@ El **pipeline de despliegue a producción** de *VacApp* combina procesos automá
    
 ## 7.4. Continuous Monitoring
 ### 7.4.1. Tools and Practices
+El monitoreo continuo es un elemento fundamental en DevOps, ya que facilita la supervisión en tiempo real del comportamiento de la aplicación, permite identificar errores de manera temprana y soporta la toma de decisiones informadas para mantener su disponibilidad, rendimiento y estabilidad. En este proyecto, se implementan herramientas y prácticas que garantizan una supervisión eficiente del backend en su entorno de producción.
+
+**Tools:**
+
+- **Azure Monitor:** Proporciona métricas de rendimiento como uso de CPU, memoria y latencia de la aplicación, además de logs de eventos y telemetría para un análisis profundo.
+- **GitHub Actions Logs:** Los registros generados en cada ejecución del pipeline permiten revisar compilaciones, pruebas y despliegues automáticos.
+- **GitHub Container Registry Logs:** Permite revisar detalles de los contenedores .NET desplegados, incluyendo información de ejecución y fallos dentro de los contenedores.
+
+**Practices:**
+
+- **Monitoreo post-despliegue:** Después de cada despliegue automático, se verifica Azure Monitor para confirmar que la aplicación está funcionando correctamente y sin errores de inicio.
+- **Observación continua de logs:** Se revisan de manera periódica los logs de la aplicación para detectar excepciones no controladas, errores en endpoints o problemas de conectividad.
+- **Reinicio automático de contenedores:** Los contenedores en Azure pueden configurarse para reiniciarse automáticamente si la aplicación deja de responder, garantizando una recuperación rápida.
+- **Verificación de endpoints:** Se realizan pruebas manuales a los endpoints principales tras cada despliegue para confirmar su disponibilidad y correcta respuesta.
+
 ### 7.4.2. Monitoring Pipeline Components
+El pipeline de monitoreo se integra directamente dentro de la estrategia de despliegue en Azure, proporcionando visibilidad continua sobre el estado del backend .NET y asegurando su correcto funcionamiento en producción.
+
+### Componentes clave del monitoreo continuo
+
+1. **Métricas básicas (Azure Monitor):**
+   - Uso de CPU
+   - Uso de memoria RAM
+   - Estado del contenedor o servicio (Running, Restarting, Crashed)
+
+2. **Logs en tiempo real:**
+   - Seguimiento de excepciones, errores 500, trazas de stack y eventos de seguridad a través de Azure Monitor y los logs de los contenedores en GitHub Container Registry.
+
+3. **Historial de despliegue:**
+   - GitHub Actions mantiene un registro de cada despliegue, lo que permite comparar el comportamiento de la aplicación antes y después de cada cambio.
+
+4. **Eventos críticos:**
+   - Azure y los contenedores configurados pueden detectar fallos críticos como errores de inicio o crash loops, generando alertas automáticas para que se tomen acciones correctivas inmediatas.
+
 ### 7.4.3. Alerting Pipeline Components
+Aunque el sistema de monitoreo en Azure no cuenta actualmente con alertas externas ni integraciones con herramientas como Slack o correo electrónico, se implementan medidas básicas para detectar rápidamente problemas críticos.
+
+### Componentes de alerta actuales
+
+- **Estado del servicio en Azure:** Si el contenedor o la App Service falla al iniciar o entra en un ciclo de reinicios, Azure Monitor lo indica directamente en el dashboard con iconos de advertencia y logs destacados.
+- **Revisiones manuales post-despliegue:** Después de cada despliegue automático mediante GitHub Actions, el equipo revisa los logs de Azure durante los primeros minutos para identificar excepciones inesperadas.
+- **Fallback de endpoints:** Si los endpoints del backend en producción no responden, se considera una alerta operativa y se procede a investigar manualmente.
+
 ### 7.4.4. Notification Pipeline Components
+Actualmente, la aplicación no cuenta con integración directa con sistemas de notificación automática como correo electrónico, pero se aplican prácticas manuales y se proyectan mejoras futuras para fortalecer este aspecto.
+
+### Prácticas actuales y proyecciones
+
+- **Monitoreo activo del equipo:** Durante los despliegues, al menos un miembro del equipo supervisa el estado del backend en Azure.
+- **Registro de errores vía logs:** Todos los errores se documentan en Azure Monitor y en los logs de los contenedores de GitHub Container Registry para su análisis posterior.
+- **Integración futura con notificaciones automáticas:** Se planea agregar una etapa en el pipeline de GitHub Actions que envíe resúmenes de despliegue y alertas de errores al correo del equipo o a un canal de Slack/Discord mediante Webhooks personalizados.
 
 # Part III: Experiment-Driven Lifecycle
 
