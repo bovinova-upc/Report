@@ -2810,16 +2810,124 @@ Si se encuentran fallos críticos, el PR no puede integrarse hasta que sean corr
 ### 6.3.1. Diseño de Entrevistas
 ### 6.3.2. Registro de Entrevistas
 ### 6.3.3. Evaluaciones según heurísticas
-## 6.4. Auditoría de Experiencias de Usuario
-### 6.4.1. Auditoría realizada
-#### 6.4.1.1. Información del grupo auditado
-#### 6.4.1.2. Cronograma de auditoría realizada
-#### 6.4.1.3. Contenido de auditoría realizada
-### 6.4.2. Auditoría recibida
-#### 6.4.2.1. Información del grupo auditor
-#### 6.4.2.2. Cronograma de auditoría recibida
-#### 6.4.2.3. Contenido de auditoría recibida
-#### 6.4.2.4. Resumen de modificaciones para subsanar hallazgos
+
+# 6.4. Auditoría de Experiencias de Usuario 
+
+La auditoría de experiencias de usuario es una actividad esencial dentro de nuestro ciclo de desarrollo.  
+Permite que equipos externos evalúen nuestra plataforma desde una perspectiva fresca, detectando problemas de usabilidad, flujos confusos y oportunidades de mejora que internamente podrían pasar desapercibidas.  
+Asimismo, nuestro equipo audita proyectos de otros compañeros para aplicar criterios comparativos y fortalecer nuestro criterio UX.
+
+
+## 6.4.1. Auditoría realizada
+
+En esta sección se detalla la auditoría que nuestro equipo llevó a cabo sobre el proyecto **AgroRoute**, una plataforma agrícola enfocada en optimizar rutas de entrega para productos agropecuarios.  
+Evaluamos tanto su versión web como el prototipo móvil, analizando la claridad del flujo, la organización de la información y la experiencia general del usuario.
+
+### 6.4.1.1. Información del grupo auditado
+
+- **Nombre del Proyecto:** AgroRoute  
+- **Integrantes:** Sofia López, Luis Ramos, Diego Rivas, Mariana Tejada, Rodrigo Soto  
+- **Descripción del Proyecto:**  
+  AgroRoute es una plataforma digital diseñada para ayudar a productores y distribuidores a planificar rutas de transporte eficientes. Permite registrar puntos de entrega, visualizar rutas sugeridas y calcular tiempos estimados mediante mapas interactivos.
+
+### 6.4.1.2. Cronograma de auditoría realizada
+
+- **Fecha:** 1 de Noviembre de 2025  
+- **Duración:** 80 minutos  
+- **Plataformas evaluadas:**  
+  - Aplicación web  
+  - Prototipo de aplicación móvil  
+- **Equipo auditor:**  
+  Equipo Bovinova – VacApp 
+
+### 6.4.1.3. Contenido de auditoría realizada
+
+Nuestro equipo analizó el flujo completo del usuario tanto desde el rol del **transportista** como del **administrador logístico**.
+
+#### Fortalezas identificadas:
+
+- **Diseño claro desde el inicio:** La pantalla principal explica bien el objetivo de la plataforma.  
+- **Mapa interactivo intuitivo:** La selección de puntos y rutas es fluida y fácil de aprender.  
+- **Panel administrativo ordenado:** El módulo de gestión de entregas presenta una estructura clara y lógica.
+
+#### Oportunidades de mejora:
+
+- **Consistencia visual:**  
+  Se detectaron diferencias de estilo entre el mapa, el dashboard y los formularios.  
+  Se recomendó unificar la paleta de colores y el estilo de los botones.
+
+- **Retroalimentación al usuario:**  
+  En algunos formularios no aparecía un mensaje claro de éxito o error después de guardar información.  
+  Se sugirió agregar alertas visuales consistentes.
+
+- **Actualización de datos en múltiples plataformas:**  
+  Se observó que cambios registrados desde el móvil tardaban en aparecer en la versión web.  
+  Se propuso mejorar la sincronización entre dispositivos.
+
+## 6.4.2. Auditoría recibida
+
+En esta sección documentamos la auditoría que el equipo de AgroRoute realizó sobre nuestro proyecto **Bovinova – VacApp**.
+
+### 6.4.2.1. Información del grupo auditor
+
+- **Grupo Auditor:** AgroRoute  
+- **Integrantes:** Sofia López, Luis Ramos, Diego Rivas, Mariana Tejada, Rodrigo Soto
+
+### 6.4.2.2. Cronograma de auditoría recibida
+
+- **Fecha:** 5 de Noviembre de 2025  
+- **Duración:** 90 minutos  
+- **Plataformas evaluadas:**  
+  - Aplicación web de VacApp  
+  - Vista previa del prototipo móvil  
+- **Equipo auditado:**  
+  Bovinova – VacApp
+
+### 6.4.2.3. Contenido de auditoría recibida
+
+El equipo de AgroRoute evaluó VacApp desde los roles de **Productor Ganadero** y **Empresa Ganadera**.
+
+#### Puntos fuertes destacados:
+
+- **Registro de animales muy claro:**  
+  El formulario está bien estructurado y permite registrar datos comunes del sector (peso, raza, edad, lote) sin confusión.
+
+- **Dashboard informativo:**  
+  Los gráficos e indicadores del panel inicial ayudan al usuario a entender el estado de su producción de un vistazo.
+
+- **Separación adecuada de roles:**  
+  La diferencia entre cuentas de Productor y Empresa se comunica de manera clara y directa.
+
+#### Áreas de mejora recomendadas:
+
+- **Mejorar la edición rápida de registros:**  
+  Sugerieron agregar accesos directos para editar animales o eventos sin ingresar a múltiples pantallas.
+
+- **Flujo de creación de eventos sanitarios:**  
+  El equipo observó que registrar vacunas o tratamientos requiere varios pasos.  
+  Recomendaron simplificar el proceso y permitir duplicar eventos repetitivos.
+
+- **Sincronización en tiempo real para inventarios:**  
+  Notaron que las actualizaciones no se reflejan instantáneamente en el panel principal.  
+
+## 6.4.2.4. Resumen de mejoras a implementar
+
+Basándonos en el feedback recibido, nuestro equipo priorizó las siguientes acciones:
+
+### 1. Optimizar la edición rápida de datos
+- **Acción:** Añadir botones de "Editar rápido" en las tarjetas de animales y eventos.  
+- **User Story:**  
+  *"Como productor, quiero poder editar rápidamente un registro sin abrir varias pantallas para ahorrar tiempo en campo."*
+
+### 2. Simplificar el flujo de eventos sanitarios
+- **Acción:** Rediseñar el formulario para que permita duplicar eventos y registrar varios animales al mismo tiempo.  
+- **User Story:**  
+  *"Como empresa ganadera, quiero registrar varios eventos sanitarios a la vez para evitar repetir la información."*
+
+### 3. Mejorar la sincronización del inventario
+- **Acción:** Evaluar el uso de WebSockets o short-polling para actualizar datos en tiempo real.  
+- **Technical Story:**  
+  *"Implementar actualización en tiempo real para reflejar cambios en animales, lotes e inventario sin recargar la página."*
 
 # Capítulo VII: DevOps Practices
 ## 7.1. Continuous Integration
