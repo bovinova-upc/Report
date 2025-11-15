@@ -2689,10 +2689,123 @@ Epg5.feature
 </div>
 
 ## 6.2. Static Testing & Verification
+
+Para garantizar que Bovinova ofrezca un funcionamiento confiable desde sus primeras fases de desarrollo, aplicamos un conjunto de actividades de prueba estática y verificación del código.  
+Estas prácticas se ejecutan antes de que el software se ejecute por primera vez, lo que nos permite identificar fallos tempranos, mejorar la calidad del código y asegurar que los datos ganaderos se manejen de forma segura.
+
+---
+
 ### 6.2.1. Static Code Analysis
-#### 6.2.1.1. Coding Standard & Code Conventions
-#### 6.2.1.2. Code Quality & Code Security
+
+El análisis estático del código es una de las principales estrategias que utilizamos para controlar la calidad del proyecto.  
+Consiste en revisar el código fuente de forma automática o manual sin ejecutar la aplicación, detectando inconsistencias, vulnerabilidades y cualquier desviación respecto a nuestras reglas internas de desarrollo.
+
+Estas prácticas ayudan a mantener un código más ordenado, estable y preparado para escalar a medida que crece el número de usuarios y datos en Bovinova.
+
+### 6.2.1.1. Coding Standards & Code Conventions
+
+Para asegurar que todos los miembros del equipo desarrollen con los mismos criterios, se definieron normas de codificación específicas para la plataforma.  
+Estas reglas permiten que el código sea fácil de leer, de extender y de mantener.
+
+### Enfoques utilizados:
+
+#### **Buenas prácticas de claridad y estructura**
+- Se privilegian nombres descriptivos en funciones, clases y variables.  
+- Las funciones deben enfocarse en una sola tarea para facilitar su comprensión.  
+- El código se organiza de manera modular para evitar duplicaciones.
+
+#### **Lenguaje de dominio (Domain-Driven Design)**
+Dado que Bovinova opera dentro del sector ganadero, utilizamos un vocabulario coherente con el negocio en todo el código:
+
+- **Animal**, **RegistroSanitario**, **Vacunación**, **Productor**,  
+- **EmpresaGanadera**, **EventoReproductivo**, **Inventario**, **Lote**.
+
+Esta consistencia evita confusiones y mantiene alineada la lógica técnica con la realidad del sector.
+
+#### **Convenciones por tipo de tecnología**
+- **Frontend Web/Móvil**  
+  - Componentes en PascalCase  
+  - Variables y funciones en camelCase  
+  - Separación clara entre lógica, vistas y estilos  
+- **Backend (Node o Python)**  
+  - Estructura de carpetas definida  
+  - Validación estricta de parámetros  
+  - Estilo uniforme de documentación y formateo  
+
+#### **Especificaciones en Gherkin (si aplica BDD)**  
+Los escenarios se redactan con frases simples usando Given/When/Then, permitiendo que no desarrolladores también los entiendan.
+
+### 6.2.1.2. Code Quality & Code Security
+
+Bovinova maneja información sensible:  
+datos sanitarios, animales, reportes productivos y datos personales de productores o empresas.  
+Por ello, el análisis estático también se enfoca en la seguridad y la estabilidad del software.
+
+### **Control de calidad**
+Aplicamos herramientas automáticas como:
+
+- **SonarQube**  
+  - Evalúa complejidad  
+  - Detecta duplicidades  
+  - Identifica código innecesario o riesgoso  
+  - Mide la cobertura de pruebas
+
+- **SonarLint**  
+  - Advierte errores y malas prácticas directamente mientras se escribe el código.
+
+Esto permite corregir problemas antes de integrarlos al proyecto.
+
+### **Seguridad del código**
+Como parte del análisis estático, verificamos vulnerabilidades típicas:
+
+- **Inyección (SQL/NoSQL)**  
+  Cualquier operación con la base de datos debe utilizar consultas seguras y datos validados.
+
+- **XSS y manipulación de contenido**  
+  Todo dato presentado en interfaces se limpia o sanitiza.
+
+- **Manejo seguro de credenciales y datos personales**  
+  Contraseñas cifradas, información sensible protegida y acceso restringido.
+
+---
+
 ### 6.2.2. Reviews
+
+Las revisiones de código complementan el análisis ,a portando criterio técnico.
+Este proceso es fundamental para asegurar que las nuevas funcionalidades mantengan el estándar de calidad y se integren sin afectar al resto del sistema.
+
+### **Flujo de trabajo con Pull Requests (PRs)**  
+Cualquier modificación al código se desarrolla en una rama separada.  
+Para fusionarse en la rama principal, se crea un PR que debe incluir:
+
+- Detalle de los cambios  
+- Referencia a la User Story correspondiente  
+- Evidencia de pruebas ejecutadas  
+- Justificación técnica en caso de cambios relevantes
+
+### **Tipos de revisión**
+
+#### **Revisión por pares**
+Un miembro del equipo revisa el PR y valida:
+
+- Coherencia de la lógica  
+- Claridad del código  
+- Cumplimiento de las convenciones  
+- Posibles optimizaciones  
+- Impacto en módulos relacionados
+
+Esta revisión ayuda a detectar errores que las herramientas automáticas no siempre identifican.
+
+#### **Revisión automatizada**
+El pipeline CI ejecuta:
+
+- Linter  
+- Análisis estático  
+- Inspección de seguridad  
+- Pruebas unitarias o funcionales
+
+Si se encuentran fallos críticos, el PR no puede integrarse hasta que sean corregidos.
+
 ## 6.3. Validation Interviews
 ### 6.3.1. Diseño de Entrevistas
 ### 6.3.2. Registro de Entrevistas
