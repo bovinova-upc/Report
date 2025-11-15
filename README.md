@@ -3270,23 +3270,269 @@ Actualmente, la aplicación no cuenta con integración directa con sistemas de n
 
 # Capítulo VIII: Experiment-Driven Development
 ## 8.1. Experiment Planning
+
 ### 8.1.1. As-Is Summary
+VacApp es una aplicación móvil diseñada para apoyar a los ganaderos en la gestión eficiente, sostenible y digitalizada de sus animales. Su propuesta de valor se centra en centralizar la información sobre salud, alimentación y reproducción del ganado, brindando herramientas para mejorar la toma de decisiones, reducir pérdidas económicas y fomentar prácticas responsables.
+
+Actualmente, VacApp se encuentra en una fase temprana de adopción. Si bien se ha validado la utilidad general de la solución, aún existen oportunidades para optimizar la experiencia de uso, aumentar la recurrencia de los usuarios y fortalecer la confianza en la plataforma. Las entrevistas realizadas a productores y empresas ganaderas revelaron oportunidades de mejora en la automatización de procesos, la usabilidad del sistema y la precisión de las alertas sanitarias.
+
+**Problemas identificados:**
+- **Gestión manual persistente:** Muchos usuarios siguen registrando datos en cuadernos o planillas, lo que dificulta la digitalización total.
+- **Baja fidelización:** La mayoría utiliza la app de forma esporádica por falta de recordatorios o incentivos.
+- **Desconfianza tecnológica:** Algunos ganaderos desconfían de almacenar información sensible o depender completamente del sistema.
+- **Poca visibilidad del impacto:** No existen métricas claras que muestren mejoras en productividad o salud animal tras usar la aplicación.
+- **Interfaz poco adaptada:** Usuarios con baja alfabetización digital encuentran compleja la navegación en ciertas funciones.
+
+**Objetivos de mejora:**
+- **Optimizar la experiencia de usuario (UX):** Simplificar el flujo de registro y consulta para hacerlo más intuitivo y rápido.
+- **Fomentar el uso continuo:** Implementar recordatorios inteligentes y un sistema de recompensas por uso frecuente.
+- **Mejorar la confianza:** Reforzar la seguridad y transparencia de los datos registrados.
+- **Aumentar la precisión de alertas:** Validar la efectividad de las notificaciones sobre alimentación, salud y reproducción.
+- **Demostrar valor real:** Medir el impacto del uso de VacApp en productividad, salud animal y reducción de pérdidas.
+
+
 ### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims
+
+**Assumptions**
+1. Los ganaderos usarán la app con mayor frecuencia si reciben alertas y recordatorios automáticos sobre salud y alimentación.
+2. Una interfaz simplificada permitirá que usuarios con poca experiencia tecnológica completen registros sin ayuda.
+3. Los usuarios confiarán más en VacApp si los datos se muestran respaldados por fuentes veterinarias verificadas.
+4. Mostrar métricas de productividad (ej. peso promedio, frecuencia de vacunación) aumentará la percepción de valor de la plataforma.
+5. Un sistema de recompensas o puntos por uso frecuente incrementará la retención y participación mensual.
+
+**Knowledge Gaps**
+1. Se desconoce qué tipo de alertas o notificaciones son realmente útiles para los usuarios (salud, alimentación, vacunación, reproducción).
+2. Falta información sobre el nivel de alfabetización digital promedio de los ganaderos que usan la app.
+3. No se sabe qué tan confiables perciben los usuarios los registros digitales frente a los manuales.
+4. No se ha medido el impacto real del uso de la app en la productividad del ganado.
+5. No se ha validado qué recompensas o beneficios motivarían más a los usuarios a usar VacApp recurrentemente.
+
+**Ideas**
+1. **Sistema de alertas inteligentes:** Notificaciones automáticas para vacunación, control de peso y alimentación según especie y edad.
+2. **Modo simplificado:** Flujo rápido para registro diario con menos pasos y lenguaje más claro.
+3. **Panel de métricas:** Mostrar indicadores visuales sobre productividad, salud y costos.
+4. **Verificación de datos veterinarios:** Integrar sellos o etiquetas que indiquen respaldo de profesionales o instituciones.
+5. **Programa de fidelización:** Puntos por registros, alertas atendidas o tareas completadas, canjeables por beneficios o descuentos.
+
+**Claims**
+1. Si se implementan alertas automáticas, la frecuencia de uso semanal de la app aumentará al menos un **40%**.
+2. Si se optimiza la interfaz, el tiempo promedio de registro de datos se reducirá en un **30%**.
+3. Si se añaden métricas visuales, el 60% de los usuarios reportará una percepción positiva del impacto en su productividad.
+4. Si se agrega verificación veterinaria, la confianza percibida en la app aumentará en un **25%**.
+5. Si se introduce un sistema de puntos, al menos el **50%** de los usuarios activos volverá a usar la app más de una vez por semana.
+
+
 ### 8.1.3. Experiment-Ready Questions
+
+| Question | Confidence | Risk | Impact | Interest | Total Score |
+|-----------|-------------|-------|---------|-----------|--------------|
+| ¿Aumentará la frecuencia de uso de VacApp si se implementan alertas automáticas sobre alimentación, salud y reproducción? | 7 – Evidencia previa indica que recordatorios digitales incrementan la actividad. | 3 – Riesgo medio por calibración de alertas. | 8 – Alto impacto en retención. | 8 – Alta relevancia para ganaderos. | **26** |
+| ¿Reducirá el tiempo de registro si se introduce un modo simplificado de ingreso de datos? | 6 – Basado en pruebas de usabilidad previas. | 2 – Riesgo bajo, cambio de interfaz. | 7 – Impacto directo en adopción. | 6 – Alta demanda de simplicidad. | **21** |
+| ¿Aumentará la percepción de confianza si los datos se acompañan de verificación veterinaria visible? | 6 – Los usuarios valoran transparencia y respaldo técnico. | 3 – Riesgo medio por validación externa. | 7 – Fuerte impacto en credibilidad. | 6 – Interés moderado. | **22** |
+| ¿Mejorará la retención si se implementa un sistema de puntos o recompensas por uso frecuente? | 5 – Casos de éxito en apps similares. | 4 – Riesgo medio por mantenimiento del sistema. | 7 – Potencial para aumentar uso constante. | 6 – Interés alto entre usuarios activos. | **22** |
+| ¿Aumentará la satisfacción de los usuarios si se añaden métricas visuales de productividad y salud animal? | 6 – Los usuarios valoran resultados tangibles. | 2 – Riesgo bajo, requiere análisis de datos. | 7 – Aumenta percepción de valor. | 5 – Interés medio. | **20** |
+
+---
+
 ### 8.1.4. Question Backlog
+
+| Prioridad (1,2,3,5,8) | Pregunta |
+|------------------------|-----------|
+| 5 | ¿Aumentará la frecuencia de uso de VacApp si se implementan alertas automáticas sobre alimentación, salud y reproducción? |
+| 2 | ¿Mejorará la retención si se implementa un sistema de puntos o recompensas por uso frecuente? |
+| 1 | ¿Reducirá el tiempo de registro si se introduce un modo simplificado de ingreso de datos? |
+| 3 | ¿Aumentará la percepción de confianza si los datos se acompañan de verificación veterinaria visible? |
+| 5 | ¿Aumentará la satisfacción de los usuarios si se añaden métricas visuales de productividad y salud animal? |
+
+---
+
 ### 8.1.5. Experiment Cards
+
+**Question:**  
+¿Aumentará la frecuencia de uso de VacApp si se implementan alertas automáticas sobre alimentación, salud y reproducción?  
+**Why:**  
+Los ganaderos suelen olvidar tareas críticas como vacunaciones o alimentación, lo que genera pérdidas. Alertas automáticas ayudarían a mantener la rutina ganadera y mejorar la salud del rebaño.  
+**What:**  
+Desarrollar e integrar un sistema de notificaciones configurables por tipo de evento (vacunación, alimentación, control de peso).  
+**Hypothesis:**  
+Se espera que la frecuencia de uso semanal aumente en un **40%** respecto al grupo sin alertas.
+
+---
+
+**Question:**  
+¿Reducirá el tiempo de registro si se introduce un modo simplificado de ingreso de datos?  
+**Why:**  
+El exceso de pasos en el registro genera abandono, especialmente en usuarios con baja familiaridad tecnológica.  
+**What:**  
+Diseñar un flujo de ingreso rápido con menos campos, botones grandes y lenguaje simple.  
+**Hypothesis:**  
+Se espera una reducción del tiempo promedio de registro en un **30%** y un incremento del **25%** en la finalización de registros.
+
+---
+
+**Question:**  
+¿Mejorará la retención si se implementa un sistema de puntos o recompensas por uso frecuente?  
+**Why:**  
+Las recompensas generan compromiso y sentido de progreso, incentivando el uso recurrente de la app.  
+**What:**  
+Diseñar un sistema de puntos acumulables por acciones (registro de animales, atención de alertas, generación de reportes) canjeables por beneficios o descuentos.  
+**Hypothesis:**  
+Se espera que los usuarios activos incrementen su uso semanal en un **35–40%** tras la introducción del sistema de recompensas.
+
+---
+
+**Question:**  
+¿Aumentará la percepción de confianza si los datos se acompañan de verificación veterinaria visible?  
+**Why:**  
+El respaldo profesional refuerza la credibilidad de la información y motiva a los usuarios a confiar en los registros digitales.  
+**What:**  
+Implementar insignias de verificación en datos revisados o validados por veterinarios certificados.  
+**Hypothesis:**  
+La confianza percibida aumentará en un **25%**, reduciendo dudas o quejas sobre la fiabilidad de los datos.
+
+---
+
+**Question:**  
+¿Aumentará la satisfacción de los usuarios si se añaden métricas visuales de productividad y salud animal?  
+**Why:**  
+Visualizar el progreso y resultados refuerza la percepción de valor y el sentido de control sobre la gestión ganadera.  
+**What:**  
+Diseñar un panel visual con gráficos y estadísticas sobre salud, producción y alimentación del ganado.  
+**Hypothesis:**  
+Se espera que el **60%** de los usuarios califique su experiencia como “muy satisfactoria” al visualizar resultados medibles en el panel.
+
+---
 ## 8.2. Experiment Design
+
 ### 8.2.1. Hypotheses
+
+| Question | Belief | Hypothesis | Null Hypothesis |
+|-----------|---------|-------------|------------------|
+| **¿Aumentará la frecuencia de uso de VacApp si se implementan alertas automáticas sobre salud, alimentación y reproducción?** | Los ganaderos suelen olvidar tareas diarias críticas como vacunaciones o controles sanitarios. Las alertas automáticas podrían ayudarlos a mantener sus rutinas al día. | Al menos el **40 %** de los usuarios activos aumentará su frecuencia de uso semanal tras recibir alertas automáticas personalizadas. | Las alertas automáticas no influirán de forma significativa en la frecuencia de uso. |
+| **¿Reducirá el tiempo de registro si se introduce un modo simplificado de ingreso de datos?** | Los usuarios con baja alfabetización digital tienden a abandonar procesos complejos. Simplificar el flujo podría facilitar la adopción. | El tiempo promedio de registro se reducirá en un **30 %** respecto al flujo actual. | La simplificación no impactará de manera significativa en el tiempo de registro. |
+| **¿Mejorará la confianza de los usuarios si los datos cuentan con verificación veterinaria visible?** | Los ganaderos valoran la validación por parte de expertos del rubro. Mostrar respaldo profesional podría reforzar la credibilidad. | La confianza percibida aumentará al menos en un **25 %** en encuestas post-experimento. | La verificación visible no afectará de manera significativa la confianza percibida. |
+| **¿Aumentará la retención si se implementa un sistema de puntos o recompensas por uso frecuente?** | Los programas de fidelización incentivan la recurrencia mediante recompensas por acciones deseadas. | Los usuarios con acceso al sistema de puntos incrementarán su frecuencia mensual en un **35–40 %**. | El sistema de puntos no tendrá un impacto significativo en la retención. |
+| **¿Mejorará la percepción de valor si se añaden métricas visuales sobre productividad y salud animal?** | Ver resultados tangibles motiva el uso continuo y refuerza la satisfacción general. | El **60 %** de los usuarios calificará su experiencia como “muy satisfactoria” tras visualizar métricas. | Las métricas visuales no generarán un cambio significativo en la percepción de valor. |
+
+---
+
 ### 8.2.2. Domain Business Metrics
+
+| Métrica | Descripción | Objetivo | Fuente de Datos |
+|----------|--------------|-----------|-----------------|
+| **Frecuencia de uso semanal (DAU/WAU)** | Número promedio de sesiones por usuario por semana. | Medir el impacto de las alertas automáticas. | Firebase Analytics |
+| **Tiempo promedio de registro (segundos)** | Duración promedio del registro de datos de animales o eventos. | Evaluar eficiencia de la interfaz simplificada. | Logs internos de la app |
+| **Tasa de retención mensual (%)** | Porcentaje de usuarios que regresan al menos 3 veces por mes. | Determinar impacto del sistema de puntos. | Google Analytics |
+| **Índice de confianza percibida (%)** | Promedio de puntuación de usuarios sobre seguridad y fiabilidad (escala 1–5). | Medir la confianza generada por validación veterinaria. | Encuestas en la app |
+| **Nivel de satisfacción general (NPS o escala 1–5)** | Valoración general tras las mejoras aplicadas. | Evaluar percepción de valor y utilidad. | Formularios internos |
+
+---
+
 ### 8.2.3. Measures
+
+| Question | Measure |
+|-----------|----------|
+| ¿Aumentará la frecuencia de uso de VacApp si se implementan alertas automáticas sobre salud, alimentación y reproducción? | Comparar la cantidad de sesiones semanales promedio antes y después de activar las alertas, durante **30 días**. |
+| ¿Reducirá el tiempo de registro si se introduce un modo simplificado de ingreso de datos? | Medir el tiempo promedio que toma completar un registro antes y después del rediseño del flujo. |
+| ¿Mejorará la confianza de los usuarios si los datos cuentan con verificación veterinaria visible? | Evaluar las puntuaciones de confianza percibida (escala 1–5) antes y después de mostrar la verificación profesional. |
+| ¿Aumentará la retención si se implementa un sistema de puntos o recompensas por uso frecuente? | Medir la tasa de retención mensual comparando usuarios con y sin acceso al sistema de puntos. |
+| ¿Mejorará la percepción de valor si se añaden métricas visuales sobre productividad y salud animal? | Analizar el cambio en las puntuaciones de satisfacción general y el tiempo de uso del panel de métricas. |
+
+---
+
 ### 8.2.4. Conditions
+
+| Question | Experimental Condition | Control Condition |
+|-----------|-------------------------|-------------------|
+| ¿Aumentará la frecuencia de uso de VacApp si se implementan alertas automáticas sobre salud, alimentación y reproducción? | Los usuarios reciben alertas personalizadas y recordatorios automáticos según la información del ganado. | Los usuarios mantienen la versión estándar sin alertas. |
+| ¿Reducirá el tiempo de registro si se introduce un modo simplificado de ingreso de datos? | Flujo con campos prellenados, botones grandes y menos pasos. | Flujo actual con múltiples pantallas y pasos manuales. |
+| ¿Mejorará la confianza de los usuarios si los datos cuentan con verificación veterinaria visible? | Registros validados muestran un sello o insignia “Verificado por veterinario”. | Los registros no muestran validación alguna. |
+| ¿Aumentará la retención si se implementa un sistema de puntos o recompensas por uso frecuente? | Los usuarios ganan puntos por registrar eventos, atender alertas o completar tareas. | Los usuarios no cuentan con recompensas ni puntos. |
+| ¿Mejorará la percepción de valor si se añaden métricas visuales sobre productividad y salud animal? | Los usuarios visualizan paneles con gráficos y estadísticas del rebaño. | Los usuarios solo acceden a registros de texto. |
+
+---
+
 ### 8.2.5. Scale Calculations and Decisions
+
+| Hipótesis | Decisión | Desfavorable | Aceptable | Ideal | Excelente |
+|------------|-----------|---------------|------------|--------|------------|
+| Se espera que la frecuencia de uso semanal aumente un 40 % con alertas automáticas. | Implementar alertas globalmente si el incremento supera el 25 %. |  | X |  |  |
+| Se proyecta una reducción del 30 % en el tiempo de registro con flujo simplificado. | Mantener el nuevo flujo si supera el 20 % de mejora. |  |  | X |  |
+| Se estima un aumento del 25 % en la confianza percibida con verificación veterinaria. | Implementar verificación visible si las encuestas alcanzan ≥4/5 en confianza. |  |  | X |  |
+| Se espera un incremento del 35–40 % en retención con el sistema de puntos. | Escalar el sistema de recompensas si la retención mejora ≥30 %. |  |  |  | X |
+| Se prevé un 60 % de usuarios “muy satisfechos” tras añadir métricas visuales. | Integrar el panel permanentemente si se logra ≥50 % de satisfacción. |  |  | X |  |
+
+---
+
 ### 8.2.6. Methods Selection
+
+| Herramienta | Precio | Capacidad de Análisis | Sencillez | Ventajas |
+|--------------|---------|----------------------|------------|-----------|
+| **Firebase Analytics** | Gratuito | Análisis de retención, eventos, embudos y sesiones de usuario. | Alta integración con Android/iOS. | Permite medir DAU, MAU, tiempo promedio y frecuencia de uso. |
+| **Google Data Studio** | Gratuito | Creación de dashboards e informes comparativos. | Fácil de usar y conectar con Firebase. | Visualiza métricas en tiempo real. |
+| **Hotjar / UXCam** | Freemium | Seguimiento visual de interacciones y flujos de usuario. | Interfaz intuitiva. | Detecta cuellos de botella en el flujo de registro. |
+| **Google Forms / Typeform** | Gratuito | Recolección de encuestas de satisfacción y confianza. | Simple y accesible. | Permite obtener feedback cualitativo de usuarios rurales. |
+| **Lighthouse** | Gratuito | Evaluación técnica de rendimiento, accesibilidad y experiencia. | Muy sencillo. | Ofrece sugerencias de optimización UX. |
+
+---
+
 ### 8.2.7. Data Analytics: Goals, KPIs and Metrics Selection
+
+| Objetivo | KPI | Meta | Herramienta |
+|-----------|-----|------|--------------|
+| **Incrementar la retención semanal de usuarios activos.** | Tasa DAU/WAU | +40 % vs línea base. | Firebase Analytics |
+| **Optimizar la eficiencia del registro.** | Tiempo promedio de registro | Reducción del 30 %. | Hotjar / UXCam |
+| **Mejorar la confianza percibida.** | Puntuación promedio en encuestas (1–5) | Aumento ≥25 %. | Google Forms |
+| **Aumentar la fidelización.** | Porcentaje de usuarios recurrentes | +35–40 %. | Firebase |
+| **Elevar la satisfacción general.** | NPS o promedio de satisfacción | ≥4/5. | Data Studio |
+
+---
+
 ### 8.2.8. Web and Mobile Tracking Plan
+
+| Evento | Descripción | Variable Medida | Herramienta |
+|---------|--------------|------------------|--------------|
+| **login_success** | Usuario inicia sesión correctamente. | Usuarios activos diarios (DAU). | Firebase |
+| **record_created** | Registro de evento ganadero completado. | Tiempo promedio por registro. | Firebase |
+| **alert_triggered** | Notificación enviada al usuario. | Tasa de alertas vistas y respondidas. | Firebase |
+| **reward_earned** | Usuario obtiene puntos o recompensa. | Frecuencia de uso del sistema de fidelización. | Firebase |
+| **dashboard_viewed** | Acceso al panel de métricas. | Tiempo medio de sesión y frecuencia de acceso. | Google Analytics |
+| **survey_submitted** | Encuesta completada en la app. | Nivel de satisfacción y confianza. | Google Forms |
+
+**Configuración adicional:**
+- Se integrará **Google Tag Manager** para rastrear eventos personalizados.
+- Se implementará un sistema de **reportes semanales automáticos** en Data Studio.
+- Se monitorearán errores, tiempos de carga y tasas de abandono en tiempo real.
+
+---
 ## 8.3. Experimentation
 ### 8.3.1. To-Be User Stories
+
+| User Story ID | Título                                         | Descripción                                                                                                                                                | Criterios de Aceptación                                                                                                                                                                                                                              | Relacionado con (Epic ID) |
+| ------------- | ---------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------- |
+| TB01          | Recepcion de alertas de salud             | Como usuario de la aplicación, quiero recibir notificaciones sobre los controles de salud de mi ganado, para recordar fechas criticas de vacunaciones. | **Escenario:** Alerta sanitaria<br>**Given** que el usuario registro los datos de su ganado<br>**When** se acerca una fecha de vacunacion<br>**Then** se envia una notificacion de sanidad.                 | EP01                      |
+| TB02          | Recepcion de alertas de alimentacion            | Como usuario de la aplicación, quiero recibir notificaciones sobre los controles de alimentacion de mi ganado, para asegurar que mi ganado cuente con una dieta ideal.                | **Escenario:** Alerta alimentaria<br>**Given** que el usuario registro horarios de alimentacion<br>**When** se acerca el horario establecido<br>**Then** se envia una notificacion de alimentar.                                    | EP 03                      |
+| TB03          | Recepcion de alertas de reproduccion                 | Como usuario de la aplicación, quiero recibir notificaciones sobre las fechas relacionadas a la reproduccion de mi ganado, para llevar un mejor control de la crianza de mi ganado.                    | **Escenario:** Alerta de crianza<br>**Given** que el usuario registro fechas de apareamiento de su ganado<br>**When** se acerca la fecha de la temporada<br>**Then** se envia una notificacion de reproduccion.                          | EP02                       |
+| TB04          |  Ingreso de datos simplificado                | Como usuario, quiero llenar datos en general de forma rapida, para no perder mucho tiempo.                          | **Escenario:** Dashboard de registro<br>**Given** que el usuario inicia el proceso de registro de datos<br>**When** ve el formato a llenar<br>**Then** se completan automaticamente casilleros comunes o de menor relevancia.                                                           | EP04                       |
+| TB05          |  Mostrar verificacion de veterinarias        | Como usuario, quiero ver una prueba de validez de los registros veterinarios anteriores, para confirmar la veracidad del historial.                    | **Escenario:** Registros verificados<br>**Given** que el usuario abre el historial de registros de su ganado<br>**When** hace clic en un registro en especifico<br>**Then** se despliega el registro con un sello veterinario o de un profesional.                               | EP01                       |
+| TB06          | Interaccion con sistema de puntos | Como usuario, quiero conseguir puntos al cumplir metas o indicaciones de la aplicacion, para conocer mi progreso o mejora de mi ganado dentro de la aplicacion.                      | **Escenario:** Sistema de puntos<br>**Given** que el usuario interactua con la aplicacion<br>**When** cumple una meta<br>**Then** se mostrara que obtuvo cierta cantidad de puntos.                                                          | EP05                       |
+| TB07          | Interaccion con sistema de recompensas                  | Como usuario, quiero obtener recompensas por el uso de la aplicacion, para seguir motivado a cumplir las metas dentro de la aplicacion.  | **Escenario:** Canjeo de Recompensa<br>**Given** que el usuario tiene acumulado cierta cantidad de puntos y se dirige a la pantalla de recompensas<br>**When** selecciona una recompensa<br>**Then** el usuaro recibira la recompensa elejida.                                              | EP05                       |
+| TB08          | Visualizacion de metricas en grafos                | Como usuario, quiero acceder a un resumen de facil interpretacion visual sobre mis procesos ganaderos, para conocer y comparar mis resultados en la aplicacion.  | **Escenario:** Graficas de estadistica<br>**Given** que el usuario abre la sección de resumen de produccion<br>**When** elije la opcion de mostrar graficas<br>**Then** aparecen graficos sobre produccion, costes y salud de su ganado.                                              | EP02                       |
+
+
 ### 8.3.2. To-Be Product Backlog
+
+| ID   | Título                                         | Descripción                                                                                                                                               | Épica | Story Points |
+| ---- | ---------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ----- | ------------ |
+| TB06 | Interaccion con sistema de puntos            | Como usuario, quiero conseguir puntos al cumplir metas o indicaciones de la aplicacion, para conocer mi progreso o mejora de mi ganado dentro de la aplicacion.                  | EP5   | 5            |
+| TB07 | Interaccion con sistema de recompensas                   | Como usuario, quiero obtener recompensas por el uso de la aplicacion, para seguir motivado a cumplir las metas dentro de la aplicacion.   | EP5   | 5            |
+| TB02 | Recepcion de alertas de alimentacion             | Como usuario de la aplicación, quiero recibir notificaciones sobre los controles de alimentacion de mi ganado, para asegurar que mi ganado cuente con una dieta ideal.                 | EP3   | 3            |
+| TB01 | Recepcion de alertas de salud            | Como usuario de la aplicación, quiero recibir notificaciones sobre los controles de salud de mi ganado, para recordar fechas criticas de vacunaciones.                                | EP1   | 3            |
+| TB03 | Recepcion de alertas de reproduccion                 | Como usuario de la aplicación, quiero recibir notificaciones sobre las fechas relacionadas a la reproduccion de mi ganado, para llevar un mejor control de la crianza de mi ganado.                                    | EP2   | 3            |
+| TB08 | Visualizacion de metricas en grafos                     | Como usuario, quiero acceder a un resumen de facil interpretacion visual sobre mis procesos ganaderos, para conocer y comparar mis resultados en la aplicacion. | EP2   | 3            |
+| TB05 | Mostrar verificacion de veterinarias                 | CComo usuario, quiero ver una prueba de validez de los registros veterinarios anteriores, para confirmar la veracidad del historial.                               | EP1   | 2            |
+| TB04 | Ingreso de datos simplificado         | Como usuario, quiero llenar datos en general de forma rapida, para no perder mucho tiempo.                   | EP4   | 2            |
+
 ### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
 #### 8.3.3.1. To-Be Sprint Backlogs
 #### 8.3.3.2. Implemented To-Be Landing Page Evidence
