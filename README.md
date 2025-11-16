@@ -108,6 +108,61 @@
       7.3.2. Production Deployment Pipeline Components.<br>
       </td>
     </tr>
+    <tr>
+      <td>TB2</td>
+      <td>13/11/2025</td>
+      <td>
+      Checalla Apaza, Emanuel Renato<br>
+      Durand Vera, Gianfranco Angel<br>
+      Gordillo Ramos, Santiago Alonso<br>
+      Inga Hernandez, Ayrton Damian<br>
+      Vargas Javier, Jose Enrique<br>
+      </td>
+      <td>
+      6.2.Static testing & Verification<br>
+      6.2.1.Static Code Analysis<br>
+      6.2.1.1.Coding standard & Code conventions.<br>
+      6.2.1.2.Code Quality & Code Security.<br>
+      6.2.2.Reviews<br>
+      6.3.Validation Interviews.<br>
+      6.3.1.Diseño de Entrevistas.<br>
+      6.3.2.Registro de Entrevistas.<br>
+      6.3.3.Evaluaciones según heurísticas.<br>
+      6.4.Auditoría de Experiencias de Usuario.<br>
+      6.4.1.Auditoría realizada.<br>
+      6.4.1.1.Información del grupo auditado.<br>
+      6.4.1.2.Cronograma de auditoría realizada.<br>
+      6.4.1.3.Contenido de auditoría realizada.<br>
+      6.4.2.Auditoría recibida.<br>
+      6.4.2.1.Información del grupo auditor.<br>
+      6.4.2.2.Cronograma de auditoría recibida.<br>
+      6.4.2.3.Contenido de auditoría recibida.<br>
+      6.4.2.4.Resumen de modificaciones para subsanar hallazgos.<br>
+      7.4.Continuous Monitoring<br>
+      7.4.1.Tools and Practices<br>
+      7.4.2.Monitoring Pipeline Components<br>
+      7.4.3.Alerting Pipeline Components<br>
+      7.4.4.Notification Pipeline Components.<br>
+      8.1.Experiment Planning<br>
+      8.1.1.As-Is Summary.<br>
+      8.1.2.Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims.<br>
+      8.1.3.Experiment-Ready Questions.<br>
+      8.1.4.Question Backlog.<br>
+      8.1.5.Experiment Cards.<br>
+      8.2.Experiment Design<br>
+      8.2.1.Hypotheses.<br>
+      8.2.2. Domain Business Metrics<br>
+      8.2.3.Measures.<br>
+      8.2.4.Conditions.<br>
+      8.2.5.Scale Calculations and Decisions.<br>
+      8.2.6.Methods Selection.<br>
+      8.2.7.Data Analytics: Goals, KPIs and Metrics Selection.<br>
+      8.2.8.Web and Mobile Tracking Plan.<br>
+      8.3.Experimentation<br>
+      8.3.1.To-Be User Stories.<br>
+      8.3.2.To-Be Product Backlog<br>
+      </td>
+    </tr>
   </tbody>
 </table>
 
@@ -122,6 +177,11 @@ TB1:
 TP1:
 
  <img src="img/tp1.png" >
+
+
+TB2:
+
+ <img src="img/tb2.png" >
  
 <br><br>
 
@@ -338,7 +398,7 @@ ABET – EAC - Student Outcome 4
         <p><b>Gianfranco Durand Vera</b></p>
         <p><b>TB1:</b> En el desarrollo del Capítulo 4, me aseguré de aplicar principios de responsabilidad ética y profesional al diseñar la experiencia de usuario y la arquitectura de la plataforma. </p>
         <p><b>TP1:</b> Participé en la refactorización del backend y llevé a cabo pruebas unitarias y de integración para asegurar la calidad y el cumplimiento de los estándares profesionales.</p>
-        <p><b>TB2:</b> [Acciones]</p>
+        <p><b>TB2:</b> Apliqué responsabilidad ética al diseñar y registrar entrevistas de validación, asegurando trato adecuado a los participantes y uso correcto de la información. Además, realicé evaluaciones heurísticas siguiendo criterios profesionales para identificar problemas reales sin sesgos.</p>
         <p><b>TF:</b> [Acciones]</p>
         <br>
         <p><b>Santiago Gordillo Ramos</b></p>
@@ -362,7 +422,7 @@ ABET – EAC - Student Outcome 4
       <td>
         <p><b>TB1:</b> En la TB1, el equipo actuó con responsabilidad ética y profesional en todo el trabajo, desde la recolección de requisitos hasta el diseño y la implementación inicial, documentando cada decisión y asegurando que la solución sea clara, justa y confiable para los usuarios.</p>
         <p><b>TP1:</b> Distribuimos las responsabilidades en función de las fortalezas individuales del equipo, lo que garantizó una ejecución ordenada, ética y altamente eficaz del proyecto.</p>
-        <p><b>TB2:</b> [Conclusiones]</p>
+        <p><b>TB2:</b> El equipo actuó con responsabilidad ética y profesional al aplicar análisis estático de código, revisar estándares y seguridad, y ejecutar revisiones entre pares para garantizar calidad. Asimismo, diseñamos y registramos entrevistas de validación respetando a los participantes y evaluamos la experiencia de usuario mediante auditorías mutuas y heurísticas. La integración del monitoreo, alertas y notificaciones reforzó la transparencia y la adecuada operación del sistema.</p>
         <p><b>TF:</b> [Conclusiones]</p>
       </td>
     </tr>
@@ -378,7 +438,7 @@ ABET – EAC - Student Outcome 4
         <p><b>Gianfranco Durand Vera</b></p>
         <p><b>TB1:</b> Adapté la guía de estilos de la plataforma según las necesidades de todos los segmentos objetivo, asegurando que los colores, tipografías y layouts cumplan con estándares de accesibilidad para reducir barreras de uso</p>
         <p><b>TP1:</b> Al establecer la integración continua (CI) y ejecutar pruebas, confirmé que una arquitectura robusta es clave para la eficiencia, sostenibilidad y adaptabilidad del sistema a futuro.</p>
-        <p><b>TB2:</b> [Acciones]</p>
+        <p><b>TB2:</b> Emití juicios informados a partir de entrevistas de validación y evaluaciones heurísticas, considerando cómo las mejoras propuestas impactan a los usuarios y al negocio. Asimismo, los componentes de monitoreo, alertas y notificaciones permitieron analizar el desempeño en contextos reales y sustentar decisiones con base en datos.</p>
         <p><b>TF:</b> [Acciones]</p>
         <br>
         <p><b>Santiago Gordillo Ramos</b></p>
@@ -402,7 +462,7 @@ ABET – EAC - Student Outcome 4
       <td>
         <p><b>TB1:</b> Durante la TB1, el equipo tomó decisiones de diseño y desarrollo considerando la accesibilidad, la inclusión y la eficiencia de recursos, asegurando que la plataforma tenga un impacto positivo y responsable en los usuarios y en su contexto social, económico y ambiental.</p>
         <p><b>TP1:</b> Analizamos las implicaciones sociales de cada avance técnico, asegurando que nuestras soluciones respondan directamente a las necesidades reales del entorno.</p>
-        <p><b>TB2:</b> [Conclusiones]</p>
+        <p><b>TB2:</b> El equipo emitió juicios informados a partir de entrevistas, auditorías UX, análisis heurísticos y actividades de verificación. Además, los datos del monitoreo continuo y del pipeline de alertas permitieron evaluar el impacto real de las decisiones técnicas. La planificación y ejecución de experimentos (hipótesis, métricas, KPIs y tracking) aportó evidencia objetiva para valorar cómo las soluciones afectan a los usuarios, al negocio y a su operación en distintos contextos.</p>
         <p><b>TF:</b> [Conclusiones]</p>
       </td>
     </tr>
