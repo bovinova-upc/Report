@@ -3262,15 +3262,218 @@ El **pipeline de despliegue a producción** de *VacApp* combina procesos automá
 ### 8.1.3. Experiment-Ready Questions
 ### 8.1.4. Question Backlog
 ### 8.1.5. Experiment Cards
-## 8.2. Experiment Design
-### 8.2.1. Hypotheses
-### 8.2.2. Domain Business Metrics
-### 8.2.3. Measures
-### 8.2.4. Conditions
-### 8.2.5. Scale Calculations and Decisions
-### 8.2.6. Methods Selection
-### 8.2.7. Data Analytics: Goals, KPIs and Metrics Selection
-### 8.2.8. Web and Mobile Tracking Plan
+<h2>8.2. Diseño Experimental (Experiment Design)</h2>
+
+<!-- ============================= -->
+<!--          8.2.1 Hipótesis      -->
+<!-- ============================= -->
+
+<h3>8.2.1. Hipótesis</h3>
+
+<fieldset>
+  <legend><strong>Hipótesis 1 — Cumplimiento del Calendario</strong></legend>
+  <p><strong>Pregunta:</strong> ¿Los usuarios mejoran su cumplimiento del calendario de vacunación si cuentan con recordatorios centralizados?</p>
+  <p><strong>Creencia:</strong> Los usuarios olvidan dosis porque no existe un sistema unificado de recordatorios.</p>
+  <p><strong>Hipótesis:</strong> Si los usuarios utilizan VacApp, el cumplimiento de las vacunas aumentará.</p>
+  <p><strong>Hipótesis Nula:</strong> El uso de VacApp no mejora el cumplimiento del calendario.</p>
+</fieldset>
+
+<fieldset>
+  <legend><strong>Hipótesis 2 — Confianza mediante fuentes oficiales</strong></legend>
+  <p><strong>Pregunta:</strong> ¿La información verificada aumenta la confianza de los usuarios?</p>
+  <p><strong>Creencia:</strong> La confianza aumenta cuando los datos provienen de entidades oficiales.</p>
+  <p><strong>Hipótesis:</strong> Mostrar sellos oficiales y fuentes verificadas incrementará la confianza y el uso.</p>
+  <p><strong>Hipótesis Nula:</strong> La información verificada no incrementa la confianza ni la frecuencia de uso.</p>
+</fieldset>
+
+<fieldset>
+  <legend><strong>Hipótesis 3 — Interfaz simple y finalización</strong></legend>
+  <p><strong>Pregunta:</strong> ¿Un flujo guiado reduce el abandono del proceso?</p>
+  <p><strong>Creencia:</strong> Interfaces largas y confusas generan abandono.</p>
+  <p><strong>Hipótesis:</strong> Un registro de vacunas simple y guiado aumentará la tasa de finalización.</p>
+  <p><strong>Hipótesis Nula:</strong> La simplicidad no influye en la finalización.</p>
+</fieldset>
+
+<fieldset>
+  <legend><strong>Hipótesis 4 — Retención mediante recordatorios</strong></legend>
+  <p><strong>Pregunta:</strong> ¿Los recordatorios personalizados aumentan la retención mensual?</p>
+  <p><strong>Creencia:</strong> Recordatorios oportunos generan interacción recurrente.</p>
+  <p><strong>Hipótesis:</strong> Los recordatorios personalizados aumentarán la retención mensual.</p>
+  <p><strong>Hipótesis Nula:</strong> Los recordatorios no afectan la retención.</p>
+</fieldset>
+
+<fieldset>
+  <legend><strong>Hipótesis 5 — Perfil Familiar y Frecuencia de Uso</strong></legend>
+  <p><strong>Pregunta:</strong> ¿Gestionar varios dependientes incrementa la frecuencia de uso?</p>
+  <p><strong>Creencia:</strong> Los usuarios con dependientes revisan con mayor frecuencia.</p>
+  <p><strong>Hipótesis:</strong> La función de perfil familiar aumentará la frecuencia de uso.</p>
+  <p><strong>Hipótesis Nula:</strong> Gestionar dependientes no influye en la frecuencia de uso.</p>
+</fieldset>
+
+<!-- ============================= -->
+<!--      8.2.2 Métricas de Negocio -->
+<!-- ============================= -->
+
+<h3>8.2.2. Métricas del Dominio de Negocio</h3>
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <th>Métrica</th>
+    <th>Descripción</th>
+    <th>Objetivo</th>
+  </tr>
+  <tr>
+    <td>Tasa de Cumplimiento de Vacunación</td>
+    <td>Porcentaje de usuarios que completan sus dosis a tiempo.</td>
+    <td>Aumentar el cumplimiento general en todos los grupos de edad.</td>
+  </tr>
+  <tr>
+    <td>Retención a 30 días</td>
+    <td>Porcentaje de usuarios que regresan mensualmente.</td>
+    <td>Mejorar la retención mediante recordatorios y funciones clave.</td>
+  </tr>
+  <tr>
+    <td>Tasa de Adopción de Funcionalidades</td>
+    <td>Porcentaje de usuarios que usan los recordatorios y el registro de vacunas.</td>
+    <td>Garantizar una adopción rápida y sostenida.</td>
+  </tr>
+</table>
+
+<!-- ============================= -->
+<!-- 8.2.3 Medidas -->
+<!-- ============================= -->
+
+<h3>8.2.3. Medidas</h3>
+
+<h4>Medidas Primarias:</h4>
+<ul>
+  <li>Número de vacunas registradas.</li>
+  <li>Porcentaje de usuarios que activan recordatorios.</li>
+  <li>Usuarios activos diarios (DAU) y mensuales (MAU).</li>
+  <li>Uso de características por sesión.</li>
+</ul>
+
+<h4>Medidas Secundarias:</h4>
+<ul>
+  <li>Tiempo hasta la primera acción.</li>
+  <li>Tasa de finalización del onboarding.</li>
+  <li>Puntuación de satisfacción del usuario (CSAT).</li>
+</ul>
+
+<!-- ============================= -->
+<!-- 8.2.4 Condiciones -->
+<!-- ============================= -->
+
+<h3>8.2.4. Condiciones</h3>
+
+<ul>
+  <li><strong>Grupo Control:</strong> Versión básica sin recordatorios avanzados.</li>
+  <li><strong>Grupo Experimental A:</strong> Recordatorios avanzados + onboarding guiado.</li>
+  <li><strong>Grupo Experimental B:</strong> Onboarding guiado + certificaciones oficiales visibles.</li>
+  <li><strong>Duración:</strong> 2 a 4 semanas o hasta lograr 95% de confianza estadística.</li>
+  <li><strong>Audiencia:</strong> Usuarios nuevos y activos.</li>
+</ul>
+
+<!-- ============================= -->
+<!-- 8.2.5 Cálculos y Decisiones -->
+<!-- ============================= -->
+
+<h3>8.2.5. Cálculos de Escala y Decisiones</h3>
+
+<h4>Tamaño Mínimo de Muestra:</h4>
+<ul>
+  <li>300 usuarios por variante (A/B/C).</li>
+  <li>Poder estadístico: 80%.</li>
+  <li>Tamaño de efecto esperado: 8% a 12%.</li>
+</ul>
+
+<h4>Reglas de Decisión:</h4>
+<ul>
+  <li>Si una variante supera al control por ≥10%, se implementa globalmente.</li>
+  <li>Si la mejora es &lt;5%, se rediseña y vuelve a probar.</li>
+  <li>Si no hay resultados concluyentes tras 4 semanas, se requiere revisión UX.</li>
+</ul>
+
+<!-- ============================= -->
+<!-- 8.2.6 Selección de Métodos -->
+<!-- ============================= -->
+
+<h3>8.2.6. Selección de Métodos</h3>
+
+<ul>
+  <li>Pruebas A/B para recordatorios y flujos.</li>
+  <li>Pruebas multivariadas para elementos UI.</li>
+  <li>Análisis de cohortes para retención.</li>
+  <li>Mapeo de viaje del usuario.</li>
+  <li>Análisis de embudo para onboarding.</li>
+</ul>
+
+<!-- ============================= -->
+<!-- 8.2.7 Analítica -->
+<!-- ============================= -->
+
+<h3>8.2.7. Analítica de Datos: Objetivos, KPIs y Selección de Métricas</h3>
+
+<h4>Objetivos de Analítica:</h4>
+<ul>
+  <li>Identificar comportamientos que predicen cumplimiento.</li>
+  <li>Medir adopción de funcionalidades.</li>
+  <li>Optimizar recordatorios y flujos críticos.</li>
+</ul>
+
+<h4>KPIs:</h4>
+<ul>
+  <li>Cumplimiento de vacunación (%)</li>
+  <li>Tasa de activación</li>
+  <li>Retención 7 y 30 días</li>
+  <li>Tasa de activación de recordatorios</li>
+  <li>Frecuencia de sesiones</li>
+</ul>
+
+<h4>Métricas de Soporte:</h4>
+<ul>
+  <li>Tasa de clics</li>
+  <li>Intentos fallidos</li>
+  <li>Abandonos en pantallas clave</li>
+</ul>
+
+<!-- ============================= -->
+<!-- 8.2.8 Plan de Tracking -->
+<!-- ============================= -->
+
+<h3>8.2.8. Plan de Tracking Web y Móvil</h3>
+
+<h4>Eventos a Rastrear:</h4>
+<ul>
+  <li>onboarding_inicio</li>
+  <li>onboarding_completado</li>
+  <li>vacuna_registrada</li>
+  <li>vacuna_completada</li>
+  <li>recordatorio_activado</li>
+  <li>perfil_familiar_agregado</li>
+</ul>
+
+<h4>Propiedades de Usuario:</h4>
+<ul>
+  <li>tipo_usuario (adulto / padre / adulto mayor)</li>
+  <li>tiene_dependientes</li>
+  <li>recordatorios_activos</li>
+  <li>país / idioma</li>
+</ul>
+
+<h4>Embudos:</h4>
+<ul>
+  <li>Instalación → Onboarding → Primera vacuna añadida</li>
+  <li>Recordatorio activado → Dosis programada → Dosis completada</li>
+</ul>
+
+<h4>Herramientas de Tracking:</h4>
+<ul>
+  <li>Firebase Analytics</li>
+  <li>Mixpanel</li>
+  <li>Segment</li>
+</ul>
+
 ## 8.3. Experimentation
 ### 8.3.1. To-Be User Stories
 ### 8.3.2. To-Be Product Backlog
