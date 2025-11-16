@@ -3264,215 +3264,242 @@ El **pipeline de despliegue a producción** de *VacApp* combina procesos automá
 ### 8.1.5. Experiment Cards
 <h2>8.2. Diseño Experimental (Experiment Design)</h2>
 
-<!-- ============================= -->
-<!--          8.2.1 Hipótesis      -->
-<!-- ============================= -->
 
-<h3>8.2.1. Hipótesis</h3>
+<div>
 
-<fieldset>
-  <legend><strong>Hipótesis 1 — Cumplimiento del Calendario</strong></legend>
-  <p><strong>Pregunta:</strong> ¿Los usuarios mejoran su cumplimiento del calendario de vacunación si cuentan con recordatorios centralizados?</p>
-  <p><strong>Creencia:</strong> Los usuarios olvidan dosis porque no existe un sistema unificado de recordatorios.</p>
-  <p><strong>Hipótesis:</strong> Si los usuarios utilizan VacApp, el cumplimiento de las vacunas aumentará.</p>
-  <p><strong>Hipótesis Nula:</strong> El uso de VacApp no mejora el cumplimiento del calendario.</p>
-</fieldset>
+<h2>8.2. Experiment Design</h2>
 
-<fieldset>
-  <legend><strong>Hipótesis 2 — Confianza mediante fuentes oficiales</strong></legend>
-  <p><strong>Pregunta:</strong> ¿La información verificada aumenta la confianza de los usuarios?</p>
-  <p><strong>Creencia:</strong> La confianza aumenta cuando los datos provienen de entidades oficiales.</p>
-  <p><strong>Hipótesis:</strong> Mostrar sellos oficiales y fuentes verificadas incrementará la confianza y el uso.</p>
-  <p><strong>Hipótesis Nula:</strong> La información verificada no incrementa la confianza ni la frecuencia de uso.</p>
-</fieldset>
+<h3>8.2.1. Hypotheses</h3>
 
-<fieldset>
-  <legend><strong>Hipótesis 3 — Interfaz simple y finalización</strong></legend>
-  <p><strong>Pregunta:</strong> ¿Un flujo guiado reduce el abandono del proceso?</p>
-  <p><strong>Creencia:</strong> Interfaces largas y confusas generan abandono.</p>
-  <p><strong>Hipótesis:</strong> Un registro de vacunas simple y guiado aumentará la tasa de finalización.</p>
-  <p><strong>Hipótesis Nula:</strong> La simplicidad no influye en la finalización.</p>
-</fieldset>
+<!-- Hipótesis 1 -->
+<table border="1" cellpadding="6">
+<tr><th colspan="2">Hipótesis 1</th></tr>
+<tr><td><b>Question</b></td><td>¿Aumentará la tasa de reservas si se añaden verificaciones de identidad, fotos y reseñas para reforzar la seguridad?</td></tr>
+<tr><td><b>Belief</b></td><td>Muchos usuarios dudan al arrendar cocheras de personas desconocidas. Mostrar identificaciones verificadas, imágenes reales del espacio y reseñas podría generar confianza y reducir la desconfianza.</td></tr>
+<tr><td><b>Hypothesis</b></td><td>Al menos el 70% de las solicitudes de reserva se completarán cuando el anfitrión esté verificado.</td></tr>
+<tr><td><b>Null Hypothesis</b></td><td>Las verificaciones de perfil no impactarán de manera significativa en la tasa de reservas.</td></tr>
+</table>
+<br>
 
-<fieldset>
-  <legend><strong>Hipótesis 4 — Retención mediante recordatorios</strong></legend>
-  <p><strong>Pregunta:</strong> ¿Los recordatorios personalizados aumentan la retención mensual?</p>
-  <p><strong>Creencia:</strong> Recordatorios oportunos generan interacción recurrente.</p>
-  <p><strong>Hipótesis:</strong> Los recordatorios personalizados aumentarán la retención mensual.</p>
-  <p><strong>Hipótesis Nula:</strong> Los recordatorios no afectan la retención.</p>
-</fieldset>
 
-<fieldset>
-  <legend><strong>Hipótesis 5 — Perfil Familiar y Frecuencia de Uso</strong></legend>
-  <p><strong>Pregunta:</strong> ¿Gestionar varios dependientes incrementa la frecuencia de uso?</p>
-  <p><strong>Creencia:</strong> Los usuarios con dependientes revisan con mayor frecuencia.</p>
-  <p><strong>Hipótesis:</strong> La función de perfil familiar aumentará la frecuencia de uso.</p>
-  <p><strong>Hipótesis Nula:</strong> Gestionar dependientes no influye en la frecuencia de uso.</p>
-</fieldset>
+<table border="1" cellpadding="6">
+<tr><th colspan="2">Hipótesis 2</th></tr>
+<tr><td><b>Question</b></td><td>¿Aumentará la confianza de los usuarios con un sistema de reputación basado en puntuaciones y comentarios visibles?</td></tr>
+<tr><td><b>Belief</b></td><td>La transparencia en la reputación ayuda a los usuarios a evaluar con mayor seguridad a anfitriones y conductores, reduciendo la percepción de riesgo.</td></tr>
+<tr><td><b>Hypothesis</b></td><td>Se incrementará en un 25% la tasa de reservas de anfitriones con reputación de 4 estrellas o más.</td></tr>
+<tr><td><b>Null Hypothesis</b></td><td>El sistema de reputación no provocará un cambio notable en la confianza ni en las reservas.</td></tr>
+</table>
+<br>
 
-<!-- ============================= -->
-<!--      8.2.2 Métricas de Negocio -->
-<!-- ============================= -->
 
-<h3>8.2.2. Métricas del Dominio de Negocio</h3>
+<table border="1" cellpadding="6">
+<tr><th colspan="2">Hipótesis 3</th></tr>
+<tr><td><b>Question</b></td><td>¿Se reducirá el abandono del proceso de reserva al simplificarlo para completarlo en menos de 3 minutos?</td></tr>
+<tr><td><b>Belief</b></td><td>Procesos largos o complicados suelen provocar abandono antes de finalizar la reserva. Un flujo más directo podría mejorar las conversiones.</td></tr>
+<tr><td><b>Hypothesis</b></td><td>El abandono del flujo de reserva disminuirá en al menos un 30%.</td></tr>
+<tr><td><b>Null Hypothesis</b></td><td>Reducir los pasos del flujo no influirá significativamente en la tasa de abandono.</td></tr>
+</table>
+<br>
 
-<table border="1" cellspacing="0" cellpadding="6">
-  <tr>
-    <th>Métrica</th>
-    <th>Descripción</th>
-    <th>Objetivo</th>
-  </tr>
-  <tr>
-    <td>Tasa de Cumplimiento de Vacunación</td>
-    <td>Porcentaje de usuarios que completan sus dosis a tiempo.</td>
-    <td>Aumentar el cumplimiento general en todos los grupos de edad.</td>
-  </tr>
-  <tr>
-    <td>Retención a 30 días</td>
-    <td>Porcentaje de usuarios que regresan mensualmente.</td>
-    <td>Mejorar la retención mediante recordatorios y funciones clave.</td>
-  </tr>
-  <tr>
-    <td>Tasa de Adopción de Funcionalidades</td>
-    <td>Porcentaje de usuarios que usan los recordatorios y el registro de vacunas.</td>
-    <td>Garantizar una adopción rápida y sostenida.</td>
-  </tr>
+
+<table border="1" cellpadding="6">
+<tr><th colspan="2">Hipótesis 4</th></tr>
+<tr><td><b>Question</b></td><td>¿Disminuirá el tiempo de decisión si los usuarios pueden filtrar cocheras por precio, tamaño o nivel de seguridad?</td></tr>
+<tr><td><b>Belief</b></td><td>El exceso de opciones puede dificultar la elección. Filtrar resultados ayuda a los usuarios a centrarse en lo que más les importa y agiliza la decisión.</td></tr>
+<tr><td><b>Hypothesis</b></td><td>El tiempo medio de elección se reducirá en un 20%.</td></tr>
+<tr><td><b>Null Hypothesis</b></td><td>La introducción de filtros no modificará de forma significativa el tiempo de decisión.</td></tr>
+</table>
+<br>
+
+
+<table border="1" cellpadding="6">
+<tr><th colspan="2">Hipótesis 5</th></tr>
+<tr><td><b>Question</b></td><td>¿Crecerá la frecuencia de uso de la aplicación si se ofrece un programa de puntos o recompensas?</td></tr>
+<tr><td><b>Belief</b></td><td>Los incentivos por fidelidad suelen impulsar el uso recurrente al premiar el comportamiento deseado de los usuarios.</td></tr>
+<tr><td><b>Hypothesis</b></td><td>Los usuarios con acceso al programa de recompensas aumentarán su uso en un 40%.</td></tr>
+<tr><td><b>Null Hypothesis</b></td><td>El sistema de recompensas no tendrá un efecto apreciable en la frecuencia de uso.</td></tr>
 </table>
 
-<!-- ============================= -->
-<!-- 8.2.3 Medidas -->
-<!-- ============================= -->
+<hr>
 
-<h3>8.2.3. Medidas</h3>
+<h3>8.2.2. Measures</h3>
 
-<h4>Medidas Primarias:</h4>
+<p><b>Pregunta:</b> ¿Aumentará la tasa de reservas si se añaden verificaciones de identidad, fotos y reseñas?<br>
+<b>Measure:</b> Medir el porcentaje de reservas completadas por anfitriones verificados versus no verificados en 30 días.</p>
+
+<p><b>Pregunta:</b> ¿Aumentará la confianza con un sistema de reputación visible?<br>
+<b>Measure:</b> Registrar la tasa de reservas de anfitriones con reputación ≥4 estrellas vs. sin reseñas por 1 mes.</p>
+
+<p><b>Pregunta:</b> ¿Reducirá el abandono simplificar el flujo a menos de 3 minutos?<br>
+<b>Measure:</b> Calcular usuarios que inician y completan el flujo antes y después de la simplificación.</p>
+
+<p><b>Pregunta:</b> ¿Disminuirá el tiempo de decisión si existen filtros?<br>
+<b>Measure:</b> Medir tiempo medio desde búsqueda hasta reserva con y sin filtros.</p>
+
+<p><b>Pregunta:</b> ¿Crecerá la frecuencia con un sistema de puntos?<br>
+<b>Measure:</b> Comparar reservas por usuario antes y después del programa en 60 días.</p>
+
+<hr>
+
+<h3>8.2.3. Conditions</h3>
+
+<p><b>Verificaciones, fotos y reseñas</b><br>
+<b>Experimental:</b> Usuarios deben completar verificación, fotos y reseñas.<br>
+<b>Control:</b> Flujo actual sin verificación adicional.</p>
+
+<p><b>Reputación visible</b><br>
+<b>Experimental:</b> Mostrar estrellas y comentarios reales.<br>
+<b>Control:</b> No se muestran reseñas.</p>
+
+<p><b>Flujo simplificado</b><br>
+<b>Experimental:</b> Máximo 3 pantallas, campos prellenados.<br>
+<b>Control:</b> Flujo actual.</p>
+
+<p><b>Filtros avanzados</b><br>
+<b>Experimental:</b> Filtros de precio, tamaño y seguridad.<br>
+<b>Control:</b> Búsqueda básica.</p>
+
+<p><b>Programa de recompensas</b><br>
+<b>Experimental:</b> Usuarios acumulan puntos y canjean.<br>
+<b>Control:</b> Sin recompensas.</p>
+
+<hr>
+
+<h3>8.2.4. Scale Calculations and Decisions</h3>
+
+<table border="1" cellpadding="6">
+<tr>
+    <th>Scale Calculation</th>
+    <th>Decision</th>
+    <th>Desfavorable</th>
+    <th>Aceptable</th>
+    <th>Ideal</th>
+    <th>Excelente</th>
+</tr>
+
+<tr>
+<td>Incremento del 70% en reservas con verificación.</td>
+<td>Implementar verificaciones obligatorias.</td>
+<td></td><td></td><td>X</td><td></td>
+</tr>
+
+<tr>
+<td>Aumento del 25% en reservas con reputación ≥4 estrellas.</td>
+<td>Activar sistema de reputación visible.</td>
+<td></td><td></td><td>X</td><td></td>
+</tr>
+
+<tr>
+<td>Reducción del abandono en 30% con flujo simplificado.</td>
+<td>Rediseñar flujo actual.</td>
+<td></td><td></td><td></td><td>X</td>
+</tr>
+
+<tr>
+<td>Disminución de 20% en tiempo de decisión con filtros.</td>
+<td>Implementar filtros avanzados.</td>
+<td></td><td>X</td><td></td><td></td>
+</tr>
+
+<tr>
+<td>Aumento del 40% en frecuencia de uso con recompensas.</td>
+<td>Implementar sistema de fidelización.</td>
+<td></td><td></td><td>X</td><td></td>
+</tr>
+
+</table>
+
+<hr>
+
+<h3>8.2.5. Methods Selection</h3>
+
+<table border="1" cellpadding="6">
+<tr>
+<th>Herramienta</th>
+<th>Precio</th>
+<th>Capacidad de Análisis</th>
+<th>Sencillez</th>
+<th>Ventajas</th>
+</tr>
+
+<tr>
+<td>GTMetrix</td>
+<td>Gratuito / pago</td>
+<td>Análisis detallado y sugerencias.</td>
+<td>Fácil e intuitivo.</td>
+<td>Informes detallados y prácticos.</td>
+</tr>
+
+<tr>
+<td>Catchpoint</td>
+<td>Suscripción</td>
+<td>Monitoreo en tiempo real global.</td>
+<td>Interfaz completa y profesional.</td>
+<td>Ideal para empresas con tráfico elevado.</td>
+</tr>
+
+<tr>
+<td>RedLine13</td>
+<td>Gratuito limitado</td>
+<td>Pruebas de carga y estrés.</td>
+<td>Técnico, orientado a expertos.</td>
+<td>Simulación realista de tráfico.</td>
+</tr>
+
+<tr>
+<td>Lighthouse</td>
+<td>Gratuito</td>
+<td>Pruebas de rendimiento y accesibilidad.</td>
+<td>Resultados claros y directos.</td>
+<td>Recomendaciones precisas.</td>
+</tr>
+
+</table>
+
+<hr>
+
+<h3>8.2.6. Data Analytics: Goals, KPIs and Metrics Selection</h3>
+
+<p>
+Se realizaron pruebas con Lighthouse dentro de HomeyPark para evaluar rendimiento, accesibilidad y mejores prácticas.
+</p>
+
+<p><b>Métricas recopiladas:</b></p>
 <ul>
-  <li>Número de vacunas registradas.</li>
-  <li>Porcentaje de usuarios que activan recordatorios.</li>
-  <li>Usuarios activos diarios (DAU) y mensuales (MAU).</li>
-  <li>Uso de características por sesión.</li>
+<li>Performance Score</li>
+<li>Accessibility Score</li>
+<li>Best Practices Score</li>
+<li>SEO Score</li>
+<li>Tiempo de carga total</li>
+<li>Interactividad</li>
+<li>Tiempo hasta la primera pintura útil (FCP)</li>
 </ul>
 
-<h4>Medidas Secundarias:</h4>
+<p>(Aquí se colocarían los screenshots en GitHub)</p>
+
+<hr>
+
+<h3>8.2.7. Web and Mobile Tracking Plan</h3>
+
+<h4>Fase 1: Evaluación Inicial</h4>
 <ul>
-  <li>Tiempo hasta la primera acción.</li>
-  <li>Tasa de finalización del onboarding.</li>
-  <li>Puntuación de satisfacción del usuario (CSAT).</li>
+<li><b>Métricas de uso:</b> usuarios activos, duración de sesión, reservas completadas, abandono.</li>
+<li><b>Eventos clave:</b> clics en filtros, reservas, reseñas, recompensas.</li>
+<li><b>Opinión:</b> encuestas rápidas post-reserva.</li>
+<li><b>Comparación pre/post:</b> evaluar impacto inmediato.</li>
 </ul>
 
-<!-- ============================= -->
-<!-- 8.2.4 Condiciones -->
-<!-- ============================= -->
-
-<h3>8.2.4. Condiciones</h3>
-
+<h4>Fase 2: Monitoreo Continuado</h4>
 <ul>
-  <li><strong>Grupo Control:</strong> Versión básica sin recordatorios avanzados.</li>
-  <li><strong>Grupo Experimental A:</strong> Recordatorios avanzados + onboarding guiado.</li>
-  <li><strong>Grupo Experimental B:</strong> Onboarding guiado + certificaciones oficiales visibles.</li>
-  <li><strong>Duración:</strong> 2 a 4 semanas o hasta lograr 95% de confianza estadística.</li>
-  <li><strong>Audiencia:</strong> Usuarios nuevos y activos.</li>
+<li><b>Seguimiento en tiempo real</b> con Google Analytics / Mixpanel.</li>
+<li><b>Análisis por segmento:</b> conductor, anfitrión, región.</li>
+<li><b>Retención:</b> usuarios que regresan y frecuencia.</li>
+<li><b>Informes quincenales</b> con KPIs clave.</li>
+<li><b>Acciones basadas en datos</b> para optimizar continuamente.</li>
 </ul>
 
-<!-- ============================= -->
-<!-- 8.2.5 Cálculos y Decisiones -->
-<!-- ============================= -->
+</div>
 
-<h3>8.2.5. Cálculos de Escala y Decisiones</h3>
-
-<h4>Tamaño Mínimo de Muestra:</h4>
-<ul>
-  <li>300 usuarios por variante (A/B/C).</li>
-  <li>Poder estadístico: 80%.</li>
-  <li>Tamaño de efecto esperado: 8% a 12%.</li>
-</ul>
-
-<h4>Reglas de Decisión:</h4>
-<ul>
-  <li>Si una variante supera al control por ≥10%, se implementa globalmente.</li>
-  <li>Si la mejora es &lt;5%, se rediseña y vuelve a probar.</li>
-  <li>Si no hay resultados concluyentes tras 4 semanas, se requiere revisión UX.</li>
-</ul>
-
-<!-- ============================= -->
-<!-- 8.2.6 Selección de Métodos -->
-<!-- ============================= -->
-
-<h3>8.2.6. Selección de Métodos</h3>
-
-<ul>
-  <li>Pruebas A/B para recordatorios y flujos.</li>
-  <li>Pruebas multivariadas para elementos UI.</li>
-  <li>Análisis de cohortes para retención.</li>
-  <li>Mapeo de viaje del usuario.</li>
-  <li>Análisis de embudo para onboarding.</li>
-</ul>
-
-<!-- ============================= -->
-<!-- 8.2.7 Analítica -->
-<!-- ============================= -->
-
-<h3>8.2.7. Analítica de Datos: Objetivos, KPIs y Selección de Métricas</h3>
-
-<h4>Objetivos de Analítica:</h4>
-<ul>
-  <li>Identificar comportamientos que predicen cumplimiento.</li>
-  <li>Medir adopción de funcionalidades.</li>
-  <li>Optimizar recordatorios y flujos críticos.</li>
-</ul>
-
-<h4>KPIs:</h4>
-<ul>
-  <li>Cumplimiento de vacunación (%)</li>
-  <li>Tasa de activación</li>
-  <li>Retención 7 y 30 días</li>
-  <li>Tasa de activación de recordatorios</li>
-  <li>Frecuencia de sesiones</li>
-</ul>
-
-<h4>Métricas de Soporte:</h4>
-<ul>
-  <li>Tasa de clics</li>
-  <li>Intentos fallidos</li>
-  <li>Abandonos en pantallas clave</li>
-</ul>
-
-<!-- ============================= -->
-<!-- 8.2.8 Plan de Tracking -->
-<!-- ============================= -->
-
-<h3>8.2.8. Plan de Tracking Web y Móvil</h3>
-
-<h4>Eventos a Rastrear:</h4>
-<ul>
-  <li>onboarding_inicio</li>
-  <li>onboarding_completado</li>
-  <li>vacuna_registrada</li>
-  <li>vacuna_completada</li>
-  <li>recordatorio_activado</li>
-  <li>perfil_familiar_agregado</li>
-</ul>
-
-<h4>Propiedades de Usuario:</h4>
-<ul>
-  <li>tipo_usuario (adulto / padre / adulto mayor)</li>
-  <li>tiene_dependientes</li>
-  <li>recordatorios_activos</li>
-  <li>país / idioma</li>
-</ul>
-
-<h4>Embudos:</h4>
-<ul>
-  <li>Instalación → Onboarding → Primera vacuna añadida</li>
-  <li>Recordatorio activado → Dosis programada → Dosis completada</li>
-</ul>
-
-<h4>Herramientas de Tracking:</h4>
-<ul>
-  <li>Firebase Analytics</li>
-  <li>Mixpanel</li>
-  <li>Segment</li>
-</ul>
 
 ## 8.3. Experimentation
 ### 8.3.1. To-Be User Stories
