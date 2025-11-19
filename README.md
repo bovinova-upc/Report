@@ -3882,7 +3882,6 @@ Diseñar un panel visual con gráficos y estadísticas sobre salud, producción 
 **Hypothesis:**  
 Se espera que el **60%** de los usuarios califique su experiencia como “muy satisfactoria” al visualizar resultados medibles en el panel.
 
----
 ## 8.2. Experiment Design
 
 ### 8.2.1. Hypotheses
