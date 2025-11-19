@@ -3,6 +3,7 @@
 # <center>COURSE PROJECT</center>
 
 <p align="center">
+    <strong>Informe de Trabajo Final</strong><br><br>
     <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
     <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"></img><br>
     <strong>Ingeniería de Software - 2025-20</strong><br>
@@ -2378,7 +2379,121 @@ Kotlin:
 
 ![Captura-de-pantalla-2025-05-15-220233.png](https://i.imgur.com/pW069zw.jpeg)
 
-### 5.2.4. Acuerdo de Servicio - SaaS
+## 5.2.4. Acuerdo de Servicio – SaaS 
+
+El presente **Acuerdo de Nivel de Servicio (Service Level Agreement, SLA)** define los compromisos operativos y las responsabilidades del proveedor del servicio **VacApp**, desarrollado por la startup **Bovinova**, hacia sus usuarios finales. Este acuerdo establece parámetros claros sobre disponibilidad, seguridad, soporte, privacidad y continuidad del servicio.
+
+---
+
+### 1. Alcance del Servicio
+
+VacApp se ofrece bajo un modelo **Software as a Service (SaaS)** e incluye los siguientes componentes:
+
+- Aplicación móvil (Android y iOS)  
+- Aplicación web  
+- API REST para integración con servicios externos  
+- Servicios de autenticación y autorización  
+- Almacenamiento de información relacionada con animales, vacunas, campañas sanitarias y registros operativos  
+- Infraestructura de despliegue, monitoreo y mantenimiento  
+
+Este alcance asegura que el servicio sea accesible, confiable y gestionado centralmente por Bovinova.
+
+---
+
+### 2. Disponibilidad del Servicio
+
+Bovinova se compromete a asegurar:
+
+- **Disponibilidad mínima mensual del servicio:** 98.5%  
+- **Comunicación de mantenimientos programados:** con 48 horas de anticipación  
+- **Realización de mantenimientos emergentes:** únicamente ante fallas críticas o vulnerabilidades de seguridad  
+
+La disponibilidad se mide considerando tiempos de operación del backend, API, servicios web y autenticación.
+
+---
+
+### 3. Seguridad
+
+El servicio implementa medidas alineadas con buenas prácticas de la industria:
+
+- Cifrado del tráfico mediante HTTPS/TLS 1.2 o superior  
+- Cifrado de datos sensibles en reposo  
+- Gestión de roles y permisos de usuario basados en políticas de acceso  
+- Autenticación mediante tokens JWT (JSON Web Token)  
+- Restricción de accesos no autorizados y monitoreo de actividad  
+- Cumplimiento de principios de minimización y uso adecuado de datos  
+
+---
+
+### 4. Backup y Recuperación
+
+Se establecen procesos de respaldo y recuperación para asegurar la continuidad operativa:
+
+- **Backups automáticos diarios**  
+- **Retención de copias de seguridad:** 14 días  
+- **RTO (Recovery Time Objective):** 3 horas  
+- **RPO (Recovery Point Objective):** 24 horas  
+
+Estas medidas garantizan que el servicio pueda recuperarse ante incidencias críticas sin pérdida significativa de información.
+
+---
+
+### 5. Soporte Técnico
+
+Bovinova ofrece soporte técnico a los usuarios mediante los siguientes canales:
+
+- Correo electrónico: soporte@bovinova.com  
+- Chat integrado dentro de la aplicación  
+
+#### Tiempos de respuesta
+
+| Prioridad | Descripción | Tiempo de respuesta |
+|----------|-------------|---------------------|
+| Alta     | Caída total del sistema o indisponibilidad crítica | < 4 horas |
+| Media    | Funcionalidad afectada parcialmente | < 12 horas |
+| Baja     | Consultas generales o solicitudes informativas | < 48 horas |
+
+---
+
+### 6. Privacidad y Protección de Datos
+
+Bovinova se compromete a respetar la privacidad y los derechos de los usuarios:
+
+- Los datos no serán vendidos ni compartidos sin consentimiento explícito  
+- La información será utilizada únicamente para fines operativos del servicio  
+- El usuario puede solicitar la **eliminación permanente de sus datos**  
+- Se aplican principios de protección de datos y medidas de seguridad durante su tratamiento  
+
+---
+
+### 7. Limitaciones del Servicio
+
+El funcionamiento de VacApp puede verse afectado por factores externos, tales como:
+
+- Limitaciones de conectividad en áreas rurales  
+- Interrupciones o fallos de proveedores de infraestructura externos (p. ej., AWS, Firebase, Supabase)  
+- Restricciones tecnológicas del dispositivo del usuario  
+- Situaciones imprevistas fuera del control del proveedor  
+
+---
+
+### 8. Terminación del Servicio
+
+El usuario puede solicitar la cancelación de su cuenta en cualquier momento.
+
+Bovinova se reserva el derecho de suspender o dar de baja una cuenta en los siguientes casos:
+
+- Uso indebido del servicio  
+- Intentos de vulneración o acceso no autorizado  
+- Incumplimiento de políticas de seguridad o términos establecidos  
+
+---
+
+### Conclusión
+
+Este acuerdo formaliza las condiciones bajo las cuales VacApp es ofrecido y administrado. Su propósito es brindar claridad y transparencia al usuario, asegurando un servicio confiable, seguro y alineado con estándares profesionales en la entrega de soluciones SaaS.
+
+
 ### 5.2.5. Implemented Native-Mobile Application Evidence
 [![Captura-de-pantalla-2025-05-15-220016.png](https://i.postimg.cc/N0sy4HNN/Captura-de-pantalla-2025-05-15-220016.png)](https://postimg.cc/w1rTx7YJ)
 
@@ -2533,8 +2648,27 @@ Para finalizar la publicacion de la aplicacion VacApp desarrollada, se inicio ta
   
 - Pagina principal de Google Console con VacApp 
   
-### 5.2.8. Team Collaboration Insights
-En esta sección se proporcionan los insights para el sprint 1.
+## 5.2.8. Team Collaboration Insights – Evidencia de Control de Versiones
+
+### **Evidencia de colaboración en repositorios Git**
+
+Durante el desarrollo de **VacApp**, el equipo utilizó **Git y GitHub** como sistema de control de versiones para asegurar:
+
+- Trazabilidad completa del código  
+- Trabajo colaborativo en paralelo  
+- Integración continua e incremental del producto  
+- Revisión entre pares (code reviews)  
+- Historial claro de contribuciones individuales  
+
+
+### **Repositorio principal del proyecto**
+
+**URL del repositorio:**  
+`https://github.com/bovinova-upc`
+
+---
+
+### **Estructura del repositorio**
 
 ##### Documentation
 
@@ -2551,6 +2685,68 @@ En equipo analizamos que la arquitectura del backend debía ser robusta y escala
 ##### Mobile Frontend
 
 Se destacó la relevancia de adaptar la experiencia a distintos dispositivos, asegurando una interfaz intuitiva y rápida; además de evitar la saturación de pantallas. 
+
+---
+
+### **Convenciones utilizadas**
+
+#### **Flujo de trabajo: GitFlow**
+
+- `main` → versión estable y desplegada  
+- `develop` → rama base para nuevas características  
+- `feature/*` → desarrollo de nuevas funcionalidades  
+
+---
+
+### **Evidencia de commits y actividad del equipo**
+
+Durante el ciclo del proyecto se realizaron:
+
+<div style="display: flex; justify-content: center;">
+  <img src="img/commit.JPG" width="400px"/>
+</div>
+
+#### **Aportaciones por miembro**
+
+| Miembro | Aportaciones | Ejemplos de commits |
+|--------|--------------|---------------------|
+| **Checalla** | Backend y API | `feat: add animal registration endpoint` |
+| **Durand** | Mobile & CI | `fix: optimize vaccination form validation` |
+| **Gordillo** | Frontend Web | `feat(ui): landing page responsive layout` |
+| **Inga** | Módulos de vacunación | `feat: vaccine CRUD operations` |
+| **Vargas** | Deploy y backend | `chore: docker-compose config` |
+
+---
+
+### **Uso de Issues y Pull Requests**
+- Revisión cruzada de PRs entre los miembros del equipo  
+- Uso de etiquetas como: `bug`, `enhancement`, `feature`, `documentation`, etc.  
+- Uso de milestones por entregables (TB1, TP1, TB2, TF)
+
+## **Issues**
+
+Los *Issues* se utilizaron como mecanismo de registro para:
+
+- Identificar tareas pendientes y secciones por completar del reporte.
+- Dividir el trabajo entre miembros del equipo.
+- Notificar problemas de organización o estructura en el documento.
+- Marcar revisiones necesarias antes de cada entrega (TB1, TP1, TB2, TF).
+## **Pull Requests**
+
+Los Pull Requests forman parte del flujo recomendado para revisión de cambios y control de calidad.  
+En el repositorio del informe se observa lo siguiente:
+
+
+- Revisión manual del contenido antes de hacer *commits* directos a `main`.
+- Coordinación de ediciones simultáneas para evitar conflictos de merge.
+- Validación cruzada entre integrantes para mantener consistencia en estilo, estructura y contenido del documento.
+
+
+### **Conclusión**
+
+El uso disciplinado de Git y GitHub permitió mantener un ciclo de desarrollo estructurado, colaborativo y trazable, asegurando calidad en el código y organización en la integración del producto.
+
+---
 
 ## 5.3. Video About-the-Product
 
@@ -3819,7 +4015,53 @@ Se espera que el **60%** de los usuarios califique su experiencia como “muy sa
 | TB04 | Ingreso de datos simplificado         | Como usuario, quiero llenar datos en general de forma rapida, para no perder mucho tiempo.                   | EP4   | 2            |
 
 ### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
-#### 8.3.3.1. To-Be Sprint Backlogs
+## 8.3.3.1. To-Be Sprint Backlogs
+
+Los siguientes sprints representan el plan de desarrollo propuesto (**To-Be**) que orienta la validación experimental de VacApp. Cada sprint incluye objetivos claros, user stories priorizadas y tareas específicas asignadas por rol.
+
+---
+
+### **Sprint 1 – Validación inicial de hipótesis**
+
+**Objetivo:** Validar necesidades relacionadas con el manejo sanitario, alimentación y flujo básico de registro dentro de la aplicación.
+
+| ID       | User Story                                                                 | Tareas                                     | Responsable       | Estimación |
+|----------|-----------------------------------------------------------------------------|--------------------------------------------|-------------------|------------|
+| US-TB01  | Como ganadero deseo registrar datos básicos del animal (To-Be)              | Creación de formulario, validaciones, API POST | Backend / Mobile | 8 pts      |
+| US-TB02  | Como usuario deseo visualizar un historial rápido del animal                | Mockups, API GET, implementación UI        | Frontend          | 5 pts      |
+| EXP-01   | Implementar evento para medir interacción del usuario                       | Elaborar tracking plan, integrar SDK       | Mobile            | 3 pts      |
+
+---
+
+### **Sprint 2 – Funcionalidad avanzada para experimento**
+
+**Objetivo:** Evaluar el uso y la aceptación de funcionalidades automáticas orientadas a recomendaciones sanitarias y de alimentación.
+
+| ID       | User Story                                                                 | Tareas                           | Responsable | Estimación |
+|----------|-----------------------------------------------------------------------------|----------------------------------|-------------|------------|
+| US-TB03  | Como ganadero deseo recibir recomendaciones automáticas de alimento         | Algoritmo, API, ajuste de UI     | Backend     | 13 pts     |
+| US-TB04  | Como usuario deseo recibir alertas sanitarias reforzadas                    | Implementación de notificaciones push | Mobile  | 8 pts      |
+| EXP-02   | Implementar métricas experimentales para analizar comportamiento de usuarios | Definir KPIs, integrar Firehose  | Data        | 5 pts      |
+
+---
+
+### **Sprint 3 – Ajustes según resultados del experimento**
+
+**Objetivo:** Optimizar el flujo de interacción y mejorar la eficiencia del usuario con base en los hallazgos obtenidos en los sprints previos.
+
+| ID       | User Story                                                  | Tareas                        |
+|----------|--------------------------------------------------------------|-------------------------------|
+| US-TB05  | Ajustar la interfaz para disminuir la cantidad de clics      | Reducción de pasos, mejoras UX |
+| US-TB06  | Mejorar el flujo de registro masivo de animales              | Nueva interfaz, actualización de API |
+| EXP-03   | Implementar dashboards de análisis para el experimento       | Visualización de datos, almacenamiento |
+
+---
+
+### **Resumen**
+
+El backlog To-Be presenta una hoja de ruta clara para validar hipótesis, medir comportamiento de usuarios y ajustar la solución con base en datos experimentales. Este enfoque permite una mejora continua del producto y una alineación directa con los objetivos del curso de Diseño de Experimentos de Ingeniería de Software.
+
+
 #### 8.3.3.2. Implemented To-Be Landing Page Evidence
 #### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
 #### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
