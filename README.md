@@ -4056,11 +4056,6 @@ Los siguientes sprints representan el plan de desarrollo propuesto (**To-Be**) q
 
 ---
 
-### **Resumen**
-
-El backlog To-Be presenta una hoja de ruta clara para validar hipótesis, medir comportamiento de usuarios y ajustar la solución con base en datos experimentales. Este enfoque permite una mejora continua del producto y una alineación directa con los objetivos del curso de Diseño de Experimentos de Ingeniería de Software.
-
-
 #### 8.3.3.2. Implemented To-Be Landing Page Evidence
 #### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
 #### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
