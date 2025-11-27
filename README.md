@@ -4062,8 +4062,202 @@ Los siguientes sprints representan el plan de desarrollo propuesto (**To-Be**) q
 #### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
 #### 8.3.3.6. Team Collaboration Insights
 ### 8.3.4. To-Be Validation Interviews
-#### 8.3.4.1. Diseño de Entrevistas
+## 8.3.4.1. Diseño de Entrevistas 
+
+Para validar los experimentos planteados en esta iteración, se diseñaron entrevistas  dirigidas a los dos segmentos clave de usuarios de VacApp: **Productores Ganaderos Independientes** y **Empresas Ganaderas**.  
+
+Las entrevistas están orientadas a explorar cinco aspectos clave:
+- Facilidad de registro del animal  
+- Facilidad de registro del personal  
+- Claridad y utilidad del dashboard  
+- Gestión de campañas guardadas  
+- Organización del inventario  
+
+## A. Preguntas para Productores Ganaderos Independientes
+
+**Objetivo:** Validar si los nuevos flujos simplificados facilitarían su operación diaria, aumentarían su uso de la app y mejorarían su comprensión de la información registrada.
+
+### Preguntas principales
+1. ¿Qué tan sencillo te resulta registrar un animal nuevo en la aplicación?  
+2. ¿Qué parte del registro del animal te toma más tiempo o te resulta confusa?  
+3. ¿Te gustaría un modo más rápido o resumido para registrar solo lo esencial?  
+4. Si tuvieras personal o ayudantes, ¿te parece fácil registrarlos o asignarlos como activo o inactivo?  
+5. ¿Cómo te gustaría que se organice el registro del personal para que no te complique?  
+6. Cuando entras a la app, ¿el dashboard te muestra lo que realmente necesitas ver primero?  
+7. ¿Qué información del dashboard te parece más útil y cuál ignoras usualmente?  
+8. ¿Utilizas las campañas guardadas (vacunación, alimentación, desparasitación)? ¿Por qué sí o por qué no?  
+9. En cuanto al inventario (vacunas, insumos), ¿te resulta fácil ver lo que tienes disponible?
+
+### Preguntas complementarias
+- ¿Qué haría el registro de animales más rápido para ti?  
+- ¿Qué información te gustaría que el dashboard muestre de forma más clara?  
+- ¿Qué te confunde de las campañas guardadas?  
+- ¿Qué problemas has tenido al registrar productos o revisar tu inventario?  
+- ¿Qué agregaría valor para que uses la app todos los días?  
+
+---
+
+## B. Preguntas para Empresas Ganaderas
+
+**Objetivo:** Validar si las herramientas propuestas mejorarían la eficiencia operativa, la organización del equipo y la visibilidad general del manejo sanitario y de inventario.
+
+### Preguntas principales
+1. ¿Qué tan eficiente les resulta registrar animales en lote o individualmente?  
+2. ¿El flujo actual permite que su personal lo use sin dificultad o requiere capacitación adicional?  
+3. ¿Qué elementos del registro deberían simplificarse para adaptarse mejor al ritmo de trabajo?  
+4. ¿Les resulta sencillo registrar o administrar al personal dentro de la app?  
+5. ¿Sería útil asignar roles o permisos diferentes al personal?  
+6. ¿Qué información debería aparecer primero al abrir el dashboard para su operación diaria?  
+7. ¿Utilizan las campañas guardadas? ¿Les ayuda a organizar sus actividades sanitarias?  
+8. ¿La herramienta de inventario es suficiente para controlar insumos o hace falta algo más (alertas, vencimientos, stock mínimo)?
+
+### Preguntas complementarias
+- ¿Qué procesos se demoran más al registrar animales o personal?  
+- ¿Qué indicadores consideran indispensables en el dashboard para la toma de decisiones?  
+- ¿Cómo organizan actualmente campañas sanitarias y qué podría mejorar VacApp ahí?  
+- ¿Qué problemas han tenido con el control de inventario en la app o fuera de ella?  
+- ¿Qué funcionalidades serían clave para que su equipo adopte la aplicación sin resistencia?  
+
 #### 8.3.4.2. Registro de Entrevistas
+
+<table>
+  <tr>
+    <th colspan="2" valign="top">Registro de entrevistas</th>
+  </tr>
+  <tr>
+    <td valign="top"><b>Nombre entrevistado</b></td>
+    <td valign="top"></td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Edad</b></td>
+    <td valign="top"></td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Departamento</b></td>
+    <td valign="top"></td>
+  </tr>
+  <tr>
+    <td valign="top"><b><a href="" target="_blank">
+  <img src="" alt="Entrevista" style="width: 100%; max-width: 600px;">
+</a></b></td>
+    <td valign="top">
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">Duración entrevista  </td>
+    <td valign="top"><a href="" target="_blank"></a></td>
+  </tr>
+  
+ <tr>
+    <th colspan="2" valign="top">Registro de entrevistas</th>
+  </tr>
+  <tr>
+    <td valign="top"><b>Nombre entrevistado</b></td>
+    <td valign="top"></td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Edad</b></td>
+    <td valign="top"></td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Departamento</b></td>
+    <td valign="top"></td>
+  </tr>
+  <tr>
+    <td valign="top"><b><a href="" target="_blank">
+  <img src="" alt="Entrevista" style="width: 100%; max-width: 600px;">
+</a></b></td>
+    <td valign="top">
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">Duración entrevista  </td>
+    <td valign="top"><a href="" target="_blank"></a></td>
+  </tr>
+  
+  <tr>
+    <th colspan="2" valign="top">Registro de entrevistas</th>
+  </tr>
+  <tr>
+    <td valign="top"><b>Nombre entrevistado</b></td>
+    <td valign="top"></td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Edad</b></td>
+    <td valign="top"></td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Departamento</b></td>
+    <td valign="top"></td>
+  </tr>
+  <tr>
+    <td valign="top"><b><a href="" target="_blank">
+  <img src="" alt="Entrevista" style="width: 100%; max-width: 600px;">
+</a></b></td>
+    <td valign="top">
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">Duración entrevista  </td>
+    <td valign="top"><a href="" target="_blank"></a></td>
+  </tr>
+
+  <tr>
+    <th colspan="2" valign="top">Registro de entrevistas</th>
+  </tr>
+  <tr>
+    <td valign="top"><b>Nombre entrevistado</b></td>
+    <td valign="top"></td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Edad</b></td>
+    <td valign="top"></td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Departamento</b></td>
+    <td valign="top"></td>
+  </tr>
+  <tr>
+    <td valign="top"><b><a href="" target="_blank">
+  <img src="" alt="Entrevista" style="width: 100%; max-width: 600px;">
+</a></b></td>
+    <td valign="top">
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">Duración entrevista  </td>
+    <td valign="top"><a href="" target="_blank"></a></td>
+  </tr>
+  
+  
+  <tr>
+    <th colspan="2" valign="top">Registro de entrevistas</th>
+  </tr>
+  <tr>
+    <td valign="top"><b>Nombre entrevistado</b></td>
+    <td valign="top"></td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Edad</b></td>
+    <td valign="top"></td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Departamento</b></td>
+    <td valign="top"></td>
+  </tr>
+  <tr>
+    <td valign="top"><b><a href="" target="_blank">
+  <img src="" alt="Entrevista" style="width: 100%; max-width: 600px;">
+</a></b></td>
+    <td valign="top">
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">Duración entrevista  </td>
+    <td valign="top"><a href="" target="_blank"></a></td>
+  </tr>
+  
+</table>
 ## 8.4. Experiment Aftermath & Analysis
 ### 8.4.1. Analysis and Interpretation of Results
 ### 8.4.2. Re-scored and Re-prioritized Question Backlog
