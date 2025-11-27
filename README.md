@@ -4057,10 +4057,112 @@ Los siguientes sprints representan el plan de desarrollo propuesto (**To-Be**) q
 ---
 
 #### 8.3.3.2. Implemented To-Be Landing Page Evidence
+
+TB06: Interacción con sistema de puntos
+
+<img src="./img/landing-2.png" style="width: 100%;">
+
+TB07: Interacción con sistema de recompensas
+
+<img src="./img/landing-3.png" style="width: 100%;">
+
+TB08: Visualización de métricas en grafos
+
+<img src="./img/landing-1.png" style="width: 100%;">
+
 #### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
+
+TB01: Recepción de alertas de salud <br>
+TB02: Recepción de alertas de alimentación <br>
+TB03: Recepción de alertas de reproducción <br>
+TB06: Interacción con sistema de puntos <br>
+TB07: Interacción con sistema de recompensas <br>
+TB08: Visualización de métricas en grafos
+
+<img src="./img/front-1.png" style="width: 100%;">
+
 #### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
+
+TB01: Recepción de alertas de salud
+
+<div style="display: flex; justify-content: center;">
+  <img src="./img/mobile-1.png" style="width: 400px;">
+</div>
+
+TB02: Recepción de alertas de alimentación
+
+<div style="display: flex; justify-content: center;">
+  <img src="./img/mobile-2.png" style="width: 400px;">
+</div>
+
+TB03: Recepción de alertas de reproducción
+
+<div style="display: flex; justify-content: center;">
+  <img src="./img/mobile-3.png" style="width: 400px;">
+</div>
+
+TB04: Ingreso de datos simplificado
+
+<div style="display: flex; justify-content: center;">
+  <img src="./img/mobile-4.png" style="width: 400px;">
+</div>
+
+TB05: Mostrar verificación de veterinarias
+
+<div style="display: flex; justify-content: center;">
+  <img src="./img/mobile-5.png" style="width: 400px;">
+</div>
+
+TB06: Interacción con sistema de puntos
+
+<div style="display: flex; justify-content: center;">
+  <img src="./img/mobile-6.png" style="width: 400px;">
+</div>
+
+TB07: Interacción con sistema de recompensas
+
+<div style="display: flex; justify-content: center;">
+  <img src="./img/mobile-7.png" style="width: 400px;">
+</div>
+
+TB08: Visualización de métricas en grafos
+
+<div style="display: flex; justify-content: center;">
+  <img src="./img/mobile-8.png" style="width: 400px;">
+</div>
+
 #### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
+
+TB01-08: 
+ - Recepción de alertas de salud
+ - Recepción de alertas de alimentación
+ - Recepción de alertas de reproducción
+ - Ingreso de datos simplificado
+ - Mostrar verificación de veterinarias
+ - Interacción con sistema de puntos 
+ - Interacción con sistema de recompensas
+ - Visualización de métricas en grafos
+
+<img src="./img/back-1.png" style="width: 100%;">
+
 #### 8.3.3.6. Team Collaboration Insights
+
+**Landing Page**
+
+<img src="./img/landing-insight.png" style="display:block; margin:0 auto;" />
+
+**Frontend Web Application**
+
+<img src="./img/front-insight.png"  style="display:block; margin:0 auto;">
+
+**Native Mobile Application**
+
+<img src="./img/mobile-insight.png"  style="display:block; margin:0 auto;">
+
+**RESTful API**
+
+<img src="./img/back-insight.png" style="display:block; margin:0 auto;">
+
 ### 8.3.4. To-Be Validation Interviews
 ## 8.3.4.1. Diseño de Entrevistas 
 
