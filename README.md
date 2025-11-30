@@ -3348,7 +3348,6 @@ El **88%** de los encuestados indicó que utilizaría la aplicación con mayor f
 Este resultado valida la hipótesis de que las alertas son un detonante clave para la retención. Dado que los ganaderos mencionaron el olvido de tareas como un dolor frecuente, se concluye que la implementación de las User Stories **TB01, TB02 y TB03** es prioritaria para aumentar la tasa de uso semanal (*WAU*).
 
 
----
 
 ### Necesidad de un Registro Simplificado
 
@@ -3357,7 +3356,6 @@ El **75%** de los usuarios reconoció haber abandonado el registro de un animal 
 Este hallazgo valida la hipótesis de que simplificar la interfaz reducirá el tiempo de registro y la tasa de abandono, justificando plenamente el desarrollo de la historia de usuario **TB04**.
 
 
----
 
 ### Confianza mediante Verificación Veterinaria
 
@@ -3365,7 +3363,6 @@ Al consultar sobre la credibilidad de los datos, el **82%** de los participantes
 Este resultado supera el umbral del 25% planteado en la hipótesis original, demostrando que el respaldo profesional es un activo de alto valor para los usuarios, especialmente para las empresas que requieren trazabilidad. Esto respalda la implementación de la historia **TB05**.
 
 
----
 
 ### Sistema de Puntos y Fidelización
 
@@ -3373,7 +3370,6 @@ El **70%** de los encuestados expresó un interés alto en un sistema de recompe
 
 El resultado valida la hipótesis de que la gamificación puede mejorar la retención, dando luz verde a las funcionalidades descritas en **TB06 y TB07**.
 
----
 
 ### Valor de las Métricas Visuales
 
@@ -3382,7 +3378,6 @@ El **92%** de los usuarios indicó preferir paneles visuales (gráficos de peso,
 Este hallazgo valida contundentemente la hipótesis sobre la percepción de valor y confirma la necesidad de desarrollar el panel de métricas descrito en la historia **TB08**.
 
 
----
 
 ## Conclusión General
 
