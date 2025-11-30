@@ -3339,6 +3339,7 @@ La encuesta fue respondida mayoritariamente por usuarios entre **25 y 45 años**
 
 El **65%** de los encuestados se identificó como Productor Independiente, mientras que el **35%** pertenece a Empresas Ganaderas, lo que asegura que los resultados reflejan las necesidades de ambos grupos críticos para el modelo de negocio.
 
+  <img src="img/a.jpg" width="100%"/>
 
 ## Evaluación de Características e Hipótesis
 
@@ -3347,11 +3348,13 @@ El **65%** de los encuestados se identificó como Productor Independiente, mient
 El **88%** de los encuestados indicó que utilizaría la aplicación con mayor frecuencia si recibiera notificaciones sobre eventos críticos (vacunación, alimentación y reproducción).  
 Este resultado valida la hipótesis de que las alertas son un detonante clave para la retención. Dado que los ganaderos mencionaron el olvido de tareas como un dolor frecuente, se concluye que la implementación de las User Stories **TB01, TB02 y TB03** es prioritaria para aumentar la tasa de uso semanal (*WAU*).
 
-
+  <img src="img/b.jpg" width="100%"/>
 
 ### Necesidad de un Registro Simplificado
 
 El **75%** de los usuarios reconoció haber abandonado el registro de un animal en algún momento por considerarlo un proceso largo o tedioso en campo. Ante la propuesta de un "Modo Simplificado" o ingreso rápido de datos, el **90%** manifestó que esto facilitaría su labor diaria.
+
+  <img src="img/c.jpg" width="100%"/>
 
 Este hallazgo valida la hipótesis de que simplificar la interfaz reducirá el tiempo de registro y la tasa de abandono, justificando plenamente el desarrollo de la historia de usuario **TB04**.
 
@@ -3362,11 +3365,13 @@ Este hallazgo valida la hipótesis de que simplificar la interfaz reducirá el t
 Al consultar sobre la credibilidad de los datos, el **82%** de los participantes afirmó que la presencia de una insignia de "Verificación Veterinaria" aumentaría significativamente su confianza en la plataforma.  
 Este resultado supera el umbral del 25% planteado en la hipótesis original, demostrando que el respaldo profesional es un activo de alto valor para los usuarios, especialmente para las empresas que requieren trazabilidad. Esto respalda la implementación de la historia **TB05**.
 
-
+  <img src="img/d.jpg" width="100%"/>
 
 ### Sistema de Puntos y Fidelización
 
 El **70%** de los encuestados expresó un interés alto en un sistema de recompensas donde el registro de actividades genere puntos canjeables. Si bien es una métrica sólida, el interés es mayor en los productores independientes que en las empresas.
+
+  <img src="img/e.jpg" width="100%"/>
 
 El resultado valida la hipótesis de que la gamificación puede mejorar la retención, dando luz verde a las funcionalidades descritas en **TB06 y TB07**.
 
@@ -3374,6 +3379,8 @@ El resultado valida la hipótesis de que la gamificación puede mejorar la reten
 ### Valor de las Métricas Visuales
 
 El **92%** de los usuarios indicó preferir paneles visuales (gráficos de peso, producción, salud) sobre reportes de texto plano. Los encuestados asociaron la visualización de datos con una mejor capacidad para tomar decisiones rentables (*Business Intelligence*).
+
+  <img src="img/f.jpg" width="100%"/>
 
 Este hallazgo valida contundentemente la hipótesis sobre la percepción de valor y confirma la necesidad de desarrollar el panel de métricas descrito en la historia **TB08**.
 
