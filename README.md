@@ -3339,9 +3339,6 @@ La encuesta fue respondida mayoritariamente por usuarios entre **25 y 45 años**
 
 El **65%** de los encuestados se identificó como Productor Independiente, mientras que el **35%** pertenece a Empresas Ganaderas, lo que asegura que los resultados reflejan las necesidades de ambos grupos críticos para el modelo de negocio.
 
-**[Insertar Gráfico 1: Distribución de Encuestados por Segmento Objetivo]**
-
----
 
 ## Evaluación de Características e Hipótesis
 
@@ -3350,7 +3347,6 @@ El **65%** de los encuestados se identificó como Productor Independiente, mient
 El **88%** de los encuestados indicó que utilizaría la aplicación con mayor frecuencia si recibiera notificaciones sobre eventos críticos (vacunación, alimentación y reproducción).  
 Este resultado valida la hipótesis de que las alertas son un detonante clave para la retención. Dado que los ganaderos mencionaron el olvido de tareas como un dolor frecuente, se concluye que la implementación de las User Stories **TB01, TB02 y TB03** es prioritaria para aumentar la tasa de uso semanal (*WAU*).
 
-**[Insertar Gráfico 2: Intención de aumento de uso ante Alertas Automáticas]**
 
 ---
 
@@ -3360,7 +3356,6 @@ El **75%** de los usuarios reconoció haber abandonado el registro de un animal 
 
 Este hallazgo valida la hipótesis de que simplificar la interfaz reducirá el tiempo de registro y la tasa de abandono, justificando plenamente el desarrollo de la historia de usuario **TB04**.
 
-**[Insertar Gráfico 3: Problemas en Registro Actual vs. Aceptación del Modo Rápido]**
 
 ---
 
@@ -3369,7 +3364,6 @@ Este hallazgo valida la hipótesis de que simplificar la interfaz reducirá el t
 Al consultar sobre la credibilidad de los datos, el **82%** de los participantes afirmó que la presencia de una insignia de "Verificación Veterinaria" aumentaría significativamente su confianza en la plataforma.  
 Este resultado supera el umbral del 25% planteado en la hipótesis original, demostrando que el respaldo profesional es un activo de alto valor para los usuarios, especialmente para las empresas que requieren trazabilidad. Esto respalda la implementación de la historia **TB05**.
 
-**[Insertar Gráfico 4: Impacto del Sello de Verificación Veterinaria en la Confianza]**
 
 ---
 
@@ -3387,7 +3381,6 @@ El **92%** de los usuarios indicó preferir paneles visuales (gráficos de peso,
 
 Este hallazgo valida contundentemente la hipótesis sobre la percepción de valor y confirma la necesidad de desarrollar el panel de métricas descrito en la historia **TB08**.
 
-**[Insertar Gráfico 5: Preferencia de visualización de datos de rendimiento]**
 
 ---
 
