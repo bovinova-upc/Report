@@ -4228,26 +4228,26 @@ Las entrevistas están orientadas a explorar cinco aspectos clave:
   </tr>
   <tr>
     <td valign="top"><b>Nombre entrevistado</b></td>
-    <td valign="top"></td>
+    <td valign="top">Sebastián Véliz</td>
   </tr>
   <tr>
     <td valign="top"><b>Edad</b></td>
-    <td valign="top"></td>
+    <td valign="top">27</td>
   </tr>
   <tr>
     <td valign="top"><b>Departamento</b></td>
-    <td valign="top"></td>
+    <td valign="top">Lima</td>
   </tr>
   <tr>
     <td valign="top"><b><a href="" target="_blank">
-  <img src="" alt="Entrevista" style="width: 100%; max-width: 600px;">
+  <img src="resources/entrevista1.jpg" alt="entrevista1" style="width: 100%; max-width: 600px;">
 </a></b></td>
     <td valign="top">
     </td>
   </tr>
   <tr>
     <td valign="top">Duración entrevista  </td>
-    <td valign="top"><a href="" target="_blank"></a></td>
+    <td valign="top"><a href="" target="_blank"></a>9 minutos</td>
   </tr>
   
  <tr>
