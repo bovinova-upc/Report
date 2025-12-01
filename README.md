@@ -4382,6 +4382,11 @@ Las entrevistas están orientadas a explorar cinco aspectos clave:
 
 ## Video About-the-Team
 
+<img src="./img/about-the-product.png"  style="display:block; margin:0 auto;">
+<br>
+
+[About The Product:](https://shorturl.at/SD5bd) https://shorturl.at/SD5bd
+
 # Bibliografía
 - Cohn, M. (2004). User Stories Applied: For Agile Software Development. Addison-Wesley.
 - Evans, E. (2004). Domain-Driven Design: Tackling Complexity in the Heart of Software. Addison-Wesley.
@@ -4403,3 +4408,5 @@ Las entrevistas están orientadas a explorar cinco aspectos clave:
 [Frontend:](https://vacapp-upc.netlify.app/) https://vacapp-upc.netlify.app/
 
 [Backend:](https://vacapp-backend.azurewebsites.net/swagger/index.html) https://vacapp-backend.azurewebsites.net/swagger/index.html
+
+[About The Product:](https://shorturl.at/SD5bd) https://shorturl.at/SD5bd
