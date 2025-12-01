@@ -3397,6 +3397,25 @@ Basado en estos datos, el equipo procederá con la implementación del *To-Be Pr
 ### 8.4.2. Re-scored and Re-prioritized Question Backlog
 ## 8.5. Continuous Learning
 ### 8.5.1. Shareback Session Artifacts: Learning Workflow
+
+Para el caso de aprendisaje continuo, nuestro equipo de proyecto tubo un enfoque iterativo, con el objetivo de poder validar hipotesis, evaluar funcionalidades reales y poder tomar decisiones basadas en la experiencia dada por los usuarios.
+1. **Observacion inicial:** Identificamos problemas puntuales, tanto de confianza, dificultades y abandonos de proceso, a partir de encuestas dirigidas a nuestros segmentos.
+2. **Diseño de experimentos:** Elaboramos experiment cards a partir de hipotesis medibles y condiciones para porder validar.
+3. **Desarrollo funcional:** Se implemento las funcionalidades en un entorno de prueba accesible a los usuarios.
+4. **Validacion cualitativa:** Se realizaron entrevistas estructuradas hacia los productores ganaderos y empresas ganaderas para conocer su opinion sobre las nuevas funcionalidades.
+5. **Validacion cuantitativa:** Se creo y aplicaron encuestas a nuestros segmentos para confirmar nuestros supuestos y obtener datos que puedan respaldar nuestras decisiones.
+6. **Aprendisaje aplicado:** Al obtener estos hallazgos a partir de las actividades realizadas pudimos completar nuestro backlog tecnico que nos llevo a refinar las funcionalidades planteadas y priorizarlas.
+
+### Artefactos de validación:
+
+**Encuesta de validacion**
+
+Se recaudo informacion de este formulario directamente de nuestro segmento de productores ganaderos y empresas ganaderas para conocer sobre su opinion de las funcionalidades prioritarios de VacApp, tales como el sistema de recompensas, el auto llenado de formularios y la recepcion de alertas. La encuesta se hizo con preguntas cerradas y escalables para obtener metricas que respaldaran nuestra toma de decisiones.
+
+**Servidor de pruebas**
+
+Se creo un entorno funcional del cual nuestros usuarios pudieron interactuar con las funcionalidades planteadas, a partir de esto pudimos recoger dator para validar con el uso real. Hacer estas validaciones nos permitio obtener un feedback mas correcto y nos permitio anticipar problemas con la usabilidad.
+
 ## 8.6. To-Be Software Platform Pre-launch
 ### 8.6.1. About-the-Product Intro Video
 
