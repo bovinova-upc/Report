@@ -4478,6 +4478,11 @@ Se creo un entorno funcional del cual nuestros usuarios pudieron interactuar con
 ## 8.6. To-Be Software Platform Pre-launch
 ### 8.6.1. About-the-Product Intro Video
 
+<img src="./img/about-the-product.png"  style="display:block; margin:0 auto;">
+<br>
+
+[About The Product:](https://shorturl.at/SD5bd) https://shorturl.at/SD5bd
+
 # Conclusiones
 ## Conclusiones y recomendaciones
 
@@ -4489,10 +4494,10 @@ Se creo un entorno funcional del cual nuestros usuarios pudieron interactuar con
 
 ## Video About-the-Team
 
-<img src="./img/about-the-product.png"  style="display:block; margin:0 auto;">
+<img src="./img/about-the-team.png"  style="display:block; margin:0 auto;">
 <br>
 
-[About The Product:](https://shorturl.at/SD5bd) https://shorturl.at/SD5bd
+[About The Team:]() 
 
 # Bibliografía
 - Cohn, M. (2004). User Stories Applied: For Agile Software Development. Addison-Wesley.
