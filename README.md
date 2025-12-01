@@ -392,39 +392,39 @@ ABET – EAC - Student Outcome 4
       <td>
         <p><b>Emanuel Checalla Apaza</b></p>
         <p><b>TB1:</b> Durante la especificación de requisitos, me aseguré de que cada User Story y cada impacto identificado considerara la privacidad, seguridad y accesibilidad de los usuarios. Esto refleja mi responsabilidad ética y profesional al garantizar que las soluciones propuestas sean confiables, inclusivas y respeten los derechos de todos los stakeholders involucrados.</p>
-        <p><b>TP1:</b> [Acciones]</p>
-        <p><b>TB2:</b> [Acciones]</p>
-        <p><b>TF:</b> [Acciones]</p>
+        <p><b>TP1:</b> Documenté cada decisión tomada en el desarrollo del pipeline CI/CD, asegurando transparencia y manteniendo un flujo de trabajo seguro y trazable.</p>
+        <p><b>TB2:</b> Realicé revisiones de código enfocadas en la correcta manipulación de datos sensibles, verificando que no existan fugas de información y que se cumplan los principios de privacidad.</p>
+        <p><b>TF:</b> Implementé validaciones finales del sistema verificando que los endpoints cumplan con estándares de seguridad, privacidad y accesibilidad antes de la entrega final.</p>
         <br>
         <p><b>Gianfranco Durand Vera</b></p>
         <p><b>TB1:</b> En el desarrollo del Capítulo 4, me aseguré de aplicar principios de responsabilidad ética y profesional al diseñar la experiencia de usuario y la arquitectura de la plataforma. </p>
         <p><b>TP1:</b> Participé en la refactorización del backend y llevé a cabo pruebas unitarias y de integración para asegurar la calidad y el cumplimiento de los estándares profesionales.</p>
         <p><b>TB2:</b> Apliqué responsabilidad ética al diseñar y registrar entrevistas de validación, asegurando trato adecuado a los participantes y uso correcto de la información. Además, realicé evaluaciones heurísticas siguiendo criterios profesionales para identificar problemas reales sin sesgos.</p>
-        <p><b>TF:</b> [Acciones]</p>
+        <p><b>TF:</b> Apliqué principios éticos en la documentación y entrega final, garantizando que todas las decisiones técnicas, visuales y arquitectónicas estén justificadas y sean comprensibles para cualquier stakeholder.</p>
         <br>
         <p><b>Santiago Gordillo Ramos</b></p>
         <p><b>TB1:</b> Durante el desarrollo del Capítulo 2, me aseguré de aplicar los principios de ética y responsbilidad al diseñar el informe y las entrevistas de la aplicación.</p>
-        <p><b>TP1:</b> [Acciones]</p>
-        <p><b>TB2:</b> [Acciones]</p>
-        <p><b>TF:</b> [Acciones]</p>
+        <p><b>TP1:</b> Realicé ajustes al informe y validaciones adicionales para asegurar que toda la información provista fuera precisa y respetuosa con cada segmento analizado.</p>
+        <p><b>TB2:</b> Organicé y procesé las respuestas de usuarios reales respetando la confidencialidad y evitando introducir sesgos durante el análisis.</p>
+        <p><b>TF:</b> Verifiqué que toda la documentación presentada representara fielmente los hallazgos sin distorsiones, manteniendo un enfoque profesional y ético.</p>
         <br>
         <p><b>Ayrton Inga Hernandez</b></p>
         <p><b>TB1:</b> Asumi la responsabilidad de completar el capitulo 1, donde desarrollo el Solution Profile el cual nos servira como base de todo nuestro proyecto.</p>
         <p><b>TP1:</b> Fomente la creación de pruebas unitarias claras y fáciles de mantener, sin que interrumpiera con el codigo base</p>
-        <p><b>TB2:</b> [Acciones]</p>
-        <p><b>TF:</b> [Acciones]</p>
+        <p><b>TB2:</b> Organicé la información obtenida de los experimentos y verifiqué su correcta trazabilidad, evitando malas prácticas que pudieran comprometer la calidad del proyecto.</p>
+        <p><b>TF:</b> Aseguré que la documentación final fuera íntegra y consistente con los principios profesionales establecidos desde el inicio del proyecto.</p>
         <br>
         <p><b>Jose Vargas Javier</b></p>
         <p><b>TB1:</b> “En mi rol como responsable del Capítulo 5, asumí la responsabilidad de prácticas de desarrollo (control de versiones, convenciones de código, despliegue seguro y documentación clara), velando por la trazabilidad y la colaboración efectiva en el equipo.”</p>
-        <p><b>TP1:</b> [Acciones]</p>
-        <p><b>TB2:</b> [Acciones]</p>
-        <p><b>TF:</b> [Acciones]</p>
+        <p><b>TP1:</b> Gestioné el despliegue seguro de los servicios y reforcé buenas prácticas en el control de versiones para evitar errores críticos.</p>
+        <p><b>TB2:</b> Revisé estándares de seguridad del backend y aseguré la correcta manipulación de datos en los entornos de integración y producción.</p>
+        <p><b>TF:</b> Garantizé que el sistema se entregue siguiendo prácticas profesionales de código limpio, seguridad y mantenibilidad.</p>
       </td>
       <td>
         <p><b>TB1:</b> En la TB1, el equipo actuó con responsabilidad ética y profesional en todo el trabajo, desde la recolección de requisitos hasta el diseño y la implementación inicial, documentando cada decisión y asegurando que la solución sea clara, justa y confiable para los usuarios.</p>
         <p><b>TP1:</b> Distribuimos las responsabilidades en función de las fortalezas individuales del equipo, lo que garantizó una ejecución ordenada, ética y altamente eficaz del proyecto.</p>
         <p><b>TB2:</b> El equipo actuó con responsabilidad ética y profesional al aplicar análisis estático de código, revisar estándares y seguridad, y ejecutar revisiones entre pares para garantizar calidad. Asimismo, diseñamos y registramos entrevistas de validación respetando a los participantes y evaluamos la experiencia de usuario mediante auditorías mutuas y heurísticas. La integración del monitoreo, alertas y notificaciones reforzó la transparencia y la adecuada operación del sistema.</p>
-        <p><b>TF:</b> [Conclusiones]</p>
+        <p><b>TF:</b> La entrega final refleja un proyecto desarrollado con responsabilidad profesional, cuidando la calidad técnica, transparencia documental y respeto a todos los usuarios y colaboradores involucrados.</p>
       </td>
     </tr>
     <tr>
@@ -432,39 +432,39 @@ ABET – EAC - Student Outcome 4
       <td>
         <p><b>Emanuel Checalla Apaza</b></p>
         <p><b>TB1:</b> Al desarrollar el Product Backlog y el Impact Mapping, evalué cómo cada funcionalidad afectaría a los usuarios, la empresa y el entorno. Consideré impactos económicos, posibles implicaciones sociales y el uso responsable de recursos tecnológicos, tomando decisiones fundamentadas para maximizar beneficios y minimizar riesgos a nivel global y local.</p>
-        <p><b>TP1:</b> [Acciones]</p>
-        <p><b>TB2:</b> [Acciones]</p>
-        <p><b>TF:</b> [Acciones]</p>
+        <p><b>TP1:</b> Analicé el impacto de los cambios en el pipeline en términos de eficiencia, consumo de recursos y costos asociados.</p>
+        <p><b>TB2:</b> Evalué los resultados de las entrevistas contrastando beneficios técnicos con el impacto social y económico en los segmentos.</p>
+        <p><b>TF:</b> Consideré métricas de uso, accesibilidad y sostenibilidad para justificar decisiones en la entrega final.</p>
         <br>
         <p><b>Gianfranco Durand Vera</b></p>
         <p><b>TB1:</b> Adapté la guía de estilos de la plataforma según las necesidades de todos los segmentos objetivo, asegurando que los colores, tipografías y layouts cumplan con estándares de accesibilidad para reducir barreras de uso</p>
         <p><b>TP1:</b> Al establecer la integración continua (CI) y ejecutar pruebas, confirmé que una arquitectura robusta es clave para la eficiencia, sostenibilidad y adaptabilidad del sistema a futuro.</p>
         <p><b>TB2:</b> Emití juicios informados a partir de entrevistas de validación y evaluaciones heurísticas, considerando cómo las mejoras propuestas impactan a los usuarios y al negocio. Asimismo, los componentes de monitoreo, alertas y notificaciones permitieron analizar el desempeño en contextos reales y sustentar decisiones con base en datos.</p>
-        <p><b>TF:</b> [Acciones]</p>
+        <p><b>TF:</b> Evalué el impacto global de las mejoras finales considerando accesibilidad, costos operativos y sostenibilidad tecnológica.</p>
         <br>
         <p><b>Santiago Gordillo Ramos</b></p>
         <p><b>TB1:</b> Apliqué responsabilidad al momento de evaluar cada entrevista, segmento por segmento, además consideré a los usuarios al momento de realizar el needfinding.</p>
-        <p><b>TP1:</b> [Acciones]</p>
-        <p><b>TB2:</b> [Acciones]</p>
-        <p><b>TF:</b> [Acciones]</p>
+        <p><b>TP1:</b> Analicé la información recolectada y evalué cómo cada hallazgo podía generar cambios a nivel social y económico en los segmentos.</p>
+        <p><b>TB2:</b> Organicé feedback y contrasté resultados con la propuesta de valor para asegurar decisiones basadas en evidencia.</p>
+        <p><b>TF:</b> Verifiqué que los cambios sugeridos estén fundamentados en datos reales y busquen generar un impacto positivo.</p>
         <br>
         <p><b>Ayrton Inga Hernandez</b></p>
         <p><b>TB1:</b> Aplique tecnicas de Leaun UX para un mejor desarrollo del proyecto, tambien investigue sobre la probematica y el analisis del problema a resolver.</p>
         <p><b>TP1:</b> Evaluó cómo las pruebas unitarias afectan el rendimiento de la aplicación, asegurándose de que no generaran lentitud.</p>
-        <p><b>TB2:</b> [Acciones]</p>
-        <p><b>TF:</b> [Acciones]</p>
+        <p><b>TB2:</b> Revisé los resultados de los experimentos asegurando que las métricas aporten valor y puedan aplicarse para decisiones futuras.</p>
+        <p><b>TF:</b> Consideré la sostenibilidad y el costo de mantenimiento al justificar decisiones del proyecto.</p>
         <br>
         <p><b>Jose Vargas Javier</b></p>
         <p><b>TB1:</b> Emití juicios informados al evaluar que las soluciones implementadas (landing page, aplicaciones móviles y backend en la nube) favorecen la transformación digital en el sector ganadero, mejoran la eficiencia económica de los usuarios, promueven prácticas responsables en la gestión de recursos y generan un impacto social positivo al facilitar el acceso a herramientas tecnológicas</p>
-        <p><b>TP1:</b> [Acciones]</p>
-        <p><b>TB2:</b> [Acciones]</p>
-        <p><b>TF:</b> [Acciones]</p>
+        <p><b>TP1:</b> Analicé el impacto operativo de los cambios en el backend para asegurar que las soluciones fueran escalables y sostenibles.</p>
+        <p><b>TB2:</b> Revisé indicadores del monitoreo y analicé implicaciones económicas, sociales y técnicas.</p>
+        <p><b>TF:</b> Justifiqué las decisiones finales del sistema basándome en su impacto real en el negocio, usuarios y costo operativo.</p>
       </td>
       <td>
         <p><b>TB1:</b> Durante la TB1, el equipo tomó decisiones de diseño y desarrollo considerando la accesibilidad, la inclusión y la eficiencia de recursos, asegurando que la plataforma tenga un impacto positivo y responsable en los usuarios y en su contexto social, económico y ambiental.</p>
         <p><b>TP1:</b> Analizamos las implicaciones sociales de cada avance técnico, asegurando que nuestras soluciones respondan directamente a las necesidades reales del entorno.</p>
         <p><b>TB2:</b> El equipo emitió juicios informados a partir de entrevistas, auditorías UX, análisis heurísticos y actividades de verificación. Además, los datos del monitoreo continuo y del pipeline de alertas permitieron evaluar el impacto real de las decisiones técnicas. La planificación y ejecución de experimentos (hipótesis, métricas, KPIs y tracking) aportó evidencia objetiva para valorar cómo las soluciones afectan a los usuarios, al negocio y a su operación en distintos contextos.</p>
-        <p><b>TF:</b> [Conclusiones]</p>
+        <p><b>TF:</b> El equipo entregó una solución con impacto positivo, sustentada en evidencia y diseñada con responsabilidad social y tecnológica.</p>
       </td>
     </tr>
   </tbody>
