@@ -4454,6 +4454,69 @@ Asimismo, la incorporación de elementos de **confianza (verificación veterinar
 Basado en estos datos, el equipo procederá con la implementación del *To-Be Product Backlog*, priorizando las alertas y la simplificación del registro como las características de mayor impacto inmediato.
 
 ### 8.4.2. Re-scored and Re-prioritized Question Backlog
+Una vez analizados los resultados obtenidos de la encuesta aplicada a los 35 participantes del sector ganadero, se procedió a reestructurar y re-priorizar el Question Backlog con el fin de reflejar el nivel real de validación alcanzado por cada hipótesis. Este proceso permitió ajustar la importancia relativa de las preguntas de investigación conforme al impacto percibido por los usuarios, la alineación estratégica con los objetivos del producto y el grado de evidencia empírica recolectada.
+
+La repriorización se fundamentó en criterios cuantitativos (porcentajes de aceptación, intención de uso, frecuencia esperada) y cualitativos (comentarios, percepciones y expectativas expresadas por los encuestados). En consecuencia, se generó una nueva escala de prioridades que permitirá orientar el desarrollo del To-Be Backlog hacia los elementos de mayor aporte al valor del producto.
+### Nueva Matriz de Prioridades
+<table border="1">
+    <thead>
+        <tr>
+            <th>Nueva Prioridad</th>
+            <th>Pregunta de Hipótesis</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>8</td>
+            <td>¿Aumentará la frecuencia de uso de la aplicación si se implementan alertas automáticas relacionadas con salud, reproducción y alimentación del ganado?</td>
+        </tr>
+
+        <tr>
+            <td>5</td>
+            <td>¿Mejorará la retención si se incorpora un sistema de puntos o recompensas canjeables por beneficios?</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>¿Se reducirá la tasa de abandono del registro si se implementa un “Modo Simplificado” de ingreso rápido?</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>¿Incrementará la confianza del usuario si se agrega un sello visible de “Verificado por Veterinario”?</td>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>¿Facilitará la toma de decisiones la inclusión de métricas visuales y paneles gráficos de rendimiento?</td>
+        </tr>
+    </tbody>
+</table>
+
+### Justificación del Re-score y Cambios Observados
+
+##### a) Alertas automáticas como factor prioritario (Prioridad 8)
+Los resultados muestran que el 88 % de los encuestados incrementaría la frecuencia de uso si la aplicación generara alertas automáticas sobre eventos críticos. Este hallazgo convierte a esta hipótesis en la más validada del conjunto, debido a su impacto directo en la métrica WAU (Weekly Active Users). La incorporación de estas funciones se posiciona como un elemento fundamental para la retención y constituye la base operativa de un sistema de gestión ganadera moderno.
+
+#### b) Recompensas y fidelización (Prioridad 5)
+El 70 % de los usuarios manifestó interés en un sistema de puntos o beneficios. Aunque el nivel de aceptación es alto, se observa variabilidad entre segmentos: los productores independientes mostraron mayor entusiasmo que las empresas ganaderas. Este comportamiento contribuyó a ubicar esta hipótesis en una prioridad media-alta, justificando su inclusión en un segundo bloque de implementación tras las funcionalidades críticas.
+
+#### c) Simplificación del registro (Prioridad 3)
+El 75 % de los ganaderos indicó haber abandonado el proceso de registro en el pasado por considerarlo lento o incómodo. Sin embargo, aunque el 90 % calificó positivamente la propuesta de un modo simplificado, su efecto está más asociado a eficiencia operativa que a retención directa. Por ello, la hipótesis mantiene una prioridad relevante pero no superior a las funciones relacionadas con alertas o incentivos.
+
+#### d) Verificación veterinaria (Prioridad 2)
+El 82 % de los encuestados expresó mayor confianza en datos acompañados de un sello de validación profesional. A pesar del alto porcentaje, el impacto estratégico se orienta más hacia credibilidad que hacia frecuencia de uso. Debido a que esta característica se percibe como un valor agregador, pero no determinante para la operatividad inmediata, su prioridad fue ajustada a un nivel medio-bajo.
+
+#### e) Métricas visuales y paneles de rendimiento (Prioridad 1)
+Aunque el 92 % expresó preferencia por gráficos visuales, esta hipótesis se reubicó como prioridad operativa baja al representar principalmente una mejora analítica y no un requisito para la usabilidad básica. Se considera una funcionalidad de evolución del producto, orientada a usuarios que ya dominan la plataforma y buscan optimización avanzada.
+
+### Implicaciones para el Desarrollo
+
+La repriorización del Question Backlog permite establecer un roadmap más preciso y orientado a valor. Las funcionalidades relacionadas con automatización (alertas) y eficiencia operativa (registro simplificado) integran el núcleo mínimo viable del siguiente ciclo de desarrollo, mientras que las capas de confianza (verificación veterinaria) y visualización avanzada (paneles gráficos) se incorporarán progresivamente según la madurez del producto.
+
+Esta reorganización facilitará la definición de Experiments Cards complementarias, así como la programación de entrevistas cualitativas orientadas a profundizar en los hallazgos, especialmente para las hipótesis con validación parcial o divergencia entre segmentos.
+ 
 ## 8.5. Continuous Learning
 ### 8.5.1. Shareback Session Artifacts: Learning Workflow
 
