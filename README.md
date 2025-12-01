@@ -4458,41 +4458,39 @@ Una vez analizados los resultados obtenidos de la encuesta aplicada a los 35 par
 
 La repriorización se fundamentó en criterios cuantitativos (porcentajes de aceptación, intención de uso, frecuencia esperada) y cualitativos (comentarios, percepciones y expectativas expresadas por los encuestados). En consecuencia, se generó una nueva escala de prioridades que permitirá orientar el desarrollo del To-Be Backlog hacia los elementos de mayor aporte al valor del producto.
 ### Nueva Matriz de Prioridades
-<table border="1">
-    <thead>
-        <tr>
-            <th>Nueva Prioridad</th>
-            <th>Pregunta de Hipótesis</th>
-        </tr>
-    </thead>
+<table>
+    <tr>
+        <th>Nueva Prioridad</th>
+        <th>Pregunta de Hipótesis</th>
+    </tr>
 
-    <tbody>
-        <tr>
-            <td>8</td>
-            <td>¿Aumentará la frecuencia de uso de la aplicación si se implementan alertas automáticas relacionadas con salud, reproducción y alimentación del ganado?</td>
-        </tr>
+    <tr>
+        <td>8</td>
+        <td>¿Aumentará la frecuencia de uso de la aplicación si se implementan alertas automáticas relacionadas con salud, reproducción y alimentación del ganado?</td>
+    </tr>
 
-        <tr>
-            <td>5</td>
-            <td>¿Mejorará la retención si se incorpora un sistema de puntos o recompensas canjeables por beneficios?</td>
-        </tr>
+    <tr>
+        <td>5</td>
+        <td>¿Mejorará la retención si se incorpora un sistema de puntos o recompensas canjeables por beneficios?</td>
+    </tr>
 
-        <tr>
-            <td>3</td>
-            <td>¿Se reducirá la tasa de abandono del registro si se implementa un “Modo Simplificado” de ingreso rápido?</td>
-        </tr>
+    <tr>
+        <td>3</td>
+        <td>¿Se reducirá la tasa de abandono del registro si se implementa un “Modo Simplificado” de ingreso rápido?</td>
+    </tr>
 
-        <tr>
-            <td>2</td>
-            <td>¿Incrementará la confianza del usuario si se agrega un sello visible de “Verificado por Veterinario”?</td>
-        </tr>
+    <tr>
+        <td>2</td>
+        <td>¿Incrementará la confianza del usuario si se agrega un sello visible de “Verificado por Veterinario”?</td>
+    </tr>
 
-        <tr>
-            <td>1</td>
-            <td>¿Facilitará la toma de decisiones la inclusión de métricas visuales y paneles gráficos de rendimiento?</td>
-        </tr>
-    </tbody>
+    <tr>
+        <td>1</td>
+        <td>¿Facilitará la toma de decisiones la inclusión de métricas visuales y paneles gráficos de rendimiento?</td>
+    </tr>
 </table>
+
+
 
 ### Justificación del Re-score y Cambios Observados
 
