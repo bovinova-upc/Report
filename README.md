@@ -164,6 +164,39 @@
       8.3.2.To-Be Product Backlog<br>
       </td>
     </tr>
+    <tr>
+      <td>TF1</td>
+      <td>1/12/2025</td>
+      <td>
+      Checalla Apaza, Emanuel Renato<br>
+      Durand Vera, Gianfranco Angel<br>
+      Gordillo Ramos, Santiago Alonso<br>
+      Inga Hernandez, Ayrton Damian<br>
+      Vargas Javier, Jose Enrique<br>
+      </td>
+      <td>
+      8.3.Experimentation<br>
+      8.3.1.To-Be User Stories.<br>
+      8.3.2.To-Be Product Backlog<br>
+      8.3.3.Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle<br>
+      8.3.3.1.To-Be Sprint Backlogs<br>
+      8.3.3.2.Implemented To-Be Landing Page Evidence<br>
+      8.3.3.3.Implemented To-Be Frontend-Web Application Evidence<br>
+      8.3.3.4.Implemented To-Be Native-Mobile Application Evidence<br>
+      8.3.3.5.Implemented To-Be RESTful API and/or Serverless Backend Evidence<br>
+      8.3.3.6.Team Collaboration Insights<br>
+      8.3.4.To-Be Validation Interviews<br>
+      8.3.4.1.Diseño de Entrevistas.<br>
+      8.3.4.2.Registro de Entrevistas.<br>
+      8.4.Experiment Aftermath & Analysis<br>
+      8.4.1.Analysis and Interpretation of Results<br>
+      8.4.2.Re-scored and Re-prioritized Question Backlog<br>
+      8.5.Continuous Learning<br>
+      8.5.1.Shareback Session Artifacts: Learning Workflow<br>
+      8.6.To-Be Software Platform Pre-launch<br>
+      8.6.1.About-the-Product Intro Video<br>
+      </td>
+    </tr>
   </tbody>
 </table>
 
@@ -183,6 +216,10 @@ TP1:
 TB2:
 
  <img src="img/tb2.png" >
+ 
+TF1:
+
+ <img src="img/tf1.png" >
  
 <br><br>
 
@@ -4240,7 +4277,7 @@ Las entrevistas están orientadas a explorar cinco aspectos clave:
   </tr>
   <tr>
     <td valign="top"><b><a href="" target="_blank">
-  <img src="resources/entrevista1.jpg" alt="entrevista1" style="width: 100%; max-width: 600px;">
+  <img src="./resources/entrevista1.jpg" alt="entrevista1" style="width: 100%; max-width: 600px;">
 </a></b></td>
     <td valign="top">
     </td>
@@ -4255,26 +4292,26 @@ Las entrevistas están orientadas a explorar cinco aspectos clave:
   </tr>
   <tr>
     <td valign="top"><b>Nombre entrevistado</b></td>
-    <td valign="top"></td>
+    <td valign="top">Gabriel Mejia</td>
   </tr>
   <tr>
     <td valign="top"><b>Edad</b></td>
-    <td valign="top"></td>
+    <td valign="top">27</td>
   </tr>
   <tr>
     <td valign="top"><b>Departamento</b></td>
-    <td valign="top"></td>
+    <td valign="top">Lima</td>
   </tr>
   <tr>
     <td valign="top"><b><a href="" target="_blank">
-  <img src="" alt="Entrevista" style="width: 100%; max-width: 600px;">
+  <img src="./resources/entrevista-2.png" alt="Entrevista" style="width: 100%; max-width: 600px;">
 </a></b></td>
     <td valign="top">
     </td>
   </tr>
   <tr>
     <td valign="top">Duración entrevista  </td>
-    <td valign="top"><a href="" target="_blank"></a></td>
+    <td valign="top"><a href="" target="_blank"></a>4:32 minutos</td>
   </tr>
   
   <tr>
@@ -4282,26 +4319,26 @@ Las entrevistas están orientadas a explorar cinco aspectos clave:
   </tr>
   <tr>
     <td valign="top"><b>Nombre entrevistado</b></td>
-    <td valign="top"></td>
+    <td valign="top">Emely Pari</td>
   </tr>
   <tr>
     <td valign="top"><b>Edad</b></td>
-    <td valign="top"></td>
+    <td valign="top">26</td>
   </tr>
   <tr>
     <td valign="top"><b>Departamento</b></td>
-    <td valign="top"></td>
+    <td valign="top">Lima</td>
   </tr>
   <tr>
     <td valign="top"><b><a href="" target="_blank">
-  <img src="" alt="Entrevista" style="width: 100%; max-width: 600px;">
+  <img src="./resources/entrevista3.png" alt="Entrevista" style="width: 100%; max-width: 600px;">
 </a></b></td>
     <td valign="top">
     </td>
   </tr>
   <tr>
     <td valign="top">Duración entrevista  </td>
-    <td valign="top"><a href="" target="_blank"></a></td>
+    <td valign="top"><a href="" target="_blank"></a>9:44 minutos</td>
   </tr>
 
   <tr>
@@ -4309,59 +4346,30 @@ Las entrevistas están orientadas a explorar cinco aspectos clave:
   </tr>
   <tr>
     <td valign="top"><b>Nombre entrevistado</b></td>
-    <td valign="top"></td>
+    <td valign="top">Estrella Ticona</td>
   </tr>
   <tr>
     <td valign="top"><b>Edad</b></td>
-    <td valign="top"></td>
+    <td valign="top">23</td>
   </tr>
   <tr>
     <td valign="top"><b>Departamento</b></td>
-    <td valign="top"></td>
+    <td valign="top">Lima</td>
   </tr>
   <tr>
     <td valign="top"><b><a href="" target="_blank">
-  <img src="" alt="Entrevista" style="width: 100%; max-width: 600px;">
+  <img src="./resources/entrevista4.png" alt="Entrevista" style="width: 100%; max-width: 600px;">
 </a></b></td>
     <td valign="top">
     </td>
   </tr>
   <tr>
     <td valign="top">Duración entrevista  </td>
-    <td valign="top"><a href="" target="_blank"></a></td>
-  </tr>
-  
-  
-  <tr>
-    <th colspan="2" valign="top">Registro de entrevistas</th>
-  </tr>
-  <tr>
-    <td valign="top"><b>Nombre entrevistado</b></td>
-    <td valign="top"></td>
-  </tr>
-  <tr>
-    <td valign="top"><b>Edad</b></td>
-    <td valign="top"></td>
-  </tr>
-  <tr>
-    <td valign="top"><b>Departamento</b></td>
-    <td valign="top"></td>
-  </tr>
-  <tr>
-    <td valign="top"><b><a href="" target="_blank">
-  <img src="" alt="Entrevista" style="width: 100%; max-width: 600px;">
-</a></b></td>
-    <td valign="top">
-    </td>
-  </tr>
-  <tr>
-    <td valign="top">Duración entrevista  </td>
-    <td valign="top"><a href="" target="_blank"></a></td>
-  </tr>
-  
+    <td valign="top">3:53 minutos<a href="" target="_blank"></a></td>
+  </tr>  
 </table>
 
-
+[Entrevistas validación experiment:](https://shorturl.at/kmaeE) https://shorturl.at/kmaeE
 
 ## 8.4. Experiment Aftermath & Analysis
 ## 8.4.1. Analysis and Interpretation of Results
@@ -4554,7 +4562,7 @@ Se creo un entorno funcional del cual nuestros usuarios pudieron interactuar con
 <img src="./img/about-the-team.png"  style="display:block; margin:0 auto;">
 <br>
 
-[About The Team:]() 
+[About The Team](https://shorturl.at/7rWor) https://shorturl.at/7rWor
 
 # Bibliografía
 - Cohn, M. (2004). User Stories Applied: For Agile Software Development. Addison-Wesley.
@@ -4578,4 +4586,8 @@ Se creo un entorno funcional del cual nuestros usuarios pudieron interactuar con
 
 [Backend:](https://vacapp-backend.azurewebsites.net/swagger/index.html) https://vacapp-backend.azurewebsites.net/swagger/index.html
 
+[Entrevistas validación experiment:](https://shorturl.at/kmaeE) https://shorturl.at/kmaeE
+
 [About The Product:](https://shorturl.at/SD5bd) https://shorturl.at/SD5bd
+
+[About The Team](https://shorturl.at/7rWor) https://shorturl.at/7rWor
